@@ -36,8 +36,9 @@ h3 {
 }
 .content-box {
   width: 100%;
-  height: 400px;
   padding: 50px 75px;
+  overflow: auto;
+  word-wrap: break-word;
 }
 .aboutDescription {
   padding-bottom: 20px;
