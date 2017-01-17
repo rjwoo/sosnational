@@ -26,6 +26,12 @@ h3 {
   background-size: 100% auto;
   background-repeat: no-repeat;
   height: 300px;
+  position: relative
+}
+.bannerbuttons {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%)
 }
 .banner-img {
   width: 100%;
