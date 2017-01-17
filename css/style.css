@@ -85,6 +85,27 @@ h3 {
 .studentDescription {
   padding-bottom: 20px;
 }
+
+
+/* SPONSORS SECTION */
+.sponsor-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.sponsor-row {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.princeton-image {
+  width: 300px;}
+
+.scotiabank-image {
+  height: 75px;
+}
+
+
 /* FOOTER */
 .footer {
   width: 100%;
