@@ -37,10 +37,9 @@ h3 {
 .content-box {
   width: 100%;
   padding: 50px 75px;
-  overflow: auto;
   word-wrap: break-word;
 }
-.aboutDescription {
+.general-padding {
   padding-bottom: 20px;
 }
 .model {
@@ -51,18 +50,13 @@ h3 {
 .highlight {
   color: #0F425C;
 }
-.tripDescription {
-  padding-bottom: 20px;
-}
 .btn-primary {
-  width: 45%;
+  display: inline-block;
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 0 auto;
 }
-.studentDescription {
-  padding-bottom: 20px;
-}
+
 /* FOOTER */
 .footer {
   width: 100%;
