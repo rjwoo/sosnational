@@ -22,13 +22,35 @@ h3 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('../img/banner1024x295.jpg');
+  background-image: url('../img/aboutbanner.jpg');
   background-size: 100% auto;
   background-repeat: no-repeat;
   height: 300px;
 }
 .banner-img {
   width: 100%;
+}
+.outreach-banner {
+  width: 100%;
+  /*border: 3px solid blue;*/
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('../img/outreachbanner.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.student-banner {
+  width: 100%;
+  /*border: 3px solid blue;*/
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('../img/studentsbanner.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 300px;
 }
 .title {
   padding-bottom: 20px;

@@ -67,6 +67,16 @@
 		"oAP": "\/css\/bootstrap-theme.min.css.map",
 		"oF": 0
 		},
+	"\/css\/bootstrap.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/bootstrap-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/bootstrap.css.map": {
 		"ft": 8192,
 		"oA": 2,
@@ -96,6 +106,16 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/css\/style-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -235,6 +255,14 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/img\/studentsbanner.jpg": {
+		"ft": 16384,
+		"iS": 816792,
+		"oA": 0,
+		"oAP": "\/img\/studentsbanner.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/twitter.png": {
 		"ft": 32768,
 		"iS": 135347,
@@ -248,6 +276,15 @@
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/js\/app.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/js\/bootstrap.js": {
 		"ft": 64,
@@ -263,6 +300,24 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/jquery-3.1.1.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery-3.1.1.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/main-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
