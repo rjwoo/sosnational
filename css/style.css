@@ -102,6 +102,12 @@ h3 {
   overflow: auto;
   word-wrap: break-word;
 }
+.sponsor-logos {
+  width: 100%;
+  padding: 50px 75px;
+  overflow: auto;
+  word-wrap: break-word;
+}
 .sponsorimages {
   display: flex;
   align-items: center;
