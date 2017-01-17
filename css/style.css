@@ -88,18 +88,26 @@ h3 {
 
 
 /* SPONSORS SECTION */
+.sponsor-box {
+  width: 100%;
+  padding: 50px 75px;
+  overflow: auto;
+  word-wrap: break-word;
+}
 .sponsor-title {
   text-align: center;
   padding-bottom: 30px;
 }
 
 .sponsor-row {
-  padding-left: 30px;
+  /*padding-left: 30px;*/
   padding-bottom: 30px;
 }
 
 .princeton-image {
-  width: 300px;}
+  width: 300px;
+  padding-right: 75px;
+}
 
 .scotiabank-image {
   height: 75px;
