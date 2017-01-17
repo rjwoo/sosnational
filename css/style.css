@@ -90,13 +90,14 @@ h3 {
   overflow: auto;
   word-wrap: break-word;
 }
-.sponsor-title {
-  text-align: center;
-  padding-bottom: 30px;
+.sponsorimages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.sponsor-row {
-  /*padding-left: 30px;*/
+.sponsor-title {
+  text-align: center;
   padding-bottom: 30px;
 }
 
