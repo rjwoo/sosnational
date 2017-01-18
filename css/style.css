@@ -28,10 +28,9 @@ h3 {
   height: 300px;
   position: relative
 }
-.bannerbuttons {
+.banner bannerbuttons {
   position: relative;
-  top: 50%;
-  transform: translate(0, -50%)
+  /*transform: translate(0, -50%);*/
 }
 .banner-img {
   width: 100%;
@@ -140,7 +139,7 @@ table {
   margin: 0 auto;
 }
 th {
-  padding-right: 50px;
+  /*padding-right: 50px;*/
   margin-top: 0px;
 }
 td {
