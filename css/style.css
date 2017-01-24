@@ -26,6 +26,12 @@ h3 {
   background-size: 100% auto;
   background-repeat: no-repeat;
   height: 300px;
+  position: relative
+}
+.bannerbuttons {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%)
 }
 .banner-img {
   width: 100%;
@@ -77,6 +83,49 @@ h3 {
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 0 auto;
+}
+.lead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.studentDescription {
+  padding-bottom: 20px;
+}
+
+
+/* SPONSORS SECTION */
+.sponsor-box {
+  width: 100%;
+  padding: 50px 75px;
+  overflow: auto;
+  word-wrap: break-word;
+}
+.sponsor-logos {
+  width: 100%;
+  padding: 50px 75px;
+  overflow: auto;
+  word-wrap: break-word;
+}
+.sponsorimages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsor-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.princeton-image {
+  width: 300px;
+  padding-right: 75px;
+}
+
+.scotiabank-image {
+  height: 75px;
 }
 
 /* FOOTER */
