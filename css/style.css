@@ -9,6 +9,7 @@ h3 {
 .navbar {
   padding-left: 60px;
   padding-right: 60px;
+  margin-bottom: 0;
 }
 .soslogo {
   height: 50px;
@@ -26,12 +27,16 @@ h3 {
   background-size: 100% auto;
   background-repeat: no-repeat;
   height: 300px;
+<<<<<<< HEAD
   position: relative
 }
 .bannerbuttons {
   position: relative;
   top: 50%;
   transform: translate(0, -50%)
+=======
+  position: relative;
+>>>>>>> a1958c576e0a14b84856fe1cfd73496ef8020b8b
 }
 .banner-img {
   width: 100%;
@@ -46,6 +51,9 @@ h3 {
   background-size: 100% auto;
   background-repeat: no-repeat;
   height: 300px;
+}
+.outreachcontent {
+  padding-bottom: 30px;
 }
 .student-banner {
   width: 100%;
@@ -64,7 +72,7 @@ h3 {
 }
 .content-box {
   width: 100%;
-  padding: 50px 75px;
+  padding: 50px 150px;
   word-wrap: break-word;
 }
 .general-padding {
@@ -89,12 +97,18 @@ h3 {
   align-items: center;
   justify-content: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a1958c576e0a14b84856fe1cfd73496ef8020b8b
 .studentDescription {
   padding-bottom: 20px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a1958c576e0a14b84856fe1cfd73496ef8020b8b
 /* SPONSORS SECTION */
 .sponsor-box {
   width: 100%;
@@ -140,7 +154,7 @@ table {
   margin: 0 auto;
 }
 th {
-  padding-right: 50px;
+  /*padding-right: 50px;*/
   margin-top: 0px;
 }
 td {
@@ -185,5 +199,11 @@ h4.footerheader {
 .princeton {
   height: 70px;
   padding-bottom: 5px;
+}
+.divideline {
+  border-top: 1px solid #0F425C;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=style.css.map */
