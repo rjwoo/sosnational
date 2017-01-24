@@ -27,9 +27,7 @@ h3 {
   background-size: 100% auto;
   background-repeat: no-repeat;
   height: 300px;
-}
-.banner > bannerbuttons {
-  position: absolute;
+  position: relative;
 }
 .banner-img {
   width: 100%;
@@ -44,6 +42,9 @@ h3 {
   background-size: 100% auto;
   background-repeat: no-repeat;
   height: 300px;
+}
+.outreachcontent {
+  padding-bottom: 30px;
 }
 .student-banner {
   width: 100%;
@@ -62,7 +63,7 @@ h3 {
 }
 .content-box {
   width: 100%;
-  padding: 50px 75px;
+  padding: 50px 150px;
   word-wrap: break-word;
 }
 .general-padding {
@@ -87,11 +88,9 @@ h3 {
   align-items: center;
   justify-content: center;
 }
-
 .studentDescription {
   padding-bottom: 20px;
 }
-
 
 /* SPONSORS SECTION */
 .sponsor-box {
@@ -183,5 +182,11 @@ h4.footerheader {
 .princeton {
   height: 70px;
   padding-bottom: 5px;
+}
+.divideline {
+  border-top: 1px solid #0F425C;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=style.css.map */
