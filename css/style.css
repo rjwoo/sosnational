@@ -31,11 +31,25 @@
 		height: 10%;
 	}*/
 	h4.footerheader {
-		font-size: 17px;
+		font-size: 12px;
+    padding-right: 20px;
 	}
 	p.footertext {
-		font-size: 12px;
+		font-size: 10px;
 	}
+  td.socialmedia {
+    text-align: left;
+    padding-right: 20px;
+  }
+  body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(1) > img {
+    height: 25px;
+  }
+  body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(2) > img {
+    height: 25px;
+  }
+  body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
+    height: 25px;
+  }
 }
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
     div.banner {
@@ -72,12 +86,26 @@
 		width: 10%;
 		height: 10%;
 	}*/
-	h4.footerheader {
-		font-size: 17px;
+  h4.footerheader {
+		font-size: 12px;
+    padding-right: 20px;
 	}
 	p.footertext {
-		font-size: 12px;
+		font-size: 10px;
 	}
+  td.socialmedia {
+    text-align: left;
+    padding-right: 20px;
+  }
+  body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(1) > img {
+    height: 25px;
+  }
+  body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(2) > img {
+    height: 25px;
+  }
+  body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
+    height: 25px;
+  }
 }
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
 	div.banner {
@@ -172,7 +200,7 @@ h3 {
     position: relative;
     top: 25%;
     right: center;
-  
+
   /*position: relative;
   top: 50%;
   transform: translate(0, -50%)*/
@@ -230,7 +258,7 @@ h3 {
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 0 auto;
-  
+
 }
 .lead {
   display: flex;
