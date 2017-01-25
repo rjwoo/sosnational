@@ -1,3 +1,142 @@
+@media only screen and (max-width: 320px) {
+    div.banner {
+		height: 100px;
+	}
+	h1.title {
+		font-size: 25px;
+		font-weight: bold;
+	}
+	p.general-padding {
+		font-size: 13px;
+	}
+	h3.model {
+		font-size: 23px;
+	}
+	div.outreach-banner {
+		height: 100px;
+	}
+	div.student-banner {
+		height: 100px;
+	}
+	h1.sponsor-title {
+		font-size: 25px;
+		font-weight: bold;
+	}
+    /*img.princeton-image {
+		width: 10%;
+		height: 10%;
+	}
+    img.scotiabank-image {
+		width: 10%;
+		height: 10%;
+	}*/
+	h4.footerheader {
+		font-size: 17px;
+	}
+	p.footertext {
+		font-size: 12px;
+	}
+}
+@media only screen and (min-device-width: 321px) and (max-width: 375px) {
+    div.banner {
+		height: 100px;
+	}
+	h1.title {
+		font-size: 30px;
+		font-weight: bold;
+	}
+	p.general-padding {
+		font-size: 15px;
+	}
+	h3.model {
+		font-size: 25px;
+	}
+	div.outreach-banner {
+		height: 100px;
+	}
+	div.student-banner {
+		height: 100px;
+	}
+	div.divideline {
+		width: 225px;
+	}
+	h1.sponsor-title {
+		font-size: 25px;
+		font-weight: bold;
+	}
+    /*img.princeton-image {
+		width: 10%;
+		height: 10%;
+	}
+    img.scotiabank-image {
+		width: 10%;
+		height: 10%;
+	}*/
+	h4.footerheader {
+		font-size: 17px;
+	}
+	p.footertext {
+		font-size: 12px;
+	}
+}
+@media only screen and (min-device-width: 376px) and (max-width: 425px) {
+	div.banner {
+		height: 100px;
+	}
+	h1.title {
+		font-size: 30px;
+		font-weight: bold;
+	}
+	p.general-padding {
+		font-size: 15px;
+	}
+	h3.model {
+		font-size: 25px;
+	}
+	div.outreach-banner {
+		height: 100px;
+	}
+	div.student-banner {
+		height: 100px;
+	}
+	div.divideline {
+		width: 250px;
+	}
+	h1.sponsor-title {
+		font-size: 25px;
+		font-weight: bold;
+	}
+    /*img.princeton-image {
+		width: 10%;
+		height: 10%;
+	}
+    img.scotiabank-image {
+		width: 10%;
+		height: 10%;
+	}*/
+	h4.footerheader {
+		font-size: 17px;
+	}
+	p.footertext {
+		font-size: 12px;
+	}
+}
+@media only screen and (min-device-width: 426px) and (max-width: 768px) {
+	div.banner {
+		height: 230px;
+	}
+	div.outreach-banner {
+		height: 230px;
+	}
+	div.student-banner {
+		height: 230px;
+	}
+	div.divideline {
+		width: 500px;
+	}
+}
+@media only screen and (min-device-width: 769px) {
+}
 h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 50px;
