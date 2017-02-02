@@ -31,24 +31,49 @@
 	div.student-banner {
 		height: 100px;
 	}
+  .monthly-left {
+    float: none;
+    text-align: center;
+  }
+  .monthly-right {
+    float: none;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .monthly-title {
+    padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+  }
+  .monthly-pic {
+    width: 200px;
+    padding-bottom: 10px;
+  }
+  .monthly-description {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+  }
 	h1.sponsor-title {
 		font-size: 25px;
 		font-weight: bold;
 	}
-    /*img.princeton-image {
-		width: 10%;
+	img.princeton-image {
+		width: 150px;
 		height: 10%;
 	}
     img.scotiabank-image {
-		width: 10%;
+		width: 130px;
 		height: 10%;
-	}*/
+	}
 	h4.footerheader {
-		font-size: 12px;
+		font-size: 9px;
     padding-right: 20px;
 	}
 	p.footertext {
-		font-size: 10px;
+		font-size: 8px;
 	}
   td.socialmedia {
     text-align: left;
@@ -100,17 +125,49 @@
 	div.divideline {
 		width: 225px;
 	}
+  .monthly-left {
+    float: none;
+    text-align: center;
+  }
+  .monthly-right {
+    float: none;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .monthly-title {
+    padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+  }
+  .monthly-pic {
+    width: 200px;
+    padding-bottom: 10px;
+  }
+  .monthly-description {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+  }
 	h1.sponsor-title {
 		font-size: 25px;
 		font-weight: bold;
 	}
-
-  h4.footerheader {
-		font-size: 12px;
-    padding-right: 20px;
+	img.princeton-image {
+		width: 150px;
+		height: 15%;
+	}
+    img.scotiabank-image {
+		width: 150px;
+		height: 15%;
+	}
+	h4.footerheader {
+		font-size: 9px;
+    padding-right: 10px;
 	}
 	p.footertext {
-		font-size: 10px;
+		font-size: 8px;
 	}
   td.socialmedia {
     text-align: left;
@@ -153,20 +210,45 @@
 		height: 100px;
 	}
 	div.divideline {
-		width: 250px;
+		width: 200px;
 	}
+  .monthly-left {
+    float: none;
+    text-align: center;
+  }
+  .monthly-right {
+    float: none;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .monthly-title {
+    padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+  }
+  .monthly-pic {
+    width: 200px;
+    padding-bottom: 10px;
+  }
+  .monthly-description {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+  }
 	h1.sponsor-title {
 		font-size: 25px;
 		font-weight: bold;
 	}
-    /*img.princeton-image {
-		width: 10%;
-		height: 10%;
+	img.princeton-image {
+		width: 150px;
+		height: 15%;
 	}
     img.scotiabank-image {
-		width: 10%;
-		height: 10%;
-	}*/
+		width: 150px;
+		height: 15%;
+	}
 	h4.footerheader {
 		font-size: 17px;
 	}
@@ -174,20 +256,6 @@
 		font-size: 12px;
 	}
 }
-/*@media only screen and (min-device-width: 426px) and (max-width: 768px) {
-	div.banner {
-		height: 230px;
-	}
-	div.outreach-banner {
-		height: 230px;
-	}
-	div.student-banner {
-		height: 230px;
-	}
-	div.divideline {
-		width: 500px;
-	}
-}*/
 
 @media only screen and (min-device-width: 425px) and (max-width: 596px) {
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
@@ -214,6 +282,31 @@
   }
   div.divideline {
   width: 500px;
+  }
+  .monthly-left {
+    float: none;
+    text-align: center;
+  }
+  .monthly-right {
+    float: none;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .monthly-title {
+    padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+  }
+  .monthly-pic {
+    width: 200px;
+    padding-bottom: 10px;
+  }
+  .monthly-description {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
   }
 }
 @media only screen and (min-device-width: 596px) and (max-width: 768px) {
@@ -247,16 +340,7 @@
     padding-top: 0px;
   }
   .banner {
-    width: 100%;
-    /*border: 3px solid blue;*/
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url('../img/aboutbanner.jpg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
     height: 300px;
-    display: block;
   }
   .bannerbuttons {
       position: relative;
@@ -267,28 +351,12 @@
     width: 100%;
   }
   .outreach-banner {
-    width: 100%;
-    /*border: 3px solid blue;*/
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url('../img/outreachbanner.jpg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
     height: 300px;
   }
   .outreachcontent {
     padding-bottom: 30px;
   }
   .student-banner {
-    width: 100%;
-    /*border: 3px solid blue;*/
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url('../img/studentsbanner.jpg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
     height: 300px;
   }
   .title {
@@ -322,6 +390,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+  }
+  .monthly-left {
+    float: none;
+    text-align: center;
+  }
+  .monthly-right {
+    float: none;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .monthly-title {
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+  }
+  .monthly-pic {
+    width: 300px;
+    padding-bottom: 20px;
+  }
+  .monthly-description {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
   }
 
   /* SPONSORS SECTION */
@@ -369,7 +463,6 @@
     margin: 0 auto;
   }
   th {
-    /*padding-right: 50px;*/
     margin-top: 0px;
   }
   td {
@@ -423,7 +516,7 @@
   }
 }
 
-@media only screen and (min-device-width: 769px) and (max-width: 1023px) {
+@media only screen and (min-device-width: 769px) and (max-width: 1024px) {
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
     width: 200px;
     font-size: 15px;
@@ -455,16 +548,7 @@
     padding-top: 0px;
   }
   .banner {
-    width: 100%;
-    /*border: 3px solid blue;*/
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url('../img/aboutbanner.jpg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
     height: 300px;
-    display: block;
   }
   .bannerbuttons {
       position: relative;
@@ -475,28 +559,12 @@
     width: 100%;
   }
   .outreach-banner {
-    width: 100%;
-    /*border: 3px solid blue;*/
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url('../img/outreachbanner.jpg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
     height: 300px;
   }
   .outreachcontent {
     padding-bottom: 30px;
   }
   .student-banner {
-    width: 100%;
-    /*border: 3px solid blue;*/
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url('../img/studentsbanner.jpg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
     height: 300px;
   }
   .title {
@@ -530,6 +598,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+  }
+  .monthly-left {
+    float: left;
+    text-align: center;
+  }
+  .monthly-right {
+    float: right;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .monthly-title {
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+  }
+  .monthly-pic {
+    width: 400px;
+    padding-bottom: 20px;
+  }
+  .monthly-description {
+    width: 400px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
   }
 
   /* SPONSORS SECTION */
@@ -577,7 +670,6 @@
     margin: 0 auto;
   }
   th {
-    /*padding-right: 50px;*/
     margin-top: 0px;
   }
   td {
@@ -630,7 +722,7 @@
     margin-right: auto;
   }
 }
-@media only screen and (min-device-width: 1024px) {
+@media only screen and (min-device-width: 1025px) {
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
     width: 300px;
     font-size: 18px;
@@ -662,16 +754,7 @@
     padding-top: 0px;
   }
   .banner {
-    width: 100%;
-    /*border: 3px solid blue;*/
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url('../img/aboutbanner.jpg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
     height: 300px;
-    display: block;
   }
   .bannerbuttons {
       position: relative;
@@ -682,28 +765,12 @@
     width: 100%;
   }
   .outreach-banner {
-    width: 100%;
-    /*border: 3px solid blue;*/
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url('../img/outreachbanner.jpg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
     height: 300px;
   }
   .outreachcontent {
     padding-bottom: 30px;
   }
   .student-banner {
-    width: 100%;
-    /*border: 3px solid blue;*/
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url('../img/studentsbanner.jpg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
     height: 300px;
   }
   .title {
@@ -737,6 +804,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+  }
+  .monthly-left {
+    float: left;
+    text-align: center;
+  }
+  .monthly-right {
+    float: right;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .monthly-title {
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+  }
+  .monthly-pic {
+    width: 300px;
+    padding-bottom: 20px;
+  }
+  .monthly-description {
+    width: 500px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
   }
 
   /* SPONSORS SECTION */
@@ -784,7 +876,6 @@
     margin: 0 auto;
   }
   th {
-    /*padding-right: 50px;*/
     margin-top: 0px;
   }
   td {
@@ -865,7 +956,6 @@ p {
 }
 .banner {
   width: 100%;
-  /*border: 3px solid blue;*/
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -885,7 +975,6 @@ p {
 }
 .outreach-banner {
   width: 100%;
-  /*border: 3px solid blue;*/
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -899,7 +988,6 @@ p {
 }
 .student-banner {
   width: 100%;
-  /*border: 3px solid blue;*/
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -942,6 +1030,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 /* SPONSORS SECTION */
