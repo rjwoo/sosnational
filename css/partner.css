@@ -89,6 +89,16 @@
     height: 25px;
   }
   /* PARTNERS PAGER */
+  .partner-banner {
+    padding: 10px 20px;
+  }
+  .partner-title {
+    font-size: 30px;
+  }
+  .partner-header {
+    text-align: left;
+    font-size: 12px;
+  }
   .partners {
     width: 100%;
     padding-top: 20px;
@@ -214,6 +224,16 @@
     height: 25px;
   }
   /* PARTNERS PAGER */
+  .partner-banner {
+    padding: 10px 20px;
+  }
+  .partner-header {
+    text-align: left;
+    font-size: 12px;
+  }
+  .partner-title {
+    font-size: 34px;
+  }
   .partners {
     width: 100%;
     padding-top: 20px;
@@ -317,6 +337,16 @@
 		font-size: 12px;
 	}
   /* PARTNERS PAGER */
+  .partner-banner {
+    padding: 10px 20px;
+  }
+  .partner-header {
+    text-align: left;
+    font-size: 14px;
+  }
+  .partner-title {
+    font-size: 38px;
+  }
   .partners {
     width: 100%;
     padding-bottom: 20px;
@@ -399,6 +429,16 @@
     font-size: 20px;
   }
   /* PARTNERS PAGER */
+  .partner-banner {
+    padding: 10px 20px;
+  }
+  .partner-header {
+    text-align: left;
+    font-size: 12px;
+  }
+  .partner-title {
+    font-size: 34px;
+  }
   .partners {
     width: 100%;
     padding-top: 20px;
@@ -634,6 +674,16 @@
   }
 
   /* PARTNERS PAGER */
+  .partner-banner {
+    padding: 10px 30px 0px 30px;
+  }
+  .partner-header {
+    text-align: left;
+    font-size: 14px;
+  }
+  .partner-title {
+    font-size: 40px;
+  }
   .partners {
     width: 100%;
     text-align: center;
@@ -872,6 +922,16 @@
     margin-right: auto;
   }
   /* PARTNERS PAGER */
+  .partner-banner {
+    padding: 10px 30px 0px 30px;
+  }
+  .partner-header {
+    text-align: left;
+    font-size: 16px;
+  }
+  .partner-title {
+    font-size: 45px;
+  }
   .partners {
     width: 100%;
     text-align: center;
@@ -1109,6 +1169,16 @@
     margin-right: auto;
   }
   /* PARTNERS PAGER */
+  .partner-banner {
+    padding: 10px 40px 0px 40px;
+  }
+  .partner-header {
+    text-align: left;
+    font-size: 16px;
+  }
+  .partner-title {
+    font-size: 45px;
+  }
   .partners {
     width: 100%;
     text-align: center;
