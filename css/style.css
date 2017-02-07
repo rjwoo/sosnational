@@ -1130,4 +1130,32 @@ h4.footerheader {
   margin-left: auto;
   margin-right: auto;
 }
-/*# sourceMappingURL=style.css.map */
+
+/* PARTNERS PAGER */
+@media only screen and (max-device-width: 320px) {
+  .partners {
+    width: 100%;
+  }
+  .partner-box {
+    text-align: center;
+    border: 1px solid #e5dcdc;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    background-color: #e5dcdc;
+  }
+  .partner-logo {
+    width: 200px;
+  }
+  .partner-name {
+    margin-top: 0px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+  }
+  .partner-description {
+    font-size: 12px;
+    text-align: left;
+    padding: 0 15px;
+  }
+}
