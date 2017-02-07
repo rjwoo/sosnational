@@ -91,16 +91,20 @@
   /* PARTNERS PAGER */
   .partners {
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .partner-box {
     text-align: center;
-    border: 1px solid #e5dcdc;
+    border: 1px;
     padding: 10px 15px;
     margin: 10px 15px;
-    background-color: #e5dcdc;
+    background-color: rgba(111, 196, 236, .2);
   }
   .partner-logo {
-    width: 200px;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .partner-name {
     margin-top: 0px;
@@ -113,6 +117,7 @@
     font-size: 12px;
     text-align: left;
     padding: 0 15px;
+    padding-bottom: 10px;
   }
 }
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
@@ -211,16 +216,20 @@
   /* PARTNERS PAGER */
   .partners {
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .partner-box {
     text-align: center;
-    border: 1px solid #e5dcdc;
+    border: 1px;
     padding: 10px 15px;
     margin: 10px 15px;
-    background-color: #e5dcdc;
+    background-color: rgba(111, 196, 236, .2);
   }
   .partner-logo {
     width: 200px;
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
   .partner-name {
     margin-top: 0px;
@@ -232,7 +241,7 @@
   .partner-description {
     font-size: 12px;
     text-align: left;
-    padding: 0 15px;
+    padding: 10px 15px;
   }
 }
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
@@ -310,16 +319,19 @@
   /* PARTNERS PAGER */
   .partners {
     width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
   .partner-box {
     text-align: center;
-    border: 1px solid #e5dcdc;
+    border: 1px;
     padding: 10px 15px;
     margin: 10px 15px;
-    background-color: #e5dcdc;
+    background-color: rgba(111, 196, 236, .2);
   }
   .partner-logo {
     width: 200px;
+    padding-top: 20px;
   }
   .partner-name {
     margin-top: 0px;
@@ -331,11 +343,11 @@
   .partner-description {
     font-size: 12px;
     text-align: left;
-    padding: 0 15px;
+    padding: 20 15px;
   }
 }
 
-@media only screen and (min-device-width: 425px) and (max-width: 596px) {
+@media only screen and (min-device-width: 425px) and (max-width: 600px) {
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
     width: 150px;
     font-size: 13px;
@@ -386,8 +398,36 @@
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
   }
+  /* PARTNERS PAGER */
+  .partners {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .partner-box {
+    text-align: center;
+    border: 1px;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    background-color: rgba(111, 196, 236, .2);
+  }
+  .partner-logo {
+    width: 200px;
+  }
+  .partner-name {
+    margin-top: 0px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+  }
+  .partner-description {
+    font-size: 12px;
+    text-align: left;
+    padding: 0 15px;
+  }
 }
-@media only screen and (min-device-width: 596px) and (max-width: 768px) {
+@media only screen and (min-device-width: 600px) and (max-width: 768px) {
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
     width: 200px;
     font-size: 15px;
@@ -591,6 +631,38 @@
     width: 200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  /* PARTNERS PAGER */
+  .partners {
+    width: 100%;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .partner-box {
+    text-align: center;
+    border: 1px;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    background-color: rgba(111, 196, 236, .2);
+    width: 250px;
+    display: inline-block;
+  }
+  .partner-logo {
+    width: 200px;
+  }
+  .partner-name {
+    margin-top: 0px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+  }
+  .partner-description {
+    font-size: 12px;
+    text-align: left;
+    padding: 0 15px;
   }
 }
 
@@ -799,6 +871,37 @@
     margin-left: auto;
     margin-right: auto;
   }
+  /* PARTNERS PAGER */
+  .partners {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .partner-box {
+    text-align: center;
+    border: 1px;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    background-color: rgba(111, 196, 236, .2);
+    width: 250px;
+    display: inline-block;
+  }
+  .partner-logo {
+    width: 200px;
+  }
+  .partner-name {
+    margin-top: 0px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+  }
+  .partner-description {
+    font-size: 12px;
+    text-align: left;
+    padding: 0 15px;
+  }
 }
 @media only screen and (min-device-width: 1025px) {
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
@@ -1004,6 +1107,37 @@
     width: 200px;
     margin-left: auto;
     margin-right: auto;
+  }
+  /* PARTNERS PAGER */
+  .partners {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .partner-box {
+    text-align: center;
+    border: 1px;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    background-color: rgba(111, 196, 236, .2);
+    width: 300px;
+    display: inline-block;
+  }
+  .partner-logo {
+    width: 250px;
+  }
+  .partner-name {
+    margin-top: 0px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+  }
+  .partner-description {
+    font-size: 12px;
+    text-align: left;
+    padding: 0 15px;
   }
 }
 
