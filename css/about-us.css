@@ -21,6 +21,9 @@
 	}
 	p.general-padding {
 		font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
 	}
 	h3.model {
 		font-size: 23px;
@@ -109,7 +112,28 @@
     padding: 20px 5px;
   }
   .sidebar {
-    background-color: rgba(111, 196, 236, .5);
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .sidebar-title {
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #0F425C;
+    color: white;
+    padding: 5px;
+  }
+  .sidebar-text {
+    text-align: center;
+    margin: 0px;
+    padding: 5px 10px;
+  }
+  .impact {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 25px;
   }
   .impact li {
     font-family: 'Poppins', sans-serif;
