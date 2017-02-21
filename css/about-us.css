@@ -68,6 +68,53 @@
 		width: 130px;
 		height: 10%;
 	}
+  /* TABS */
+  .tab-container{
+    padding: 30px 20px;
+    margin: 0 auto;
+  }
+  ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+  }
+  ul.tabs li{
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-size: 11px;
+  }
+  ul.tabs li.current{
+    background: #ededed;
+    color: #222;
+    font-size: 14px;
+  }
+  .tab-content{
+    display: none;
+    background: #ededed;
+    padding: 15px;
+  }
+  .tab-content.current{
+    display: inherit;
+  }
+  .tab-titles {
+    margin: 20px 0;
+    font-family: 'Raleway', sans-serif;
+  }
+  iframe {
+    width: 100%;
+    padding: 20px 5px;
+  }
+  .sidebar {
+    background-color: rgba(111, 196, 236, .5);
+  }
+  .impact li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+  }
 	h4.footerheader {
 		font-size: 9px;
     padding-right: 20px;
@@ -954,48 +1001,6 @@ p {
 .navbar-brand {
   padding-top: 0px;
 }
-.banner {
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url('../img/aboutbanner.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 300px;
-  display: block;
-}
-.bannerbuttons {
-  position: relative;
-  top: 30%;
-  right: center;
-}
-.banner-img {
-  width: 100%;
-}
-.outreach-banner {
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url('../img/outreachbanner.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 300px;
-}
-.outreachcontent {
-  padding-bottom: 30px;
-}
-.student-banner {
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url('../img/studentsbanner.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 300px;
-}
 .title {
   padding-bottom: 20px;
   text-align: center;
@@ -1025,45 +1030,6 @@ p {
   width: 200px;
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
-}
-.lead {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-/* SPONSORS SECTION */
-.sponsor-box {
-  width: 100%;
-  padding: 50px 75px;
-  overflow: auto;
-  word-wrap: break-word;
-}
-.sponsor-logos {
-  width: 100%;
-  padding: 50px 75px;
-  overflow: auto;
-  word-wrap: break-word;
-}
-.sponsorimages {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.sponsor-title {
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-.princeton-image {
-  width: 300px;
-  padding-right: 75px;
-}
-
-.scotiabank-image {
-  height: 75px;
 }
 
 /* FOOTER */
@@ -1115,18 +1081,33 @@ h4.footerheader {
   margin-right: 5px;
   padding-bottom: 5px;
 }
-.scotiabank {
-  height: 35px;
-  padding-right: 10px;
-  padding-bottom: 5px;
+/* TABS */
+/*.tab-container{
+	height: 700px;
+  padding: 75px 50px;
+	margin: 0 auto;
 }
-.princeton {
-  height: 70px;
-  padding-bottom: 5px;
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
 }
-.divideline {
-  border-top: 1px solid #0F425C;
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
 }
+ul.tabs li.current{
+	background: #ededed;
+	color: #222;
+}
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+}
+.tab-content.current{
+	display: inherit;
+}*/
