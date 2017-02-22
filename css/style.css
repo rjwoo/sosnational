@@ -310,6 +310,9 @@
   }
 }
 @media only screen and (min-device-width: 596px) and (max-width: 768px) {
+  .container {
+    width: 600px;
+  }
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
     width: 200px;
     font-size: 15px;
@@ -517,6 +520,9 @@
 }
 
 @media only screen and (min-device-width: 769px) and (max-width: 1024px) {
+  .container {
+    width: 900px;
+  }
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
     width: 200px;
     font-size: 15px;

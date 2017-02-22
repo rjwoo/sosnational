@@ -4189,7 +4189,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
 }
 .navbar-collapse.in {
-  overflow-y: auto;
+  clear: right;
 }
 @media (min-width: 768px) {
   .navbar-collapse {
