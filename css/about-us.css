@@ -312,7 +312,7 @@
   .tab-content{
     display: none;
     background: #ededed;
-    padding: 15px;
+    padding: 30px 15px;
   }
   .tab-content.current{
     display: inherit;
@@ -489,7 +489,7 @@
   .tab-content{
     display: none;
     background: #ededed;
-    padding: 15px;
+    padding: 30px 15px;
   }
   .tab-content.current{
     display: inherit;
@@ -651,7 +651,7 @@
     display: inherit;
   }
   .tab-titles {
-    margin: 20px 0;
+    margin-bottom: 20px;
     font-family: 'Raleway', sans-serif;
   }
   .contentcontainer {
@@ -951,7 +951,7 @@
   .tab-content{
     display: none;
     background: #ededed;
-    padding: 15px;
+    padding: 30px 15px;
   }
   .tab-content.current{
     display: inherit;
@@ -1280,7 +1280,7 @@
   .tab-content{
     display: none;
     background: #ededed;
-    padding: 15px;
+    padding: 40px 15px;
   }
   .tab-content.current{
     display: inherit;
@@ -1605,7 +1605,7 @@
   .tab-content{
     display: none;
     background: #ededed;
-    padding: 15px;
+    padding: 50px 15px;
   }
   .tab-content.current{
     display: inherit;
@@ -1802,33 +1802,6 @@ h4.footerheader {
   margin-right: 5px;
   padding-bottom: 5px;
 }
-/* TABS */
-/*.tab-container{
-	height: 700px;
-  padding: 75px 50px;
-	margin: 0 auto;
+.aboutbanner {
+  width: 100%;
 }
-ul.tabs{
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-}
-ul.tabs li{
-	background: none;
-	color: #222;
-	display: inline-block;
-	padding: 10px 15px;
-	cursor: pointer;
-}
-ul.tabs li.current{
-	background: #ededed;
-	color: #222;
-}
-.tab-content{
-	display: none;
-	background: #ededed;
-	padding: 15px;
-}
-.tab-content.current{
-	display: inherit;
-}*/
