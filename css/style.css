@@ -88,6 +88,43 @@
   body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
     height: 25px;
   }
+  .gala-box {
+    width: 100%;
+    padding: 20px 30px 30px 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    height: 250px;
+  }
+  .gala-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  .gala-text {
+    font-style: italic;
+    font-size: 12px;
+  }
+  .contact-container {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .contact {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .contact-us {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .contact-title {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+  .google-map {
+    width: 100%;
+  }
 }
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
@@ -182,6 +219,43 @@
   body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
     height: 25px;
   }
+  .gala-box {
+    width: 100%;
+    padding: 20px 30px 30px 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    height: 300px;
+  }
+  .gala-title {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  .gala-text {
+    font-style: italic;
+    font-size: 14px;
+  }
+  .contact-container {
+    width: 100%;
+    padding: 30px 30px 10px 30px;
+  }
+  .contact {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .contact-us {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .contact-title {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+  .google-map {
+    width: 100%;
+  }
 }
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
@@ -255,6 +329,44 @@
 	p.footertext {
 		font-size: 12px;
 	}
+  .gala-box {
+    width: 100%;
+    padding: 50px 30px 30px 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    height: 300px;
+  }
+  .gala-title {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .gala-text {
+    font-style: italic;
+    font-size: 14px;
+  }
+  .contact-container {
+    width: 100%;
+    padding: 30px 30px;
+  }
+  .contact {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .contact-us {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .contact-title {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+  .google-map {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-device-width: 425px) and (max-width: 596px) {
@@ -307,6 +419,44 @@
     padding-bottom: 20px;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
+  }
+  .gala-box {
+    width: 100%;
+    padding: 50px 30px 30px 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    height: 300px;
+  }
+  .gala-title {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .gala-text {
+    font-style: italic;
+    font-size: 14px;
+  }
+  .contact-container {
+    width: 100%;
+    padding: 30px 30px;
+  }
+  .contact {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .contact-us {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .contact-title {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+  .google-map {
+    width: 100%;
   }
 }
 @media only screen and (min-device-width: 596px) and (max-width: 768px) {
@@ -516,6 +666,44 @@
     width: 200px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .gala-box {
+    width: 100%;
+    padding: 70px 100px 30px 100px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    height: 400px;
+  }
+  .gala-title {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .gala-text {
+    font-style: italic;
+    font-size: 16px;
+  }
+  .contact-container {
+    width: 100%;
+    padding: 30px 175px;
+  }
+  .contact {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .contact-us {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .contact-title {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+  .google-map {
+    width: 100%;
   }
 }
 
@@ -727,6 +915,47 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .gala-box {
+    width: 100%;
+    padding: 70px 200px 30px 200px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    height: 400px;
+  }
+  .gala-title {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .gala-text {
+    font-style: italic;
+    font-size: 16px;
+  }
+  .contact-container {
+    width: 100%;
+    padding: 30px 300px;
+  }
+  .contact {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .contact-us {
+    font-size: 42px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .contact-title {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+  .contact-info {
+    font-size: 15px;
+  }
+  .google-map {
+    width: 100%;
+  }
 }
 @media only screen and (min-device-width: 1025px) {
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
@@ -933,6 +1162,47 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .gala-box {
+    width: 100%;
+    padding: 125px 200px 30px 200px;
+    font-family: 'Poppins', sans-serif;
+    height: 500px;
+  }
+  .gala-title {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .gala-text {
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+  }
+  .contact-container {
+    width: 100%;
+    padding: 30px 450px;
+  }
+  .contact {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .contact-us {
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .contact-title {
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+  .contact-info {
+    font-size: 18px;
+  }
+  .google-map {
+    width: 100%;
+  }
 }
 
 /* OG DIMENSIONS */
@@ -1136,3 +1406,13 @@ h4.footerheader {
   margin-left: auto;
   margin-right: auto;
 }
+/*.gala-box {
+  width: 100%;
+  padding: 150px 200px 30px 200px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  height: 475px;
+}
+.gala-text {
+  font-style: italic;
+}*/

@@ -112,6 +112,15 @@
     height: 315px;
     padding: 20px 5px;
   }
+  .reports {
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .reports-list {
+    list-style: none;
+    padding-bottom: 0px;
+    padding-top: 5px;
+  }
   .sidebar {
     border: 1px solid black;
     border-radius: 10px;
@@ -324,6 +333,15 @@
     margin: 20px 0;
     font-family: 'Raleway', sans-serif;
   }
+  .reports {
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .reports-list {
+    list-style: none;
+    padding-bottom: 0px;
+    padding-top: 5px;
+  }
   iframe {
     width: 100%;
     height: 315px;
@@ -501,6 +519,15 @@
     margin: 20px 0;
     font-family: 'Raleway', sans-serif;
   }
+  .reports {
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .reports-list {
+    list-style: none;
+    padding-bottom: 0px;
+    padding-top: 5px;
+  }
   iframe {
     width: 100%;
     height: 345px;
@@ -656,6 +683,15 @@
   }
   .contentcontainer {
     padding: 0px 10px;
+  }
+  .reports {
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .reports-list {
+    list-style: none;
+    padding-bottom: 0px;
+    padding-top: 5px;
   }
   iframe {
     width: 100%;
@@ -964,13 +1000,23 @@
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
   }
+  .reports {
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .reports-list {
+    list-style: none;
+    padding-bottom: 0px;
+    padding-top: 5px;
+  }
   iframe {
     width: 100%;
     height: 410px;
     padding: 20px 10px;
   }
   .left-text {
-    padding-top: 20px;
+    font-size: 18px;
+    padding-top: 50px;
   }
   .sidebar {
     border: 1px solid black;
@@ -1026,6 +1072,7 @@
     font-size: 14px;
   }
   .center-text {
+    font-size: 18px;
     padding: 20px 50px;
   }
 
@@ -1293,13 +1340,23 @@
   .contentcontainer {
     padding: 0px 20px;
   }
+  .reports {
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .reports-list {
+    list-style: none;
+    padding-bottom: 0px;
+    padding-top: 5px;
+  }
   iframe {
     width: 100%;
     height: 430px;
     padding: 20px 20px;
   }
   .left-text {
-    padding-top: 20px;
+    font-size: 18px;
+    padding-top: 60px;
   }
   .sidebar {
     border: 1px solid black;
@@ -1355,6 +1412,7 @@
     font-size: 14px;
   }
   .center-text {
+    font-size: 18px;
     padding: 20px 50px;
   }
 
@@ -1618,13 +1676,23 @@
   .contentcontainer {
     padding: 0px 150px;
   }
+  .reports {
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .reports-list {
+    list-style: none;
+    padding-bottom: 0px;
+    padding-top: 5px;
+  }
   iframe {
     width: 100%;
     height: 500px;
     padding: 20px 20px;
   }
   .left-text {
-    padding-top: 20px;
+    font-size: 18px;
+    padding-top: 60px;
   }
   .sidebar {
     border: 1px solid black;
@@ -1680,6 +1748,7 @@
     font-size: 14px;
   }
   .center-text {
+    font-size: 18px;
     padding: 20px 50px;
   }
 
