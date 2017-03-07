@@ -99,42 +99,12 @@
     text-align: left;
     font-size: 12px;
   }
-  .teams {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .team-box {
-    text-align: center;
-    border: 1px;
-    padding: 10px 15px;
-    margin: 10px 15px;
-    background-color: rgba(111, 196, 236, .2);
-  }
-  .team-logo {
-    width: 150px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .team-name {
-    margin-top: 0px;
-    text-align: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-  }
-  .team-description {
-    font-size: 12px;
-    text-align: left;
-    padding: 0 15px;
-    padding-bottom: 10px;
-  }
   .team-modal {
   	margin: auto;
   	margin-bottom: 10px;
   }
   .modal-image {
-  	width: 100%;
+  	height: 100px;
   	padding-bottom: 7px;
   }
   .in-modal-image {
@@ -251,35 +221,6 @@
   .team-title {
     font-size: 34px;
   }
-  .teams {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .team-box {
-    text-align: center;
-    border: 1px;
-    padding: 10px 15px;
-    margin: 10px 15px;
-    background-color: rgba(111, 196, 236, .2);
-  }
-  .team-logo {
-    width: 200px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-  .team-name {
-    margin-top: 0px;
-    text-align: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-  }
-  .team-description {
-    font-size: 12px;
-    text-align: left;
-    padding: 10px 15px;
-  }
   .team-modal {
     text-align: center;
   }
@@ -380,34 +321,6 @@
   .team-title {
     font-size: 38px;
   }
-  .teams {
-    width: 100%;
-    padding-bottom: 20px;
-    padding-top: 20px;
-  }
-  .team-box {
-    text-align: center;
-    border: 1px;
-    padding: 10px 15px;
-    margin: 10px 15px;
-    background-color: rgba(111, 196, 236, .2);
-  }
-  .team-logo {
-    width: 200px;
-    padding-top: 20px;
-  }
-  .team-name {
-    margin-top: 0px;
-    text-align: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-  }
-  .team-description {
-    font-size: 12px;
-    text-align: left;
-    padding: 20 15px;
-  }
   .team-modal {
     text-align: center;
   }
@@ -481,39 +394,12 @@
   .team-banner {
     padding: 10px 20px;
   }
-  .team-header {
-    text-align: left;
-    font-size: 12px;
-  }
   .team-title {
     font-size: 34px;
   }
-  .teams {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .team-box {
-    text-align: center;
-    border: 1px;
-    padding: 10px 15px;
-    margin: 10px 15px;
-    background-color: rgba(111, 196, 236, .2);
-  }
-  .team-logo {
-    width: 200px;
-  }
-  .team-name {
-    margin-top: 0px;
+  .team-header {
     text-align: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-  }
-  .team-description {
     font-size: 12px;
-    text-align: left;
-    padding: 0 15px;
   }
   .team-modal {
     text-align: center;
@@ -749,36 +635,6 @@
   .team-title {
     font-size: 40px;
   }
-  .teams {
-    width: 100%;
-    text-align: center;
-    padding-top: 35px;
-    padding-bottom: 35px;
-  }
-  .team-box {
-    text-align: center;
-    border: 1px;
-    padding: 10px 15px;
-    margin: 10px 15px;
-    background-color: rgba(111, 196, 236, .2);
-    width: 250px;
-    display: inline-block;
-  }
-  .team-logo {
-    width: 200px;
-  }
-  .team-name {
-    margin-top: 0px;
-    text-align: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-  }
-  .team-description {
-    font-size: 12px;
-    text-align: left;
-    padding: 0 15px;
-  }
   .team-modal {
   	text-align: center;
   }
@@ -1013,36 +869,6 @@
   .team-title {
     font-size: 45px;
   }
-  .teams {
-    width: 100%;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .team-box {
-    text-align: center;
-    border: 1px;
-    padding: 10px 15px;
-    margin: 10px 15px;
-    background-color: rgba(111, 196, 236, .2);
-    width: 250px;
-    display: inline-block;
-  }
-  .team-logo {
-    width: 200px;
-  }
-  .team-name {
-    margin-top: 0px;
-    text-align: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-  }
-  .team-description {
-    font-size: 12px;
-    text-align: left;
-    padding: 0 15px;
-  }
   .team-modal {
   	text-align: center;
   }
@@ -1276,41 +1102,12 @@
   .team-title {
     font-size: 45px;
   }
-  .teams {
-    width: 100%;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .team-box {
-    text-align: center;
-    border: 1px;
-    padding: 10px 15px;
-    margin: 10px 15px;
-    background-color: rgba(111, 196, 236, .2);
-    width: 300px;
-    display: inline-block;
-  }
-  .team-logo {
-    width: 250px;
-  }
-  .team-name {
-    margin-top: 0px;
-    text-align: left;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-  }
-  .team-description {
-    font-size: 12px;
-    text-align: left;
-    padding: 0 15px;
-  }
   .team-modal {
   	text-align: center;
+    padding: 50px 300px;
   }
   .modal-image {
-  	width: 40%;
+  	height: 500px;
   	padding-bottom: 7px;
   }
   .in-modal-image {
