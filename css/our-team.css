@@ -130,20 +130,21 @@
     padding-bottom: 10px;
   }
   .team-modal {
-	margin: auto;
-	margin-bottom: 10px;
+  	margin: auto;
+  	margin-bottom: 10px;
   }
   .modal-image {
-	width: 100%;
-	padding-bottom: 7px;
+  	width: 100%;
+  	padding-bottom: 7px;
   }
   .in-modal-image {
-    width: 60%;
+    padding-top: 10px;
+    width: 100%;
   }
   .carousel {
-	margin: auto;
-	margin-bottom: 10px;
-	width: 70%
+  	margin: auto;
+  	margin-bottom: 10px;
+  	width: 70%
   }
 }
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
@@ -280,19 +281,20 @@
     padding: 10px 15px;
   }
   .team-modal {
-	margin: 1% 1% 2% 10%;
+    text-align: center;
   }
   .modal-image {
-	width: 40%;
-	padding-bottom: 7px;
+  	width: 40%;
+  	padding-bottom: 7px;
   }
   .in-modal-image {
-    width: 60%;
+    padding-top: 10px;
+    width: 100%;
   }
   .carousel {
-	margin: auto;
-	margin-bottom: 10px;
-	width: 70%
+  	margin: auto;
+  	margin-bottom: 10px;
+  	width: 70%
   }
 }
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
@@ -407,19 +409,20 @@
     padding: 20 15px;
   }
   .team-modal {
-	margin: 1% 1% 2% 10%;
+    text-align: center;
   }
   .modal-image {
-	width: 40%;
-	padding-bottom: 7px;
+  	width: 40%;
+  	padding-bottom: 7px;
   }
   .in-modal-image {
-    width: 60%;
+    padding-top: 10px;
+    width: 100%;
   }
   .carousel {
-	margin: auto;
-	margin-bottom: 10px;
-	width: 70%
+  	margin: auto;
+  	margin-bottom: 10px;
+  	width: 70%
   }
 }
 
@@ -441,13 +444,13 @@
     top: 30%;
   }
   div.outreach-banner {
-  height: 230px;
+    height: 230px;
   }
   div.student-banner {
-  height: 230px;
+    height: 230px;
   }
   div.divideline {
-  width: 300px;
+    width: 300px;
   }
   .monthly-left {
     float: none;
@@ -513,19 +516,20 @@
     padding: 0 15px;
   }
   .team-modal {
-	margin: 1% 1% 2% 10%;
+    text-align: center;
   }
   .modal-image {
-	width: 40%;
-	padding-bottom: 7px;
+  	width: 40%;
+  	padding-bottom: 7px;
   }
   .in-modal-image {
-    width: 60%;
+    padding-top: 10px;
+    width: 100%;
   }
   .carousel {
-	margin: auto;
-	margin-bottom: 10px;
-	width: 70%
+  	margin: auto;
+  	margin-bottom: 10px;
+  	width: 70%
   }
 }
 @media only screen and (min-device-width: 600px) and (max-width: 768px) {
@@ -562,9 +566,9 @@
     height: 300px;
   }
   .bannerbuttons {
-      position: relative;
-      top: 30%;
-      right: center;
+    position: relative;
+    top: 30%;
+    right: center;
   }
   .banner-img {
     width: 100%;
@@ -776,19 +780,20 @@
     padding: 0 15px;
   }
   .team-modal {
-	margin: 1% 1% 2% 10%;
+  	text-align: center;
   }
   .modal-image {
-	width: 40%;
-	padding-bottom: 7px;
+  	width: 40%;
+  	padding-bottom: 7px;
   }
   .in-modal-image {
-    width: 60%;
+    padding-top: 10px;
+    width: 100%;
   }
   .carousel {
-	margin: auto;
-	margin-bottom: 10px;
-	width: 70%
+  	margin: auto;
+  	margin-bottom: 10px;
+  	width: 70%
   }
 }
 
@@ -1039,14 +1044,15 @@
     padding: 0 15px;
   }
   .team-modal {
-	margin: 1% 1% 2% 10%;
+  	text-align: center;
   }
   .modal-image {
 	width: 40%;
 	padding-bottom: 7px;
   }
   .in-modal-image {
-    width: 60%;
+    padding-top: 10px;
+    width: 100%;
   }
   .carousel {
 	margin: auto;
@@ -1301,19 +1307,20 @@
     padding: 0 15px;
   }
   .team-modal {
-	margin: 1% 1% 2% 10%;
+  	text-align: center;
   }
   .modal-image {
-	width: 40%;
-	padding-bottom: 7px;
+  	width: 40%;
+  	padding-bottom: 7px;
   }
   .in-modal-image {
-    width: 60%;
+    padding-top: 10px;
+    width: 100%;
   }
   .carousel {
-	margin: auto;
-	margin-bottom: 10px;
-	width: 70%
+  	margin: auto;
+  	margin-bottom: 10px;
+  	width: 70%
   }
 }
 
