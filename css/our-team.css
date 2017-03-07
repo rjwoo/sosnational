@@ -89,6 +89,7 @@
     height: 25px;
   }
   /* teamS PAGER */
+
   .team-banner {
     padding: 10px 20px;
   }
@@ -102,14 +103,35 @@
   .team-modal {
   	margin: auto;
   	margin-bottom: 10px;
+    text-align: center;
+  }
+  .modal-header {
+    text-align: center;
   }
   .modal-image {
-  	height: 100px;
+  	height: 200px;
   	padding-bottom: 7px;
   }
   .in-modal-image {
     padding-top: 10px;
-    width: 100%;
+    height: 250px;
+  }
+  .modal-body {
+    padding: 20px 20px;
+  }
+  .modal-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+  }
+  .modal-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    margin-top: 0px;
+    font-size: 17px;
+  }
+  .modal-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
   }
   .carousel {
   	margin: auto;
@@ -210,27 +232,50 @@
   body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
     height: 25px;
   }
+
   /* teamS PAGER */
   .team-banner {
     padding: 10px 20px;
+  }
+  .team-title {
+    font-size: 30px;
   }
   .team-header {
     text-align: left;
     font-size: 12px;
   }
-  .team-title {
-    font-size: 34px;
-  }
   .team-modal {
+  	margin: auto;
+  	margin-bottom: 10px;
+    text-align: center;
+  }
+  .modal-header {
     text-align: center;
   }
   .modal-image {
-  	width: 40%;
+  	height: 200px;
   	padding-bottom: 7px;
   }
   .in-modal-image {
     padding-top: 10px;
-    width: 100%;
+    height: 250px;
+  }
+  .modal-body {
+    padding: 20px 30px;
+  }
+  .modal-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+  }
+  .modal-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    margin-top: 0px;
+    font-size: 18px;
+  }
+  .modal-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
   }
   .carousel {
   	margin: auto;
@@ -310,27 +355,50 @@
 	p.footertext {
 		font-size: 12px;
 	}
+
   /* teamS PAGER */
   .team-banner {
     padding: 10px 20px;
   }
+  .team-title {
+    font-size: 30px;
+  }
   .team-header {
     text-align: left;
-    font-size: 14px;
-  }
-  .team-title {
-    font-size: 38px;
+    font-size: 12px;
   }
   .team-modal {
+  	margin: auto;
+  	margin-bottom: 10px;
+    text-align: center;
+  }
+  .modal-header {
     text-align: center;
   }
   .modal-image {
-  	width: 40%;
+  	height: 200px;
   	padding-bottom: 7px;
   }
   .in-modal-image {
     padding-top: 10px;
-    width: 100%;
+    height: 250px;
+  }
+  .modal-body {
+    padding: 20px 30px;
+  }
+  .modal-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+  }
+  .modal-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    margin-top: 0px;
+    font-size: 18px;
+  }
+  .modal-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
   }
   .carousel {
   	margin: auto;
@@ -390,27 +458,49 @@
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
   }
+
   /* teamS PAGER */
   .team-banner {
     padding: 10px 20px;
   }
   .team-title {
-    font-size: 34px;
+    font-size: 30px;
   }
   .team-header {
     text-align: left;
     font-size: 12px;
   }
   .team-modal {
+  	margin: 0 30px 10px 30px;
+    text-align: center;
+  }
+  .modal-header {
     text-align: center;
   }
   .modal-image {
-  	width: 40%;
+  	height: 200px;
   	padding-bottom: 7px;
   }
   .in-modal-image {
     padding-top: 10px;
-    width: 100%;
+    height: 250px;
+  }
+  .modal-body {
+    padding: 20px 30px;
+  }
+  .modal-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+  }
+  .modal-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    margin-top: 0px;
+    font-size: 22px;
+  }
+  .modal-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
   }
   .carousel {
   	margin: auto;
@@ -626,25 +716,48 @@
 
   /* teamS PAGER */
   .team-banner {
-    padding: 10px 30px 0px 30px;
+    padding: 10px 50px;
+  }
+  .team-title {
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
   }
   .team-header {
     text-align: left;
-    font-size: 14px;
-  }
-  .team-title {
-    font-size: 40px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
   }
   .team-modal {
-  	text-align: center;
+  	margin: 0 100px 10px 100px;
+    text-align: center;
+  }
+  .modal-header {
+    text-align: center;
   }
   .modal-image {
-  	width: 40%;
+  	height: 300px;
   	padding-bottom: 7px;
   }
   .in-modal-image {
     padding-top: 10px;
-    width: 100%;
+    height: 250px;
+  }
+  .modal-body {
+    padding: 20px 50px;
+  }
+  .modal-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+  }
+  .modal-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    margin-top: 0px;
+    font-size: 25px;
+  }
+  .modal-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
   }
   .carousel {
   	margin: auto;
@@ -858,32 +971,56 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   /* teamS PAGER */
   .team-banner {
-    padding: 10px 30px 0px 30px;
+    padding: 10px 100px;
+  }
+  .team-title {
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
   }
   .team-header {
     text-align: left;
-    font-size: 16px;
-  }
-  .team-title {
-    font-size: 45px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
   }
   .team-modal {
-  	text-align: center;
+  	margin: 0 250px 10px 250px;
+    text-align: center;
+  }
+  .modal-header {
+    text-align: center;
   }
   .modal-image {
-	width: 40%;
-	padding-bottom: 7px;
+  	height: 300px;
+  	padding-bottom: 7px;
   }
   .in-modal-image {
     padding-top: 10px;
-    width: 100%;
+    height: 250px;
+  }
+  .modal-body {
+    padding: 20px 50px;
+  }
+  .modal-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+  }
+  .modal-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    margin-top: 0px;
+    font-size: 25px;
+  }
+  .modal-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
   }
   .carousel {
-	margin: auto;
-	margin-bottom: 10px;
-	width: 70%
+  	margin: auto;
+  	margin-bottom: 10px;
+  	width: 70%
   }
 }
 @media only screen and (min-device-width: 1025px) {
@@ -1091,28 +1228,51 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   /* teamS PAGER */
   .team-banner {
-    padding: 10px 40px 0px 40px;
+    padding: 10px 200px;
+  }
+  .team-title {
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
   }
   .team-header {
     text-align: left;
-    font-size: 16px;
-  }
-  .team-title {
-    font-size: 45px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
   }
   .team-modal {
-  	text-align: center;
-    padding: 50px 300px;
+  	margin: 0 400px 10px 400px;
+    text-align: center;
+  }
+  .modal-header {
+    text-align: center;
   }
   .modal-image {
-  	height: 500px;
-  	padding-bottom: 7px;
+  	height: 300px;
+  	padding-bottom: 10px;
   }
   .in-modal-image {
     padding-top: 10px;
-    width: 100%;
+    height: 250px;
+  }
+  .modal-body {
+    padding: 20px 50px;
+  }
+  .modal-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+  }
+  .modal-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    margin-top: 0px;
+    font-size: 25px;
+  }
+  .modal-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
   }
   .carousel {
   	margin: auto;
