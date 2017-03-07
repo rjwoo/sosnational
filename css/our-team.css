@@ -88,48 +88,48 @@
   body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
     height: 25px;
   }
-  /* PARTNERS PAGER */
-  .partner-banner {
+  /* teamS PAGER */
+  .team-banner {
     padding: 10px 20px;
   }
-  .partner-title {
+  .team-title {
     font-size: 30px;
   }
-  .partner-header {
+  .team-header {
     text-align: left;
     font-size: 12px;
   }
-  .partners {
+  .teams {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .partner-box {
+  .team-box {
     text-align: center;
     border: 1px;
     padding: 10px 15px;
     margin: 10px 15px;
     background-color: rgba(111, 196, 236, .2);
   }
-  .partner-logo {
+  .team-logo {
     width: 150px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  .partner-name {
+  .team-name {
     margin-top: 0px;
     text-align: left;
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
   }
-  .partner-description {
+  .team-description {
     font-size: 12px;
     text-align: left;
     padding: 0 15px;
     padding-bottom: 10px;
   }
-  .partner-modal {
+  .team-modal {
 	margin: auto;
 	margin-bottom: 10px;
   }
@@ -239,47 +239,47 @@
   body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
     height: 25px;
   }
-  /* PARTNERS PAGER */
-  .partner-banner {
+  /* teamS PAGER */
+  .team-banner {
     padding: 10px 20px;
   }
-  .partner-header {
+  .team-header {
     text-align: left;
     font-size: 12px;
   }
-  .partner-title {
+  .team-title {
     font-size: 34px;
   }
-  .partners {
+  .teams {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .partner-box {
+  .team-box {
     text-align: center;
     border: 1px;
     padding: 10px 15px;
     margin: 10px 15px;
     background-color: rgba(111, 196, 236, .2);
   }
-  .partner-logo {
+  .team-logo {
     width: 200px;
     padding-top: 20px;
     padding-bottom: 10px;
   }
-  .partner-name {
+  .team-name {
     margin-top: 0px;
     text-align: left;
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
   }
-  .partner-description {
+  .team-description {
     font-size: 12px;
     text-align: left;
     padding: 10px 15px;
   }
-  .partner-modal {
+  .team-modal {
 	margin: 1% 1% 2% 10%;
   }
   .modal-image {
@@ -367,46 +367,46 @@
 	p.footertext {
 		font-size: 12px;
 	}
-  /* PARTNERS PAGER */
-  .partner-banner {
+  /* teamS PAGER */
+  .team-banner {
     padding: 10px 20px;
   }
-  .partner-header {
+  .team-header {
     text-align: left;
     font-size: 14px;
   }
-  .partner-title {
+  .team-title {
     font-size: 38px;
   }
-  .partners {
+  .teams {
     width: 100%;
     padding-bottom: 20px;
     padding-top: 20px;
   }
-  .partner-box {
+  .team-box {
     text-align: center;
     border: 1px;
     padding: 10px 15px;
     margin: 10px 15px;
     background-color: rgba(111, 196, 236, .2);
   }
-  .partner-logo {
+  .team-logo {
     width: 200px;
     padding-top: 20px;
   }
-  .partner-name {
+  .team-name {
     margin-top: 0px;
     text-align: left;
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
   }
-  .partner-description {
+  .team-description {
     font-size: 12px;
     text-align: left;
     padding: 20 15px;
   }
-  .partner-modal {
+  .team-modal {
 	margin: 1% 1% 2% 10%;
   }
   .modal-image {
@@ -474,45 +474,45 @@
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
   }
-  /* PARTNERS PAGER */
-  .partner-banner {
+  /* teamS PAGER */
+  .team-banner {
     padding: 10px 20px;
   }
-  .partner-header {
+  .team-header {
     text-align: left;
     font-size: 12px;
   }
-  .partner-title {
+  .team-title {
     font-size: 34px;
   }
-  .partners {
+  .teams {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .partner-box {
+  .team-box {
     text-align: center;
     border: 1px;
     padding: 10px 15px;
     margin: 10px 15px;
     background-color: rgba(111, 196, 236, .2);
   }
-  .partner-logo {
+  .team-logo {
     width: 200px;
   }
-  .partner-name {
+  .team-name {
     margin-top: 0px;
     text-align: left;
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
   }
-  .partner-description {
+  .team-description {
     font-size: 12px;
     text-align: left;
     padding: 0 15px;
   }
-  .partner-modal {
+  .team-modal {
 	margin: 1% 1% 2% 10%;
   }
   .modal-image {
@@ -734,24 +734,24 @@
     margin-right: auto;
   }
 
-  /* PARTNERS PAGER */
-  .partner-banner {
+  /* teamS PAGER */
+  .team-banner {
     padding: 10px 30px 0px 30px;
   }
-  .partner-header {
+  .team-header {
     text-align: left;
     font-size: 14px;
   }
-  .partner-title {
+  .team-title {
     font-size: 40px;
   }
-  .partners {
+  .teams {
     width: 100%;
     text-align: center;
     padding-top: 35px;
     padding-bottom: 35px;
   }
-  .partner-box {
+  .team-box {
     text-align: center;
     border: 1px;
     padding: 10px 15px;
@@ -760,22 +760,22 @@
     width: 250px;
     display: inline-block;
   }
-  .partner-logo {
+  .team-logo {
     width: 200px;
   }
-  .partner-name {
+  .team-name {
     margin-top: 0px;
     text-align: left;
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
   }
-  .partner-description {
+  .team-description {
     font-size: 12px;
     text-align: left;
     padding: 0 15px;
   }
-  .partner-modal {
+  .team-modal {
 	margin: 1% 1% 2% 10%;
   }
   .modal-image {
@@ -997,24 +997,24 @@
     margin-left: auto;
     margin-right: auto;
   }
-  /* PARTNERS PAGER */
-  .partner-banner {
+  /* teamS PAGER */
+  .team-banner {
     padding: 10px 30px 0px 30px;
   }
-  .partner-header {
+  .team-header {
     text-align: left;
     font-size: 16px;
   }
-  .partner-title {
+  .team-title {
     font-size: 45px;
   }
-  .partners {
+  .teams {
     width: 100%;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .partner-box {
+  .team-box {
     text-align: center;
     border: 1px;
     padding: 10px 15px;
@@ -1023,22 +1023,22 @@
     width: 250px;
     display: inline-block;
   }
-  .partner-logo {
+  .team-logo {
     width: 200px;
   }
-  .partner-name {
+  .team-name {
     margin-top: 0px;
     text-align: left;
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
   }
-  .partner-description {
+  .team-description {
     font-size: 12px;
     text-align: left;
     padding: 0 15px;
   }
-  .partner-modal {
+  .team-modal {
 	margin: 1% 1% 2% 10%;
   }
   .modal-image {
@@ -1259,24 +1259,24 @@
     margin-left: auto;
     margin-right: auto;
   }
-  /* PARTNERS PAGER */
-  .partner-banner {
+  /* teamS PAGER */
+  .team-banner {
     padding: 10px 40px 0px 40px;
   }
-  .partner-header {
+  .team-header {
     text-align: left;
     font-size: 16px;
   }
-  .partner-title {
+  .team-title {
     font-size: 45px;
   }
-  .partners {
+  .teams {
     width: 100%;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .partner-box {
+  .team-box {
     text-align: center;
     border: 1px;
     padding: 10px 15px;
@@ -1285,22 +1285,22 @@
     width: 300px;
     display: inline-block;
   }
-  .partner-logo {
+  .team-logo {
     width: 250px;
   }
-  .partner-name {
+  .team-name {
     margin-top: 0px;
     text-align: left;
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
   }
-  .partner-description {
+  .team-description {
     font-size: 12px;
     text-align: left;
     padding: 0 15px;
   }
-  .partner-modal {
+  .team-modal {
 	margin: 1% 1% 2% 10%;
   }
   .modal-image {
