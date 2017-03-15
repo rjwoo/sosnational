@@ -138,6 +138,10 @@
   	margin-bottom: 10px;
   	width: 70%
   }
+  .arrow {
+    height: 20px;
+    margin-top: 150px;
+  }
 }
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
@@ -282,6 +286,10 @@
   	margin-bottom: 10px;
   	width: 70%
   }
+  .arrow {
+    height: 30px;
+    margin-top: 150px;
+  }
 }
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
@@ -405,6 +413,10 @@
   	margin-bottom: 10px;
   	width: 70%
   }
+  .arrow {
+    height: 35px;
+    margin-top: 150px;
+  }
 }
 
 @media only screen and (min-device-width: 425px) and (max-width: 600px) {
@@ -506,6 +518,10 @@
   	margin: auto;
   	margin-bottom: 10px;
   	width: 60%
+  }
+  .arrow {
+    height: 35px;
+    margin-top: 150px;
   }
 }
 @media only screen and (min-device-width: 600px) and (max-width: 768px) {
@@ -763,6 +779,10 @@
   	margin: auto;
   	margin-bottom: 10px;
   	width: 51%;
+  }
+  .arrow {
+    height: 50px;
+    margin-top: 300px;
   }
 }
 
@@ -1026,6 +1046,10 @@
   	width: 396.5px;
     display: inline-block;
   }
+  .arrow {
+    height: 50px;
+    margin-top: 300px;
+  }
 }
 @media only screen and (min-device-width: 1025px) {
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
@@ -1285,6 +1309,10 @@
   .carousel {
   	width: 396.5px;
     display: inline-block;
+  }
+  .arrow {
+    height: 50px;
+    margin-top: 275px;
   }
 }
 
