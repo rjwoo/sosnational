@@ -1020,7 +1020,7 @@
   .carousel {
   	margin: auto;
   	margin-bottom: 10px;
-  	width: 70%
+  	width: 10%
   }
 }
 @media only screen and (min-device-width: 1025px) {
@@ -1230,8 +1230,12 @@
   }
 
   /* teamS PAGER */
+  .team-container {
+    text-align: center;
+    margin: 50px 0;
+  }
   .team-banner {
-    padding: 10px 200px;
+    padding: 10px 200px 0;
   }
   .team-title {
     font-size: 32px;
@@ -1243,15 +1247,16 @@
     font-family: 'Poppins', sans-serif;
   }
   .team-modal {
-  	margin: 0 400px 10px 400px;
-    text-align: center;
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
   }
   .modal-header {
     text-align: center;
   }
   .modal-image {
   	height: 300px;
-  	padding-bottom: 10px;
+  	padding-bottom: 5px;
   }
   .in-modal-image {
     padding-top: 10px;
@@ -1275,9 +1280,8 @@
     font-size: 16px;
   }
   .carousel {
-  	margin: auto;
-  	margin-bottom: 10px;
-  	width: 70%
+  	width: 396.5px;
+    display: inline-block;
   }
 }
 
