@@ -505,7 +505,7 @@
   .carousel {
   	margin: auto;
   	margin-bottom: 10px;
-  	width: 70%
+  	width: 60%
   }
 }
 @media only screen and (min-device-width: 600px) and (max-width: 768px) {
@@ -762,7 +762,7 @@
   .carousel {
   	margin: auto;
   	margin-bottom: 10px;
-  	width: 70%
+  	width: 51%;
   }
 }
 
@@ -973,6 +973,10 @@
   }
 
   /* teamS PAGER */
+  .team-container {
+    text-align: center;
+    margin: 50px 0;
+  }
   .team-banner {
     padding: 10px 100px;
   }
@@ -986,8 +990,9 @@
     font-family: 'Poppins', sans-serif;
   }
   .team-modal {
-  	margin: 0 250px 10px 250px;
-    text-align: center;
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
   }
   .modal-header {
     text-align: center;
@@ -1018,9 +1023,8 @@
     font-size: 16px;
   }
   .carousel {
-  	margin: auto;
-  	margin-bottom: 10px;
-  	width: 10%
+  	width: 396.5px;
+    display: inline-block;
   }
 }
 @media only screen and (min-device-width: 1025px) {
@@ -1099,7 +1103,6 @@
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0 auto;
-
   }
   .lead {
     display: flex;
