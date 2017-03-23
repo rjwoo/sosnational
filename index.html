@@ -1,3 +1,9 @@
+<?php 
+/* Short and sweet */
+define('WP_USE_THEMES', false);
+require('./wp-blog-header.php');
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -104,13 +110,14 @@
         </div>
       </div>
     </div>
-
+	
     <footer class="footer">
       <div class="container">
         <table>
           <tr>
             <th><h4 class="footerheader">Connect With Us</h4></th>
             <th><h4 class="footerheader">Contact Us</h4></th>
+			<th><h4 class="footerheader">???</h4></th>
           </tr>
           <tr>
             <td class="socialmedia">
@@ -123,6 +130,17 @@
               <p class="footertext">326 1/2 Bloor St W</p>
               <p class="footertext">Toronto, Ontario M5S 1W5</p>
             </td>
+			<td>
+			  <?php
+				// Get the last 3 posts.
+				global $post;
+				$args = array( 'posts_per_page' => 3 );
+				$myposts = get_posts( $args );
+
+				foreach( $myposts as $post ) :	setup_postdata($post); ?>
+				<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a><br />
+				<?php endforeach; ?>
+			</td>
           </tr>
         </table>
       </div>
