@@ -88,12 +88,13 @@
   body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
     height: 25px;
   }
+  /* CORPORATE PARTNERS PAGER */
   .corporate_partners-box {
-	width: 100%;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-	padding-left: 10%;
-	padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .corporate_partners-img {
 	width: 100%;
@@ -136,7 +137,7 @@
 		height: 100px;
 	}
 	div.divideline {
-		width: 50%;
+		width: 225px;
 	}
   .monthly-left {
     float: none;
@@ -195,12 +196,13 @@
   body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
     height: 25px;
   }
+  /* CORPORATE PARTNERS PAGER */
   .corporate_partners-box {
-	width: 100%;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-	padding-left: 10%;
-	padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .corporate_partners-img {
 	width: 100%;
@@ -236,7 +238,7 @@
 		height: 100px;
 	}
 	div.divideline {
-		width: 50%;
+		width: 50%;;
 	}
   .monthly-left {
     float: none;
@@ -281,12 +283,13 @@
 	p.footertext {
 		font-size: 12px;
 	}
+  /* CORPORATE PARTNERS PAGER */
   .corporate_partners-box {
-	width: 100%;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-	padding-left: 10%;
-	padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .corporate_partners-img {
 	width: 100%;
@@ -295,7 +298,6 @@
 	width: 100%;
   }
 }
-
 @media only screen and (min-device-width: 425px) and (max-width: 600px) {
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
     width: 150px;
@@ -347,12 +349,13 @@
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
   }
+  /* CORPORATE PARTNERS PAGER */
   .corporate_partners-box {
-	width: 100%;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-	padding-left: 10%;
-	padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .corporate_partners-img {
 	width: 100%;
@@ -566,23 +569,25 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  /* CORPORATE PARTNERS PAGER */
   .corporate_partners-box {
-	width: 100%;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-	padding-left: 10%;
-	padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 	display: inline-flex;
   }
   .corporate_partners-img {
 	width: 40%;
-	height: 0%;
+	height: 0%
   }
   .corporate_partners-text {
-	width: 60%;
+	width: 100%;
+	margin-top: 10px;
   }
 }
-
 @media only screen and (min-device-width: 769px) and (max-width: 1024px) {
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
     width: 200px;
@@ -788,20 +793,22 @@
     margin-left: auto;
     margin-right: auto;
   }
+  /* CORPORATE PARTNERS PAGER */
   .corporate_partners-box {
-	width: 100%;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-	padding-left: 10%;
-	padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 	display: inline-flex;
   }
   .corporate_partners-img {
 	width: 40%;
-	height: 0%;
+	height: 0%
   }
   .corporate_partners-text {
-	width: 60%;
+	width: 100%;
+	margin-top: 10px;
   }
 }
 @media only screen and (min-device-width: 1025px) {
@@ -1009,20 +1016,22 @@
     margin-left: auto;
     margin-right: auto;
   }
+  /* CORPORATE PARTNERS PAGER */
   .corporate_partners-box {
-	width: 100%;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-	padding-left: 10%;
-	padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 	display: inline-flex;
   }
   .corporate_partners-img {
 	width: 40%;
-	height: 0%;
+	height: 0%
   }
   .corporate_partners-text {
-	width: 60%;
+	width: 100%;
+	margin-top: 10px;
   }
 }
 
