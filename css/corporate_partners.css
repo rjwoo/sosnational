@@ -97,10 +97,12 @@
     padding-right: 10%;
   }
   .corporate_partners-img {
-	width: 100%;
+  	width: 100%;
   }
   .corporate_partners-text {
-	width: 100%;
+  	width: 100%;
+    /*display: flex;
+    align-items: center;*/
   }
 }
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
@@ -208,7 +210,9 @@
 	width: 100%;
   }
   .corporate_partners-text {
-	width: 100%;
+  	width: 100%;
+    /*display: flex;
+    align-items: center;*/
   }
 }
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
@@ -292,10 +296,12 @@
     padding-right: 10%;
   }
   .corporate_partners-img {
-	width: 100%;
+  	width: 100%;
   }
   .corporate_partners-text {
-	width: 100%;
+  	width: 100%;
+    /*display: flex;
+    align-items: center;*/
   }
 }
 @media only screen and (min-device-width: 425px) and (max-width: 600px) {
@@ -358,10 +364,12 @@
     padding-right: 10%;
   }
   .corporate_partners-img {
-	width: 100%;
+  	width: 100%;
   }
   .corporate_partners-text {
-	width: 100%;
+  	width: 100%;
+    /*display: flex;
+    align-items: center;*/
   }
 }
 @media only screen and (min-device-width: 600px) and (max-width: 768px) {
@@ -584,8 +592,10 @@
 	height: 0%
   }
   .corporate_partners-text {
-	width: 100%;
-	margin-top: 10px;
+  	width: 100%;
+  	margin-top: 10px;
+    /*display: flex;
+    align-items: center;*/
   }
 }
 @media only screen and (min-device-width: 769px) and (max-width: 1024px) {
@@ -807,8 +817,10 @@
 	height: 0%
   }
   .corporate_partners-text {
-	width: 100%;
-	margin-top: 10px;
+  	width: 100%;
+  	margin-top: 10px;
+    /*display: flex;
+    align-items: center;*/
   }
 }
 @media only screen and (min-device-width: 1025px) {
@@ -1030,8 +1042,10 @@
 	height: 0%
   }
   .corporate_partners-text {
-	width: 100%;
-	margin-top: 10px;
+  	width: 100%;
+  	margin-top: 10px;
+    /*display: flex;
+    align-items: center;*/
   }
 }
 
