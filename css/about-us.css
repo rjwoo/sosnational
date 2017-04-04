@@ -93,7 +93,7 @@
   ul.tabs li.current{
     background: #ededed;
     color: #222;
-    font-size: 14px;
+    font-size: 12px;
   }
   .tab-content{
     display: none;
@@ -196,6 +196,31 @@
   }
   body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
     height: 25px;
+  }
+
+  /* INTL PARTNERS */
+  .intl_partners-box {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .logo-container {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .anides-logo {
+    width: 200px;
+  }
+  .rji-logo {
+    width: 200px;
+  }
+  .awaitingangels-logo {
+    width: 200px;
+  }
+  .sol-logo {
+    width: 200px;
+  }
+  .intl_partners-text {
+    width: 100%;
   }
 }
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
@@ -310,13 +335,13 @@
     display: inline-block;
     padding: 5px 5px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 11px;
   }
   ul.tabs li.current{
     background: #ededed;
     color: #222;
-    font-size: 14px;
-    padding: 10px 20px;
+    font-size: 13px;
+    padding: 10px 15px;
   }
   .tab-content{
     display: none;
@@ -402,6 +427,30 @@
   }
   .contact-info {
     font-size: 14px;
+  }
+  /* INTL PARTNERS */
+  .intl_partners-box {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .logo-container {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .anides-logo {
+    width: 200px;
+  }
+  .rji-logo {
+    width: 200px;
+  }
+  .awaitingangels-logo {
+    width: 200px;
+  }
+  .sol-logo {
+    width: 200px;
+  }
+  .intl_partners-text {
+    width: 100%;
   }
 }
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
@@ -589,6 +638,31 @@
   .contact-info {
     font-size: 14px;
   }
+
+  /* INTL PARTNERS */
+  .intl_partners-box {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .logo-container {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .anides-logo {
+    width: 200px;
+  }
+  .rji-logo {
+    width: 200px;
+  }
+  .awaitingangels-logo {
+    width: 200px;
+  }
+  .sol-logo {
+    width: 200px;
+  }
+  .intl_partners-text {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-device-width: 425px) and (max-width: 596px) {
@@ -749,6 +823,31 @@
   .contact-info {
     font-size: 14px;
   }
+
+  /* INTL PARTNERS */
+  .intl_partners-box {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .logo-container {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .anides-logo {
+    width: 200px;
+  }
+  .rji-logo {
+    width: 200px;
+  }
+  .awaitingangels-logo {
+    width: 200px;
+  }
+  .sol-logo {
+    width: 200px;
+  }
+  .intl_partners-text {
+    width: 100%;
+  }
 }
 @media only screen and (min-device-width: 596px) and (max-width: 768px) {
   .container {
@@ -787,9 +886,9 @@
     height: 300px;
   }
   .bannerbuttons {
-      position: relative;
-      top: 30%;
-      right: center;
+    position: relative;
+    top: 30%;
+    right: center;
   }
   .banner-img {
     width: 100%;
@@ -828,7 +927,6 @@
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0 auto;
-
   }
   .lead {
     display: flex;
@@ -1087,6 +1185,30 @@
   }
   .contact-info {
     font-size: 14px;
+  }
+
+  /* INTL PARTNERS */
+  .intl_partners-box {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  .logo-container {
+    text-align: center;
+    padding: 30px 30px 30px 0;
+  }
+  .anides-logo {
+    width: 250px;
+  }
+  .awaitingangels-logo {
+    width: 250px;
+  }
+  .sol-logo {
+    width: 250px;
+  }
+  .intl_partners-text {
+    width: 100%;
   }
 }
 
@@ -1427,6 +1549,33 @@
   }
   .contact-info {
     font-size: 14px;
+  }
+
+  /* INTL PARTNERS */
+  .intl_partners-box {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  .logo-container {
+    text-align: center;
+    padding: 40px 40px 40px 0;
+  }
+  .anides-logo {
+    width: 250px;
+  }
+  .rji-logo {
+    width: 250px;
+  }
+  .awaitingangels-logo {
+    width: 250px;
+  }
+  .sol-logo {
+    width: 250px;
+  }
+  .intl_partners-text {
+    width: 100%;
   }
 }
 @media only screen and (min-device-width: 1025px) {
@@ -1874,3 +2023,32 @@ h4.footerheader {
 .aboutbanner {
   width: 100%;
 }
+
+/* INTL PARTNERS */
+.intl_partners-box {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.logo-container {
+  text-align: center;
+  padding: 40px 40px 40px 0;
+}
+.anides-logo {
+  width: 250px;
+}
+.rji-logo {
+  width: 250px;
+}
+.awaitingangels-logo {
+  width: 250px;
+}
+.intl_partners-text {
+  width: 100%;
+}
+.intl_title {
+  font-size: 32px;
+  font-family: "Raleway"; sans-serif;
+}
+y

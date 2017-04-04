@@ -88,21 +88,32 @@
   body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
     height: 25px;
   }
-  /* CORPORATE PARTNERS PAGER */
-  .corporate_partners-box {
+  /* intl PARTNERS PAGER */
+  .intl_partners-box {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10%;
     padding-right: 10%;
   }
-  .corporate_partners-img {
+  .logo-container {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .intl_partners-text {
   	width: 100%;
   }
-  .corporate_partners-text {
-  	width: 100%;
-    /*display: flex;
-    align-items: center;*/
+  .rji-logo {
+    width: 200px;
+  }
+  .awaitingangels-logo {
+    width: 200px
+  }
+  .unidos-logo {
+    height: 100px;
+  }
+  .anides-logo {
+    width: 200px;
   }
 }
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
@@ -198,21 +209,32 @@
   body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
     height: 25px;
   }
-  /* CORPORATE PARTNERS PAGER */
-  .corporate_partners-box {
+  /* intl PARTNERS PAGER */
+  .intl_partners-box {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10%;
     padding-right: 10%;
   }
-  .corporate_partners-img {
-	width: 100%;
+  .intl_partners-text {
+    width: 100%;
   }
-  .corporate_partners-text {
-  	width: 100%;
-    /*display: flex;
-    align-items: center;*/
+  .logo-container {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .rji-logo {
+    width: 250px;
+  }
+  .awaitingangels-logo {
+    width: 250px
+  }
+  .unidos-logo {
+    height: 150px;
+  }
+  .anides-logo {
+    width: 250px;
   }
 }
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
@@ -287,21 +309,32 @@
 	p.footertext {
 		font-size: 12px;
 	}
-  /* CORPORATE PARTNERS PAGER */
-  .corporate_partners-box {
+  /* intl PARTNERS PAGER */
+  .intl_partners-box {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10%;
     padding-right: 10%;
   }
-  .corporate_partners-img {
+  .intl_partners-text {
   	width: 100%;
   }
-  .corporate_partners-text {
-  	width: 100%;
-    /*display: flex;
-    align-items: center;*/
+  .logo-container {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .rji-logo {
+    width: 250px;
+  }
+  .awaitingangels-logo {
+    width: 250px
+  }
+  .unidos-logo {
+    height: 150px;
+  }
+  .anides-logo {
+    width: 250px;
   }
 }
 @media only screen and (min-device-width: 425px) and (max-width: 600px) {
@@ -355,21 +388,32 @@
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
   }
-  /* CORPORATE PARTNERS PAGER */
-  .corporate_partners-box {
+  /* intl PARTNERS PAGER */
+  .intl_partners-box {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10%;
     padding-right: 10%;
   }
-  .corporate_partners-img {
+  .intl_partners-text {
   	width: 100%;
   }
-  .corporate_partners-text {
-  	width: 100%;
-    /*display: flex;
-    align-items: center;*/
+  .logo-container {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .rji-logo {
+    width: 250px;
+  }
+  .awaitingangels-logo {
+    width: 250px
+  }
+  .unidos-logo {
+    height: 150px;
+  }
+  .anides-logo {
+    width: 250px;
   }
 }
 @media only screen and (min-device-width: 600px) and (max-width: 768px) {
@@ -578,24 +622,36 @@
     margin-right: auto;
   }
 
-  /* CORPORATE PARTNERS PAGER */
-  .corporate_partners-box {
+  /* intl PARTNERS PAGER */
+  .intl_partners-box {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 10%;
-    padding-right: 10%;
-	display: inline-flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
   }
-  .corporate_partners-img {
-	width: 40%;
-	height: 0%
-  }
-  .corporate_partners-text {
+  .intl_partners-text {
   	width: 100%;
   	margin-top: 10px;
-    /*display: flex;
-    align-items: center;*/
+  }
+  .logo-container {
+    text-align: center;
+    padding: 20px 20px 20px 0;
+  }
+  .rji-logo {
+    width: 250px;
+  }
+  .awaitingangels-logo {
+    width: 250px
+  }
+  .unidos-logo {
+    padding: 0 75px;
+    height: 150px;
+  }
+  .anides-logo {
+    width: 250px;
   }
 }
 @media only screen and (min-device-width: 769px) and (max-width: 1024px) {
@@ -803,24 +859,37 @@
     margin-left: auto;
     margin-right: auto;
   }
-  /* CORPORATE PARTNERS PAGER */
-  .corporate_partners-box {
+  /* intl PARTNERS PAGER */
+  .intl_partners-box {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10%;
     padding-right: 10%;
-	display: inline-flex;
+  	/*display: inline-flex;*/
+    display: flex;
+    align-items: center;
   }
-  .corporate_partners-img {
-	width: 40%;
-	height: 0%
-  }
-  .corporate_partners-text {
+  .intl_partners-text {
   	width: 100%;
   	margin-top: 10px;
-    /*display: flex;
-    align-items: center;*/
+  }
+  .logo-container {
+    text-align: center;
+    padding: 40px;
+  }
+  .rji-logo {
+    width: 250px;
+  }
+  .awaitingangels-logo {
+    width: 250px
+  }
+  .unidos-logo {
+    padding: 0 75px;
+    height: 150px;
+  }
+  .anides-logo {
+    width: 250px;
   }
 }
 @media only screen and (min-device-width: 1025px) {
@@ -1028,24 +1097,41 @@
     margin-left: auto;
     margin-right: auto;
   }
-  /* CORPORATE PARTNERS PAGER */
-  .corporate_partners-box {
+  /* intl PARTNERS PAGER */
+  .intl_partners-box {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10%;
     padding-right: 10%;
-	display: inline-flex;
+  	/*display: inline-flex;*/
+    display: flex;
+    align-items: center;
   }
-  .corporate_partners-img {
-	width: 40%;
-	height: 0%
+  .intl_title {
+    font-size: 32px;
+    font-family: "Raleway"; sans-serif;
   }
-  .corporate_partners-text {
+  .intl_partners-text {
   	width: 100%;
   	margin-top: 10px;
-    /*display: flex;
-    align-items: center;*/
+  }
+  .logo-container {
+    text-align: center;
+    padding: 50px;
+  }
+  .rji-logo {
+    width: 250px;
+  }
+  .awaitingangels-logo {
+    width: 250px
+  }
+  .unidos-logo {
+    padding: 0 75px;
+    height: 150px;
+  }
+  .anides-logo {
+    width: 250px;
   }
 }
 
