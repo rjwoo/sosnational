@@ -100,20 +100,37 @@
     text-align: center;
     padding: 20px 0;
   }
-  .intl_partners-text {
-  	width: 100%;
+  .intl_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: #6FBFEC;
   }
-  .rji-logo {
-    width: 200px;
+  .rji-logo{
+    width: 100px;
   }
-  .awaitingangels-logo {
-    width: 200px
+  .awaitingangels-logo{
+    width: 100px;
   }
-  .unidos-logo {
-    height: 100px;
+  .seed-logo{
+    width: 100px;
   }
-  .anides-logo {
-    width: 200px;
+  .anides-logo{
+    width: 100px;
+  }
+  .seed_alliance-logo{
+    width: 100px;
+  }
+  .puravida-logo{
+    width: 100px;
+  }
+  .crc-logo{
+    width: 100px;
+  }
+  .mmb-logo{
+    width: 100px;
+  }
+  .NG-logo{
+    width: 100px;
   }
 }
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
@@ -224,17 +241,37 @@
     text-align: center;
     padding: 20px 0;
   }
-  .rji-logo {
-    width: 250px;
+  .intl_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: #6FBFEC;
   }
-  .awaitingangels-logo {
-    width: 250px
+  .rji-logo{
+    width: 100px;
   }
-  .unidos-logo {
-    height: 150px;
+  .awaitingangels-logo{
+    width: 100px;
   }
-  .anides-logo {
-    width: 250px;
+  .seed-logo{
+    width: 100px;
+  }
+  .anides-logo{
+    width: 100px;
+  }
+  .seed_alliance-logo{
+    width: 100px;
+  }
+  .puravida-logo{
+    width: 100px;
+  }
+  .crc-logo{
+    width: 100px;
+  }
+  .mmb-logo{
+    width: 100px;
+  }
+  .NG-logo{
+    width: 100px;
   }
 }
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
@@ -324,17 +361,37 @@
     text-align: center;
     padding: 20px 0;
   }
-  .rji-logo {
-    width: 250px;
+  .intl_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: #6FBFEC;
   }
-  .awaitingangels-logo {
-    width: 250px
+  .rji-logo{
+    width: 100px;
   }
-  .unidos-logo {
-    height: 150px;
+  .awaitingangels-logo{
+    width: 100px;
   }
-  .anides-logo {
-    width: 250px;
+  .seed-logo{
+    width: 100px;
+  }
+  .anides-logo{
+    width: 100px;
+  }
+  .seed_alliance-logo{
+    width: 100px;
+  }
+  .puravida-logo{
+    width: 100px;
+  }
+  .crc-logo{
+    width: 100px;
+  }
+  .mmb-logo{
+    width: 100px;
+  }
+  .NG-logo{
+    width: 100px;
   }
 }
 @media only screen and (min-device-width: 425px) and (max-width: 600px) {
@@ -403,17 +460,37 @@
     text-align: center;
     padding: 20px 0;
   }
-  .rji-logo {
-    width: 250px;
+  .intl_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: #6FBFEC;
   }
-  .awaitingangels-logo {
-    width: 250px
+  .rji-logo{
+    width: 150px;
   }
-  .unidos-logo {
-    height: 150px;
+  .awaitingangels-logo{
+    width: 150px;
   }
-  .anides-logo {
-    width: 250px;
+  .seed-logo{
+    width: 150px;
+  }
+  .anides-logo{
+    width: 150px;
+  }
+  .seed_alliance-logo{
+    width: 150px;
+  }
+  .puravida-logo{
+    width: 150px;
+  }
+  .crc-logo{
+    width: 150px;
+  }
+  .mmb-logo{
+    width: 150px;
+  }
+  .NG-logo{
+    width: 150px;
   }
 }
 @media only screen and (min-device-width: 600px) and (max-width: 768px) {
@@ -543,17 +620,14 @@
     align-items: center;
     justify-content: center;
   }
-
   .sponsor-title {
     text-align: center;
     padding-bottom: 30px;
   }
-
   .princeton-image {
     width: 300px;
     padding-right: 75px;
   }
-
   .scotiabank-image {
     height: 75px;
   }
@@ -640,18 +714,37 @@
     text-align: center;
     padding: 20px 20px 20px 0;
   }
-  .rji-logo {
-    width: 250px;
+  .intl_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: #6FBFEC;
   }
-  .awaitingangels-logo {
-    width: 250px
+  .rji-logo{
+    width: 150px;
   }
-  .unidos-logo {
-    padding: 0 75px;
-    height: 150px;
+  .awaitingangels-logo{
+    width: 150px;
   }
-  .anides-logo {
-    width: 250px;
+  .seed-logo{
+    width: 150px;
+  }
+  .anides-logo{
+    width: 150px;
+  }
+  .seed_alliance-logo{
+    width: 150px;
+  }
+  .puravida-logo{
+    width: 150px;
+  }
+  .crc-logo{
+    width: 150px;
+  }
+  .mmb-logo{
+    width: 150px;
+  }
+  .NG-logo{
+    width: 150px;
   }
 }
 @media only screen and (min-device-width: 769px) and (max-width: 1024px) {
@@ -876,20 +969,39 @@
   }
   .logo-container {
     text-align: center;
-    padding: 40px;
+    padding: 40px 80px 40px 40px;
   }
-  .rji-logo {
-    width: 250px;
+  .intl_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: #6FBFEC;
   }
-  .awaitingangels-logo {
-    width: 250px
+  .rji-logo{
+    width: 150px;
   }
-  .unidos-logo {
-    padding: 0 75px;
-    height: 150px;
+  .awaitingangels-logo{
+    width: 150px;
   }
-  .anides-logo {
-    width: 250px;
+  .seed-logo{
+    width: 150px;
+  }
+  .anides-logo{
+    width: 150px;
+  }
+  .seed_alliance-logo{
+    width: 150px;
+  }
+  .puravida-logo{
+    width: 150px;
+  }
+  .crc-logo{
+    width: 150px;
+  }
+  .mmb-logo{
+    width: 150px;
+  }
+  .NG-logo{
+    width: 150px;
   }
 }
 @media only screen and (min-device-width: 1025px) {
@@ -1108,30 +1220,45 @@
     display: flex;
     align-items: center;
   }
-  .intl_title {
-    font-size: 32px;
-    font-family: "Raleway"; sans-serif;
-  }
   .intl_partners-text {
   	width: 100%;
   	margin-top: 10px;
   }
   .logo-container {
     text-align: center;
-    padding: 50px;
+    padding: 50px 80px 50px 50px;
   }
-  .rji-logo {
-    width: 250px;
+  .intl_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    color: #6FBFEC;
   }
-  .awaitingangels-logo {
-    width: 250px
+  .rji-logo{
+    width: 150px;
   }
-  .unidos-logo {
-    padding: 0 75px;
-    height: 150px;
+  .awaitingangels-logo{
+    width: 150px;
   }
-  .anides-logo {
-    width: 250px;
+  .seed-logo{
+    width: 150px;
+  }
+  .anides-logo{
+    width: 150px;
+  }
+  .seed_alliance-logo{
+    width: 150px;
+  }
+  .puravida-logo{
+    width: 150px;
+  }
+  .crc-logo{
+    width: 150px;
+  }
+  .mmb-logo{
+    width: 150px;
+  }
+  .NG-logo{
+    width: 150px;
   }
 }
 
