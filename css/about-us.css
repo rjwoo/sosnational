@@ -197,9 +197,8 @@
   body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
     height: 25px;
   }
-
-  /* INTL PARTNERS */
-  .intl_partners-box {
+  /* corporate PARTNERS PAGER */
+  .corporate_partners-box {
     width: 100%;
     padding: 10px 0;
   }
@@ -207,20 +206,22 @@
     text-align: center;
     padding: 20px 0;
   }
-  .anides-logo {
+  .corporate_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: #0F425C;
+  }
+  .prophix-logo{
     width: 200px;
   }
-  .rji-logo {
+  .blakes-logo{
     width: 200px;
   }
-  .awaitingangels-logo {
-    width: 200px;
+  .ember-logo{
+    width: 100px;
   }
-  .sol-logo {
+  .lush-logo{
     width: 200px;
-  }
-  .intl_partners-text {
-    width: 100%;
   }
 }
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
@@ -428,8 +429,9 @@
   .contact-info {
     font-size: 14px;
   }
-  /* INTL PARTNERS */
-  .intl_partners-box {
+
+  /* corporate PARTNERS PAGER */
+  .corporate_partners-box {
     width: 100%;
     padding: 10px 0;
   }
@@ -437,20 +439,22 @@
     text-align: center;
     padding: 20px 0;
   }
-  .anides-logo {
+  .corporate_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: #0F425C;
+  }
+  .prophix-logo{
     width: 200px;
   }
-  .rji-logo {
+  .blakes-logo{
     width: 200px;
   }
-  .awaitingangels-logo {
-    width: 200px;
+  .ember-logo{
+    width: 100px;
   }
-  .sol-logo {
+  .lush-logo{
     width: 200px;
-  }
-  .intl_partners-text {
-    width: 100%;
   }
 }
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
@@ -638,9 +642,8 @@
   .contact-info {
     font-size: 14px;
   }
-
-  /* INTL PARTNERS */
-  .intl_partners-box {
+  /* corporate PARTNERS PAGER */
+  .corporate_partners-box {
     width: 100%;
     padding: 10px 0;
   }
@@ -648,20 +651,22 @@
     text-align: center;
     padding: 20px 0;
   }
-  .anides-logo {
+  .corporate_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: #0F425C;
+  }
+  .prophix-logo{
     width: 200px;
   }
-  .rji-logo {
+  .blakes-logo{
     width: 200px;
   }
-  .awaitingangels-logo {
-    width: 200px;
+  .ember-logo{
+    width: 100px;
   }
-  .sol-logo {
+  .lush-logo{
     width: 200px;
-  }
-  .intl_partners-text {
-    width: 100%;
   }
 }
 
@@ -824,8 +829,8 @@
     font-size: 14px;
   }
 
-  /* INTL PARTNERS */
-  .intl_partners-box {
+  /* corporate PARTNERS PAGER */
+  .corporate_partners-box {
     width: 100%;
     padding: 10px 0;
   }
@@ -833,20 +838,22 @@
     text-align: center;
     padding: 20px 0;
   }
-  .anides-logo {
+  .corporate_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: #0F425C;
+  }
+  .prophix-logo{
     width: 200px;
   }
-  .rji-logo {
+  .blakes-logo{
     width: 200px;
   }
-  .awaitingangels-logo {
-    width: 200px;
+  .ember-logo{
+    width: 100px;
   }
-  .sol-logo {
+  .lush-logo{
     width: 200px;
-  }
-  .intl_partners-text {
-    width: 100%;
   }
 }
 @media only screen and (min-device-width: 596px) and (max-width: 768px) {
@@ -1187,28 +1194,39 @@
     font-size: 14px;
   }
 
-  /* INTL PARTNERS */
-  .intl_partners-box {
+  /* corporate PARTNERS */
+  .corporate_partners-box {
     width: 100%;
     padding: 10px 0;
     display: flex;
     align-items: center;
   }
+  .corporate_partners-text {
+  	width: 100%;
+  	margin-top: 10px;
+  }
   .logo-container {
     text-align: center;
-    padding: 30px 30px 30px 0;
+    padding: 20px 30px 20px 0;
   }
-  .anides-logo {
+  .corporate_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: #0F425C;
+  }
+  .prophix-logo{
     width: 250px;
   }
-  .awaitingangels-logo {
+  .blakes-logo{
     width: 250px;
   }
-  .sol-logo {
-    width: 250px;
+  .ember-logo{
+    width: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
-  .intl_partners-text {
-    width: 100%;
+  .lush-logo{
+    width: 250px;
   }
 }
 
@@ -1551,31 +1569,39 @@
     font-size: 14px;
   }
 
-  /* INTL PARTNERS */
-  .intl_partners-box {
+  /* corporate PARTNERS */
+  .corporate_partners-box {
     width: 100%;
     padding: 10px 0;
     display: flex;
     align-items: center;
   }
+  .corporate_partners-text {
+  	width: 100%;
+  	margin-top: 10px;
+  }
   .logo-container {
     text-align: center;
-    padding: 40px 40px 40px 0;
+    padding: 20px 30px 20px 0;
   }
-  .anides-logo {
+  .corporate_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: #0F425C;
+  }
+  .prophix-logo{
     width: 250px;
   }
-  .rji-logo {
+  .blakes-logo{
     width: 250px;
   }
-  .awaitingangels-logo {
-    width: 250px;
+  .ember-logo{
+    width: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
-  .sol-logo {
+  .lush-logo{
     width: 250px;
-  }
-  .intl_partners-text {
-    width: 100%;
   }
 }
 @media only screen and (min-device-width: 1025px) {
@@ -2024,31 +2050,38 @@ h4.footerheader {
   width: 100%;
 }
 
-/* INTL PARTNERS */
-.intl_partners-box {
-  width: 100%;
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-.logo-container {
-  text-align: center;
-  padding: 40px 40px 40px 0;
-}
-.anides-logo {
-  width: 250px;
-}
-.rji-logo {
-  width: 250px;
-}
-.awaitingangels-logo {
-  width: 250px;
-}
-.intl_partners-text {
-  width: 100%;
-}
-.intl_title {
-  font-size: 32px;
-  font-family: "Raleway"; sans-serif;
-}
-y
+
+  /* corporate PARTNERS */
+  .corporate_partners-box {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  .corporate_partners-text {
+  	width: 100%;
+  	margin-top: 10px;
+  }
+  .logo-container {
+    text-align: center;
+    padding: 20px 30px 20px 0;
+  }
+  .corporate_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: #0F425C;
+  }
+  .prophix-logo{
+    width: 250px;
+  }
+  .blakes-logo{
+    width: 250px;
+  }
+  .ember-logo{
+    width: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .lush-logo{
+    width: 250px;
+  }
