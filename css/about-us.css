@@ -107,11 +107,6 @@
     margin: 20px 0;
     font-family: 'Raleway', sans-serif;
   }
-  iframe {
-    width: 100%;
-    height: 315px;
-    padding: 20px 5px;
-  }
   .reports {
     padding: 0px 20px;
     text-align: center;
@@ -222,6 +217,37 @@
   }
   .lush-logo{
     width: 200px;
+  }
+  .contentcontainer {
+    padding: 0px 10px;
+  }
+  .project-section {
+    text-align: center;
+  }
+  .project-container {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .project-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+  }
+  .project-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+  }
+  .project-icon {
+    height: 50px;
+  }
+  .youtube-video {
+    width: 100%;
+    height: 315px;
+    padding-bottom: 20px;
+  }
+  .google {
+    width: 100%;
+    height: 315px;
   }
 }
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
@@ -368,11 +394,6 @@
     padding-bottom: 0px;
     padding-top: 5px;
   }
-  iframe {
-    width: 100%;
-    height: 315px;
-    padding: 20px 10px;
-  }
   .sidebar {
     border: 1px solid black;
     border-radius: 10px;
@@ -455,6 +476,34 @@
   }
   .lush-logo{
     width: 200px;
+  }
+  .project-section {
+    text-align: center;
+  }
+  .project-container {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .project-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+  }
+  .project-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+  }
+  .project-icon {
+    height: 50px;
+  }
+  .youtube-video {
+    width: 100%;
+    height: 315px;
+    padding-bottom: 20px;
+  }
+  .google {
+    width: 100%;
+    height: 315px;
   }
 }
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
@@ -581,11 +630,6 @@
     padding-bottom: 0px;
     padding-top: 5px;
   }
-  iframe {
-    width: 100%;
-    height: 345px;
-    padding: 20px 10px;
-  }
   .sidebar {
     border: 1px solid black;
     border-radius: 10px;
@@ -667,6 +711,36 @@
   }
   .lush-logo{
     width: 200px;
+  }
+  .project-section {
+    text-align: center;
+  }
+  .project-container {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .project-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+  }
+  .project-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+  }
+  .project-icon {
+    height: 50px;
+  }
+  .youtube-video {
+    width: 100%;
+    height: 315px;
+    padding-bottom: 20px;
+  }
+  .google {
+    width: 100%;
+    height: 315px;
+    padding: 0;
+    border: 0;
   }
 }
 
@@ -772,11 +846,6 @@
     padding-bottom: 0px;
     padding-top: 5px;
   }
-  iframe {
-    width: 100%;
-    height: 400px;
-    padding: 20px 10px;
-  }
   .sidebar {
     border: 1px solid black;
     border-radius: 10px;
@@ -854,6 +923,36 @@
   }
   .lush-logo{
     width: 200px;
+  }
+  .project-section {
+    text-align: center;
+  }
+  .project-container {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .project-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+  }
+  .project-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+  }
+  .project-icon {
+    height: 50px;
+  }
+  .youtube-video {
+    width: 100%;
+    height: 315px;
+    padding-bottom: 20px;
+  }
+  .google {
+    width: 100%;
+    height: 315px;
+    padding: 0;
+    border: 0;
   }
 }
 @media only screen and (min-device-width: 596px) and (max-width: 768px) {
@@ -1114,19 +1213,6 @@
     padding-bottom: 0px;
     padding-top: 5px;
   }
-  iframe {
-    width: 100%;
-    height: 410px;
-    padding: 20px 10px;
-  }
-  .top-text {
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-  }
-  .left-text {
-    font-size: 18px;
-    padding-top: 50px;
-  }
   .sidebar {
     border: 1px solid black;
     border-radius: 10px;
@@ -1145,7 +1231,7 @@
     text-align: center;
   }
   .facts {
-    width: 220px;
+    width: 300px;
     border: 1px solid black;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -1231,6 +1317,40 @@
   }
   .lush-logo{
     width: 250px;
+  }
+  .top-text {
+    padding: 20px 0;
+  }
+  .project-section {
+    text-align: center;
+  }
+  .project-container {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 15px;
+    width: 350px;
+  }
+  .project-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+  }
+  .project-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+  }
+  .project-icon {
+    height: 50px;
+  }
+  .youtube-video {
+    width: 375px;
+    height: 195px;
+    padding-bottom: 20px;
+  }
+  .google {
+    width: 100%;
+    height: 315px;
+    padding: 0;
+    border: 0;
   }
 }
 
@@ -1484,6 +1604,39 @@
   .contentcontainer {
     padding: 0px 20px;
   }
+  .project-section {
+    text-align: center;
+  }
+  .project-container {
+    display: inline-block;
+    width: 350px;
+    padding: 25px 0;
+  }
+  .project-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+  }
+  .project-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+  }
+  .top-text {
+    padding: 20px 0;
+  }
+  .project-icon {
+    height: 50px;
+  }
+  .youtube-video {
+    width: 555px;
+    height: 305px;
+    padding-bottom: 20px;
+  }
+  .google {
+    width: 100%;
+    height: 315px;
+    padding: 0;
+    border: 0;
+  }
   .reports {
     padding: 0px 20px;
     text-align: center;
@@ -1492,15 +1645,6 @@
     list-style: none;
     padding-bottom: 0px;
     padding-top: 5px;
-  }
-  iframe {
-    width: 100%;
-    height: 430px;
-    padding: 20px 20px;
-  }
-  .left-text {
-    font-size: 18px;
-    padding-top: 60px;
   }
   .sidebar {
     border: 1px solid black;
@@ -1520,7 +1664,7 @@
     text-align: center;
   }
   .facts {
-    width: 220px;
+    width: 250px;
     border: 1px solid black;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -1643,9 +1787,9 @@
     height: 300px;
   }
   .bannerbuttons {
-      position: relative;
-      top: 35%;
-      right: center;
+    position: relative;
+    top: 35%;
+    right: center;
   }
   .banner-img {
     width: 100%;
@@ -1864,15 +2008,6 @@
     padding-bottom: 0px;
     padding-top: 5px;
   }
-  iframe {
-    width: 100%;
-    height: 500px;
-    padding: 20px 20px;
-  }
-  .left-text {
-    font-size: 18px;
-    padding-top: 60px;
-  }
   .sidebar {
     border: 1px solid black;
     border-radius: 10px;
@@ -1891,7 +2026,7 @@
     text-align: center;
   }
   .facts {
-    width: 220px;
+    width: 250px;
     border: 1px solid black;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -1942,6 +2077,39 @@
   }
   .contact-info {
     font-size: 14px;
+  }
+  .project-section {
+    text-align: center;
+  }
+  .project-container {
+    display: inline-block;
+    width: 500px;
+    padding: 25px 0;
+  }
+  .project-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+  }
+  .project-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+  }
+  .top-text {
+    padding: 20px 0;
+  }
+  .project-icon {
+    height: 50px;
+  }
+  .youtube-video {
+    width: 750px;
+    height: 505px;
+    padding-bottom: 20px;
+  }
+  .google {
+    width: 100%;
+    height: 315px;
+    padding: 0;
+    border: 0;
   }
 }
 
@@ -2054,38 +2222,37 @@ h4.footerheader {
   width: 100%;
 }
 
-
-  /* corporate PARTNERS */
-  .corporate_partners-box {
-    width: 100%;
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-  }
-  .corporate_partners-text {
-  	width: 100%;
-  	margin-top: 10px;
-  }
-  .logo-container {
-    text-align: center;
-    padding: 20px 30px 20px 0;
-  }
-  .corporate_title {
-    font-family: "Raleway", sans-serif;
-    font-size: 26px;
-    color: #0F425C;
-  }
-  .prophix-logo{
-    width: 250px;
-  }
-  .blakes-logo{
-    width: 250px;
-  }
-  .ember-logo{
-    width: 150px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  .lush-logo{
-    width: 250px;
-  }
+/* corporate PARTNERS */
+.corporate_partners-box {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.corporate_partners-text {
+	width: 100%;
+	margin-top: 10px;
+}
+.logo-container {
+  text-align: center;
+  padding: 20px 30px 20px 0;
+}
+.corporate_title {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  color: #0F425C;
+}
+.prophix-logo{
+  width: 250px;
+}
+.blakes-logo{
+  width: 250px;
+}
+.ember-logo{
+  width: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.lush-logo{
+  width: 250px;
+}
