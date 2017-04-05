@@ -1119,6 +1119,10 @@
     height: 410px;
     padding: 20px 10px;
   }
+  .top-text {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
   .left-text {
     font-size: 18px;
     padding-top: 50px;
