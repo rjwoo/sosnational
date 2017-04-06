@@ -197,6 +197,9 @@
     width: 100%;
     padding: 10px 0;
   }
+  .corporate_partners-text {
+    width: 100%;
+  }
   .logo-container {
     text-align: center;
     padding: 20px 0;
@@ -222,7 +225,7 @@
     padding: 0px 10px;
   }
   .project-section {
-    text-align: center;
+    /*text-align: center;*/
   }
   .project-container {
     display: inline-block;
@@ -2111,6 +2114,39 @@
     padding: 0;
     border: 0;
   }
+  .corporate_partners-box {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  .corporate_partners-text {
+  	width: 100%;
+  	margin-top: 10px;
+  }
+  .logo-container {
+    text-align: center;
+    padding: 20px 30px 20px 0;
+  }
+  .corporate_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: #0F425C;
+  }
+  .prophix-logo{
+    width: 250px;
+  }
+  .blakes-logo{
+    width: 250px;
+  }
+  .ember-logo{
+    width: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .lush-logo{
+    width: 250px;
+  }
 }
 
 /* OG DIMENSIONS */
@@ -2220,39 +2256,4 @@ h4.footerheader {
 }
 .aboutbanner {
   width: 100%;
-}
-
-/* corporate PARTNERS */
-.corporate_partners-box {
-  width: 100%;
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-.corporate_partners-text {
-	width: 100%;
-	margin-top: 10px;
-}
-.logo-container {
-  text-align: center;
-  padding: 20px 30px 20px 0;
-}
-.corporate_title {
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  color: #0F425C;
-}
-.prophix-logo{
-  width: 250px;
-}
-.blakes-logo{
-  width: 250px;
-}
-.ember-logo{
-  width: 150px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.lush-logo{
-  width: 250px;
 }
