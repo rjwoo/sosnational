@@ -63,14 +63,7 @@
 		font-size: 25px;
 		font-weight: bold;
 	}
-	img.princeton-image {
-		width: 150px;
-		height: 10%;
-	}
-    img.scotiabank-image {
-		width: 130px;
-		height: 10%;
-	}
+
   /* TABS */
   .tab-container{
     padding: 30px 20px;
@@ -211,6 +204,12 @@
     font-size: 26px;
     color: #0F425C;
   }
+  .scotia-logo{
+    width: 200px;
+  }
+  .princeton-logo{
+    width: 200px;
+  }
   .prophix-logo{
     width: 200px;
   }
@@ -291,14 +290,6 @@
 	h1.sponsor-title {
 		font-size: 25px;
 		font-weight: bold;
-	}
-	img.princeton-image {
-		width: 150px;
-		height: 15%;
-	}
-  img.scotiabank-image {
-		width: 150px;
-		height: 15%;
 	}
 	h4.footerheader {
 		font-size: 9px;
@@ -444,6 +435,12 @@
     font-size: 26px;
     color: #0F425C;
   }
+  .scotia-logo{
+    width: 200px;
+  }
+  .princeton-logo{
+    width: 200px;
+  }
   .prophix-logo{
     width: 200px;
   }
@@ -519,14 +516,7 @@
 		font-size: 25px;
 		font-weight: bold;
 	}
-	img.princeton-image {
-		width: 150px;
-		height: 15%;
-	}
-  img.scotiabank-image {
-		width: 150px;
-		height: 15%;
-	}
+
 	h4.footerheader {
 		font-size: 17px;
 	}
@@ -655,6 +645,12 @@
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     color: #0F425C;
+  }
+  .scotia-logo{
+    width: 200px;
+  }
+  .princeton-logo{
+    width: 200px;
   }
   .prophix-logo{
     width: 200px;
@@ -843,6 +839,12 @@
     font-size: 26px;
     color: #0F425C;
   }
+  .scotia-logo{
+    width: 200px;
+  }
+  .princeton-logo{
+    width: 200px;
+  }
   .prophix-logo{
     width: 200px;
   }
@@ -991,14 +993,6 @@
     padding-bottom: 30px;
   }
 
-  .princeton-image {
-    width: 300px;
-    padding-right: 75px;
-  }
-
-  .scotiabank-image {
-    height: 75px;
-  }
 
   /* FOOTER */
   .footer {
@@ -1046,15 +1040,6 @@
   .twitter {
     height: 35px;
     margin-right: 5px;
-    padding-bottom: 5px;
-  }
-  .scotiabank {
-    height: 35px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-  }
-  .princeton {
-    height: 70px;
     padding-bottom: 5px;
   }
   .divideline {
@@ -1214,6 +1199,12 @@
     font-size: 26px;
     color: #0F425C;
   }
+  .scotia-logo{
+    width: 250px;
+  }
+  .princeton-logo{
+    width: 250px;
+  }
   .prophix-logo{
     width: 250px;
   }
@@ -1366,15 +1357,6 @@
     padding-bottom: 30px;
   }
 
-  .princeton-image {
-    width: 300px;
-    padding-right: 75px;
-  }
-
-  .scotiabank-image {
-    height: 75px;
-  }
-
   /* FOOTER */
   .footer {
     width: 100%;
@@ -1421,15 +1403,6 @@
   .twitter {
     height: 35px;
     margin-right: 5px;
-    padding-bottom: 5px;
-  }
-  .scotiabank {
-    height: 35px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-  }
-  .princeton {
-    height: 70px;
     padding-bottom: 5px;
   }
   .divideline {
@@ -1589,6 +1562,12 @@
     font-size: 26px;
     color: #0F425C;
   }
+  .scotia-logo{
+    width: 250px;
+  }
+  .princeton-logo{
+    width: 250px;
+  }
   .prophix-logo{
     width: 250px;
   }
@@ -1737,15 +1716,6 @@
     padding-bottom: 30px;
   }
 
-  .princeton-image {
-    width: 300px;
-    padding-right: 75px;
-  }
-
-  .scotiabank-image {
-    height: 75px;
-  }
-
   /* FOOTER */
   .footer {
     width: 100%;
@@ -1792,15 +1762,6 @@
   .twitter {
     height: 35px;
     margin-right: 5px;
-    padding-bottom: 5px;
-  }
-  .scotiabank {
-    height: 35px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-  }
-  .princeton {
-    height: 70px;
     padding-bottom: 5px;
   }
   .divideline {
@@ -1939,6 +1900,47 @@
   .contact-info {
     font-size: 14px;
   }
+  
+  /* corporate PARTNERS */
+  .corporate_partners-box {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  .corporate_partners-text {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .logo-container {
+    text-align: center;
+    padding: 20px 30px 20px 0;
+  }
+  .corporate_title {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    color: #0F425C;
+  }
+  .scotia-logo{
+    width: 250px;
+  }
+  .princeton-logo{
+    width: 250px;
+  }
+  .prophix-logo{
+    width: 250px;
+  }
+  .blakes-logo{
+    width: 250px;
+  }
+  .ember-logo{
+    width: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .lush-logo{
+    width: 250px;
+  }
 }
 
 /* OG DIMENSIONS */
@@ -2049,39 +2051,3 @@ h4.footerheader {
 .aboutbanner {
   width: 100%;
 }
-
-
-  /* corporate PARTNERS */
-  .corporate_partners-box {
-    width: 100%;
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-  }
-  .corporate_partners-text {
-  	width: 100%;
-  	margin-top: 10px;
-  }
-  .logo-container {
-    text-align: center;
-    padding: 20px 30px 20px 0;
-  }
-  .corporate_title {
-    font-family: "Raleway", sans-serif;
-    font-size: 26px;
-    color: #0F425C;
-  }
-  .prophix-logo{
-    width: 250px;
-  }
-  .blakes-logo{
-    width: 250px;
-  }
-  .ember-logo{
-    width: 150px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  .lush-logo{
-    width: 250px;
-  }
