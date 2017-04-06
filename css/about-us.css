@@ -224,7 +224,7 @@
     padding: 0px 10px;
   }
   .project-section {
-    /*text-align: center;*/
+    text-align: center;
   }
   .project-container {
     display: inline-block;
@@ -1587,6 +1587,7 @@
     display: inline-block;
     width: 350px;
     padding: 25px 0;
+    text-align: center;
   }
   .project-title {
     font-family: 'Raleway', sans-serif;
@@ -2042,7 +2043,6 @@
   .contact-info {
     font-size: 14px;
   }
-<<<<<<< HEAD
   .project-section {
     text-align: center;
   }
@@ -2050,6 +2050,7 @@
     display: inline-block;
     width: 500px;
     padding: 25px 0;
+    text-align: center;
   }
   .project-title {
     font-family: 'Raleway', sans-serif;
