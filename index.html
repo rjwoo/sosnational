@@ -1,16 +1,10 @@
-<?php 
-/* Short and sweet */
-define('WP_USE_THEMES', false);
-require('./wp-blog-header.php');
-?>
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <link rel='stylesheet' href='./css/bootstrap.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='./css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/bootstrap.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
     <link href="https://fonts.googleapis.com/css?family=Raleway|Poppins" rel="stylesheet">
 
     <link rel="icon" href="img/SOSlogo.png">
@@ -21,8 +15,8 @@ require('./wp-blog-header.php');
   <body>
     <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
-        <a class="navbar-brand" href="www.studentsofferingsupport.ca">
-          <img alt="Brand" src="./img/SOSlogo.png" class="soslogo">
+        <a class="navbar-brand" href="#">
+          <img alt="Brand" src="img/SOSlogo.png" class="soslogo">
         </a>
 
         <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
@@ -33,8 +27,16 @@ require('./wp-blog-header.php');
 
         <div class="collapse navbar-collapse  navHeaderCollapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a id="about" href="#aboutSection">About Us</a></li>
-            <li><a id ="outreach" href="#outreachSection">Outreach Trips</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-target="#" href="http://www.studentsofferingsupport.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://studentsofferingsupport.ca/AboutUs">Our Story &#38; Impact</a></li>
+                <li><a href="http://studentsofferingsupport.ca/OurTeam">Our Team</a></li>
+                <li><a href="http://studentsofferingsupport.ca/ContactUs">Contact Us</a></li>
+                <li><a href="http://studentsofferingsupport.ca/InternationalPartners">International Partners</a></li>
+              </ul>
+            </li>
+            <li><a id="outreach" href="#outreachSection">Outreach Trips</a></li>
             <li><a id="students" href="#studentsSection">Your Campus</a></li>
           </ul>
         </div>
@@ -54,29 +56,10 @@ require('./wp-blog-header.php');
     	<div class="row">
         <div class="content-box col-sm-12">
     			<h1 class="title">Welcome to Students Offering Support</h1>
-    			<p class="general-padding">Students Offering Support (SOS) is an international network of student volunteers on various university campuses across North America. Our volunteers coordinate Exam-AID group review sessions that help their peers study for exams. A 3-hour review session costs a $20 donation, and all the money raised is used to fund the education-based development projects built on outreach trips each summer throughout Latin America.</p>
-          <p class="general-padding" style="text-align: center;"><a href="#">Learn more about our story, impact and team.</a></p>
+    			<p class="general-padding">We are a community of over 7000 volunteers and alumni, driven by the love of learning and global right to education. Since 2004, we’ve applied our self-sustaining social enterprise model to raise over $2.5 million dollars for global education projects while supporting over 100,000 students with their exams. </p>
+    			<p class="general-padding">We are a nationally registered charity (#81495 0416 RR 0001), driven by student-led chapters at more than 24 campuses. <a href="http://www.studentsofferingsupport.ca/AboutUs/">Learn more about our story and our impact.</a></p>
     			<h3 class="model col-md-12">Raising Marks.<br><span class="highlight">Raising Money.</span><br>Raising Roofs.</h3>
   		  </div>
-      </div>
-    </div>
-
-    <div id="outreachSection">
-      <div class="row">
-        <a name="outreach" class="scroll"></a>
-        <div class="outreach-banner">
-          <!-- <h1>BANNER IMAGE</h1> -->
-        </div>
-      </div>
-      <div class="row">
-        <div class="content-box col-sm-12">
-          <h1 class="title">Outreach Trips</h1>
-          <h3 class="model outreachcontent">Get Involved.<br><span class="highlight">Make An Impact.</span><br>Travel Abroad.</h3>
-          <p>To us, the development process is about more than simply transferring funds from North America to Latin America. We believe the personal investment keeps this process human, relatable and sustainable. We work with hundreds of students across Canada and America who are eager to learn, share, and explore the world. Outreach Trips channel that energy into constructive projects that enrich the experience and knowledge of our volunteers and host communities.</p>
-          <p>Most importantly, these trips contribute to the production of a generation of active and aware citizens that are able to think and relate to what is outside their immediate world. We believe equipping students with this experience will allow them to make positive actions for change, regardless of their career or occupation.</p>
-          <p class="general-padding">Join us in 2016 during February, May or August on one of our outreach trips to Central and South America. Crafted for students like you, our trips are under $2,000 and include room, board, transportation, flight, insurance and trip leads - the works! </p>
-  	    <button type="button" class="btn btn-primary lead">Learn More/Apply Now</button>
-        </div>
       </div>
     </div>
 
@@ -90,12 +73,47 @@ require('./wp-blog-header.php');
     </div>
     <div class="row">
       <div class="content-box col-sm-12">
-        <h1 class="title">SOS on Campus and Exam AID Sessions</h1>
-        <p>Exam-AID's are 3 hour group review sessions that occurs prior to a midterm or final exam. To ensure participants get the most from their session, each Exam-AID taught by a fellow student who has previously excelled in that particular course and has exceptional teaching abilities. The cost of an Exam-AID session is typically $20 (unless otherwise stated on the registration page). In an Exam-AID session, the student leader will take you over the material covered on the upcoming exam, providing examples throughout so you can see what you understand and ask questions in areas you are unclear! Afterwards, you’ll get a take-home package to study with (on this site) to help ensure you ace your upcoming exam!</p>
-        <p class="general-padding">To date, Students Offering Support has tutored over 100,000 students across 30 universities in Canada and raised $2,500,000 for sustainable development projects in countries around Latin America.</p>
-        <button type="button" class="btn btn-primary lead">Find Your Campus</button>
+        <h1 class="title">SOS on Campus and Exam Aid Sessions</h1>
+        <p class="general-padding">Exam Aids are three hour group review sessions that occur prior to a midterm or final test. Each session is taught by a student volunteer with exceptional communication skills, who has previously excelled in that particular course. They will take you over the material covered on the upcoming exam through a fun, and  interactive session, full of relevant examples and  opportunities for questions. Afterwards, you’ll get a take-home package to help you ace your upcoming exam!</p>
+        <a href="http://soscampus.com/" style="text-align: center;"><button type="button" class="btn btn-primary lead">Find Your Campus</button></a>
       </div>
     </div>
+
+    <div class="row">
+      <div class="content-box col-sm-12">
+        <div class="monthly-left">
+          <h1 class="monthly-title">Volunteer of the Month</h2>
+          <img src="img/vol_otm.jpg" class="monthly-pic">
+          <h2 class="monthly-description">Thea Chan - Chapter President</h2>
+        </div>
+
+        <div class="monthly-right">
+          <h1 class="monthly-title">Chapter of the Month</h2>
+          <img src="img/queens.png" class="monthly-pic">
+          <h2 class="monthly-description">Queen's SOS</h2>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="outreachSection">
+      <div class="row">
+        <a name="outreach" class="scroll"></a>
+        <div class="outreach-banner">
+          <!-- <h1>BANNER IMAGE</h1> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="content-box col-sm-12">
+          <h1 class="title">Outreach Trips</h1>
+          <h3 class="model outreachcontent">Get Involved.<br><span class="highlight">Make An Impact.</span><br>Travel Abroad.</h3>
+          <p class="general-padding">Proceeds from Exam Aid sessions go towards sustainable development projects. Volunteers also have the opportunity to bring their campus-funded project to life through hands on involvement. Whether it’s a classroom, library, computer lab or school kitchen, our volunteers help build it from the ground up during two week trips to our partner communities in Central and South America. These trips foster communities of active and aware citizens through an immersive experience of cultural exchange</p>
+          <p class="general-padding">Trips cost under $2,500 (including accommodations, flights, in country transportation, insurance, meals, and support from SOS and our partnering organizations). We’ve coordinated over 1500 students to travel to partner communities in Central and South America. Join us this May or August to become part of our network of global citizens!</p>
+  	    <a href="http://sosvolunteertrips.org/"><button type="button" class="btn btn-primary lead">Learn More/Apply Now</button></a>
+        </div>
+      </div>
+    </div>
+
 
     <div class="divideline"></div>
 
@@ -104,52 +122,48 @@ require('./wp-blog-header.php');
         <div class="sponsor-box col-sm-12">
           <h1 class="sponsor-title">Special Thanks To Our Sponsors</h1>
           <div class="sponsorimages">
-            <a href="http://www.studentsofferingsupport.ca/tpr-sos.html"><img src="./img/PrincetonReviewLogo.jpg" class="princeton-image"></a>
-            <a href="http://www.scotiabank.com/ca/en/"><img src="./img/ScotiaBankLogo.png" class="scotiabank-image"></a>
+            <a href="http://www.studentsofferingsupport.ca/tpr-sos.html"><img src="img/PrincetonReviewLogo.jpg" class="princeton-image"></a>
+            <a href="http://www.scotiabank.com/ca/en/"><img src="img/ScotiaBankLogo.png" class="scotiabank-image"></a>
           </div>
         </div>
       </div>
     </div>
-	
+
     <footer class="footer">
       <div class="container">
         <table>
           <tr>
             <th><h4 class="footerheader">Connect With Us</h4></th>
             <th><h4 class="footerheader">Contact Us</h4></th>
-			<th><h4 class="footerheader">???</h4></th>
           </tr>
           <tr>
             <td class="socialmedia">
-              <a href="https://www.facebook.com/StudentsOfferingSupport/"><img src="./img/facebook.png" class="facebook"></a>
-              <a href="https://www.instagram.com/studentsofferingsupport/"><img src="./img/instagram.png" class="instagram"></a>
-              <a href="https://twitter.com/sosheadoffice"><img src="./img/twitter.png" class="twitter"></a>
+              <a href="https://www.facebook.com/StudentsOfferingSupport/"><img src="img/facebook.png" class="facebook"></a>
+              <a href="https://www.instagram.com/studentsofferingsupport/"><img src="img/instagram.png" class="instagram"></a>
+              <a href="https://twitter.com/sosheadoffice"><img src="img/twitter.png" class="twitter"></a>
             </td>
             <td>
               <p class="footertext">289-210-1855</p>
               <p class="footertext">326 1/2 Bloor St W</p>
               <p class="footertext">Toronto, Ontario M5S 1W5</p>
+              <p class="footertext">Charity #: 81495 0416 RR 0001</p>
             </td>
-			<td>
-			  <?php
-				// Get the last 3 posts.
-				global $post;
-				$args = array( 'posts_per_page' => 3 );
-				$myposts = get_posts( $args );
-
-				foreach( $myposts as $post ) :	setup_postdata($post); ?>
-				<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a><br />
-				<?php endforeach; ?>
-			</td>
           </tr>
         </table>
       </div>
     </footer>
+    <script>
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ 	 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  	ga('create', 'UA-6097260-37', 'auto');
+        ga('send', 'pageview');
+    </script>
 
-    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="./js/app.js"></script>
-    <script src="./js/bootstrap.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.js"></script>
 
   </body>
 </html>
