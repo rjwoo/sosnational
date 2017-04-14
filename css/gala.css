@@ -92,16 +92,26 @@
     font-family: 'Poppins', sans-serif;
     text-align: left;
     padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .gala-info {
+    padding: 20px 40px;
+    text-align: center;
   }
   .gala-title {
-    font-size: 35px;
-    font-weight: bold;
-    padding-bottom: 20px;
-    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
   }
   .gala-text {
     font-style: italic;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .gala-details {
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
   }
 }
 
@@ -111,16 +121,25 @@
     font-family: 'Poppins', sans-serif;
     padding: 30px 50px;
     display: inline-block;
+    display: flex;
+    justify-content: center;
+  }
+  .gala-info {
+    padding: 20px 40px;
+    text-align: center;
   }
   .gala-title {
-    font-size: 40px;
-    font-weight: bold;
-    padding-bottom: 20px;
-    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
   }
   .gala-text {
     font-style: italic;
-    font-size: 18px;
-    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .gala-details {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
   }
 }
