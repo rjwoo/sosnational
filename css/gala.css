@@ -1,102 +1,266 @@
-/*@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
+  .gala-header {
+    padding: 20px 15px 0 15px;
+  }
+  .gala-description {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .gala-h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+  }
   .gala-box {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: left;
+    padding: 0 10px 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .gala-info {
+    padding: 0px 10px;
+    width: 100%;
   }
   .gala-title {
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    font-weight: bold;
-    padding-bottom: 20px;
+    margin-bottom: 0;
+    text-align: left;
   }
   .gala-text {
     font-style: italic;
-    font-size: 12px;
+    font-size: 10px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  .gala-details {
+    text-align: left;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .juntos-img {
+    width: 100%;
+  }
+  .conference-img {
+    width: 100%;
   }
 }
 
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
+  .gala-header {
+    padding: 20px 15px 0 15px;
+  }
+  .gala-description {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .gala-h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+  }
   .gala-box {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: left;
+    padding: 0 10px 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .gala-info {
+    padding: 0px 10px;
+    width: 100%;
   }
   .gala-title {
-    font-size: 22px;
-    font-weight: bold;
-    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+    text-align: left;
   }
   .gala-text {
     font-style: italic;
+    font-size: 11px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  .gala-details {
+    text-align: left;
     font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .juntos-img {
+    width: 100%;
+  }
+  .conference-img {
+    width: 100%;
   }
 }
 
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
+  .gala-header {
+    padding: 20px 15px 0 15px;
+  }
+  .gala-description {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .gala-h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+  }
   .gala-box {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: left;
+    padding: 0 15px 40px 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .gala-info {
+    width: 100%;
+    text-align: center;
   }
   .gala-title {
-    font-size: 28px;
-    font-weight: bold;
-    padding-bottom: 20px;
-    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    margin-bottom: 0;
   }
   .gala-text {
     font-style: italic;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  .gala-details {
     font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .juntos-img {
+    width: 100%;
+  }
+  .conference-img {
+    width: 100%;
   }
 }
 
 @media only screen and (min-device-width: 425px) and (max-width: 596px) {
+  .gala-header {
+    padding: 20px 15px 0 15px;
+  }
+  .gala-description {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .gala-h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+  }
   .gala-box {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: left;
+    padding: 0 15px 40px 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .gala-info {
+    width: 100%;
+    text-align: center;
   }
   .gala-title {
-    font-size: 28px;
-    font-weight: bold;
-    padding-bottom: 20px;
-    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    margin-bottom: 0;
   }
   .gala-text {
     font-style: italic;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  .gala-details {
     font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .juntos-img {
+    width: 100%;
+  }
+  .conference-img {
+    width: 100%;
   }
 }
 
 @media only screen and (min-device-width: 596px) and (max-width: 768px) {
+  .gala-header {
+    padding: 20px 50px 0 50px;
+  }
+  .gala-description {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .gala-h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+  }
   .gala-box {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: left;
+    padding: 0 15px 50px 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .gala-info {
+    width: 100%;
+    text-align: center;
   }
   .gala-title {
-    font-size: 35px;
-    font-weight: bold;
-    padding-bottom: 20px;
-    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    margin-bottom: 0;
   }
   .gala-text {
     font-style: italic;
     font-size: 16px;
+    margin-bottom: 0;
   }
-}*/
+  .gala-details {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .juntos-img {
+    width: 100%;
+  }
+  .conference-img {
+    width: 100%;
+  }
+}
 
 @media only screen and (min-device-width: 769px) and (max-width: 1024px) {
+  .gala-header {
+    padding: 20px 100px;
+  }
+  .gala-description {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .gala-h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+  }
   .gala-box {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: left;
-    padding: 30px 50px;
+    padding: 0 50px;
     display: flex;
     justify-content: center;
   }
   .gala-info {
-    padding: 20px 40px;
+    padding: 0px 40px;
     text-align: center;
   }
   .gala-title {
@@ -113,19 +277,36 @@
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
   }
+  .juntos-img {
+    height: 500px;
+  }
+  .conference-img {
+    width: 500px;
+  }
 }
 
 @media only screen and (min-device-width: 1025px) {
+  .gala-header {
+    padding: 20px 100px;
+  }
+  .gala-description {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .gala-h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+  }
   .gala-box {
     width: 100%;
     font-family: 'Poppins', sans-serif;
-    padding: 30px 50px;
+    padding: 0 50px;
     display: inline-block;
     display: flex;
     justify-content: center;
   }
   .gala-info {
-    padding: 20px 40px;
+    padding: 0px 40px;
     text-align: center;
   }
   .gala-title {
@@ -141,5 +322,11 @@
   .gala-details {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
+  }
+  .juntos-img {
+    height: 500px;
+  }
+  .conference-img {
+    width: 500px;
   }
 }
