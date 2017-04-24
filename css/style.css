@@ -1,36 +1,21 @@
 @media only screen and (max-width: 320px) {
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    background-color: #6FBFEC;
-    width: 150px;
-    font-size: 12px;
+  /* GENERAL */
+  h1.title {
+    font-size: 25px;
+    font-weight: bold;
   }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    background-color: #6FBFEC;
-    width: 150px;
-    font-size: 12px;
+  p.general-padding {
+    font-size: 13px;
   }
-  div.banner {
-		height: 100px;
-	}
-  div.bannerbuttons {
-    top: 25%;
+  h3.model {
+    font-size: 23px;
   }
-	h1.title {
-		font-size: 25px;
-		font-weight: bold;
-	}
-	p.general-padding {
-		font-size: 13px;
-	}
-	h3.model {
-		font-size: 23px;
-	}
-	div.outreach-banner {
-		height: 100px;
-	}
-	div.student-banner {
-		height: 100px;
-	}
+  div.outreach-banner {
+    height: 100px;
+  }
+  div.student-banner {
+    height: 100px;
+  }
   .monthly-left {
     float: none;
     text-align: center;
@@ -56,15 +41,35 @@
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
   }
-	h1.sponsor-title {
-		font-size: 25px;
-		font-weight: bold;
+  h1.sponsor-title {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  /* ABOUT SECTION */
+  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
+    background-color: #6FBFEC;
+    width: 150px;
+    font-size: 12px;
+  }
+  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
+    background-color: #6FBFEC;
+    width: 150px;
+    font-size: 12px;
+  }
+  div.banner {
+		height: 100px;
 	}
+  div.bannerbuttons {
+    top: 25%;
+  }
+
+  /* FOOTER */
 	img.princeton-image {
 		width: 150px;
 		height: 10%;
 	}
-    img.scotiabank-image {
+  img.scotiabank-image {
 		width: 130px;
 		height: 10%;
 	}
@@ -106,46 +111,29 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
   }
-  .google-map {
-    width: 100%;
-  }
 }
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    background-color: #6FBFEC;
-    width: 150px;
-    font-size: 12px;
+
+  /* GENERAL */
+  h1.title {
+    font-size: 30px;
+    font-weight: bold;
   }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    background-color: #6FBFEC;
-    width: 150px;
-    font-size: 12px;
+  p.general-padding {
+    font-size: 15px;
   }
-  div.banner {
-		height: 100px;
-	}
-  div.bannerbuttons {
-    top: 25%;
+  h3.model {
+    font-size: 25px;
   }
-	h1.title {
-		font-size: 30px;
-		font-weight: bold;
-	}
-	p.general-padding {
-		font-size: 15px;
-	}
-	h3.model {
-		font-size: 25px;
-	}
-	div.outreach-banner {
-		height: 100px;
-	}
-	div.student-banner {
-		height: 100px;
-	}
-	div.divideline {
-		width: 225px;
-	}
+  div.outreach-banner {
+    height: 100px;
+  }
+  div.student-banner {
+    height: 100px;
+  }
+  div.divideline {
+    width: 225px;
+  }
   .monthly-left {
     float: none;
     text-align: center;
@@ -171,10 +159,30 @@
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
   }
-	h1.sponsor-title {
-		font-size: 25px;
-		font-weight: bold;
+  h1.sponsor-title {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  /* ABOUT SECTION */
+  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
+    background-color: #6FBFEC;
+    width: 150px;
+    font-size: 12px;
+  }
+  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
+    background-color: #6FBFEC;
+    width: 150px;
+    font-size: 12px;
+  }
+  div.banner {
+		height: 100px;
 	}
+  div.bannerbuttons {
+    top: 25%;
+  }
+
+  /* FOOTER */
 	img.princeton-image {
 		width: 150px;
 		height: 15%;
@@ -221,39 +229,29 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
   }
-  .google-map {
-    width: 100%;
-  }
 }
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    background-color: #6FBFEC;
+
+  /* GENERAL */
+  h1.title {
+    font-size: 30px;
+    font-weight: bold;
   }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    background-color: #6FBFEC;
+  p.general-padding {
+    font-size: 15px;
   }
-	div.banner {
-		height: 100px;
-	}
-	h1.title {
-		font-size: 30px;
-		font-weight: bold;
-	}
-	p.general-padding {
-		font-size: 15px;
-	}
-	h3.model {
-		font-size: 25px;
-	}
-	div.outreach-banner {
-		height: 100px;
-	}
-	div.student-banner {
-		height: 100px;
-	}
-	div.divideline {
-		width: 200px;
-	}
+  h3.model {
+    font-size: 25px;
+  }
+  div.outreach-banner {
+    height: 100px;
+  }
+  div.student-banner {
+    height: 100px;
+  }
+  div.divideline {
+    width: 200px;
+  }
   .monthly-left {
     float: none;
     text-align: center;
@@ -279,10 +277,23 @@
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
   }
-	h1.sponsor-title {
-		font-size: 25px;
-		font-weight: bold;
+  h1.sponsor-title {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  /* ABOUT SECTION */
+  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
+    background-color: #6FBFEC;
+  }
+  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
+    background-color: #6FBFEC;
+  }
+	div.banner {
+		height: 100px;
 	}
+
+  /* FOOTER */
 	img.princeton-image {
 		width: 150px;
 		height: 15%;
@@ -315,36 +326,19 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
   }
-  .google-map {
-    width: 100%;
-  }
 }
 
 @media only screen and (min-device-width: 425px) and (max-width: 596px) {
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    width: 150px;
-    font-size: 13px;
-    background-color: #6FBFEC;
-  }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    width: 150px;
-    font-size: 13px;
-    background-color: #6FBFEC;
-  }
-  div.banner {
-    height: 140px;
-  }
-  div.bannerbuttons {
-    top: 30%;
-  }
+
+  /* GENERAL */
   div.outreach-banner {
-  height: 230px;
+    height: 230px;
   }
   div.student-banner {
-  height: 230px;
+    height: 230px;
   }
   div.divideline {
-  width: 500px;
+    width: 500px;
   }
   .monthly-left {
     float: none;
@@ -371,6 +365,26 @@
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
   }
+
+  /* ABOUT SECTION */
+  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
+    width: 150px;
+    font-size: 13px;
+    background-color: #6FBFEC;
+  }
+  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
+    width: 150px;
+    font-size: 13px;
+    background-color: #6FBFEC;
+  }
+  div.banner {
+    height: 140px;
+  }
+  div.bannerbuttons {
+    top: 30%;
+  }
+
+  /* FOOTER */
   .contact-container {
     width: 100%;
     padding: 30px 30px;
@@ -389,19 +403,33 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
   }
-  .google-map {
-    width: 100%;
-  }
 }
+
 @media only screen and (min-device-width: 596px) and (max-width: 768px) {
   .container {
     width: 600px;
   }
+
+  /* NAVBAR */
+  .navbar {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 0;
+  }
+  .soslogo {
+    height: 50px;
+  }
+  .navbar-brand {
+    padding-top: 0px;
+  }
+
+  /* ABOUT SECTION */
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
     width: 200px;
     font-size: 15px;
     background-color: #6FBFEC;
   }
+
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
     width: 200px;
     font-size: 15px;
@@ -415,24 +443,13 @@
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
   }
-  .navbar {
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-bottom: 0;
-  }
-  .soslogo {
-    height: 50px;
-  }
-  .navbar-brand {
-    padding-top: 0px;
-  }
   .banner {
     height: 300px;
   }
   .bannerbuttons {
-      position: relative;
-      top: 30%;
-      right: center;
+    position: relative;
+    top: 30%;
+    right: center;
   }
   .banner-img {
     width: 100%;
@@ -523,17 +540,14 @@
     align-items: center;
     justify-content: center;
   }
-
   .sponsor-title {
     text-align: center;
     padding-bottom: 30px;
   }
-
   .princeton-image {
     width: 300px;
     padding-right: 75px;
   }
-
   .scotiabank-image {
     height: 75px;
   }
@@ -619,15 +633,27 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
   }
-  .google-map {
-    width: 100%;
-  }
 }
 
 @media only screen and (min-device-width: 769px) and (max-width: 1024px) {
   .container {
     width: 900px;
   }
+
+  /* NAVBAR */
+  .navbar {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 0;
+  }
+  .soslogo {
+    height: 50px;
+  }
+  .navbar-brand {
+    padding-top: 0px;
+  }
+
+  /* ABOUT SECTION */
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
     width: 200px;
     font-size: 15px;
@@ -647,24 +673,13 @@
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
   }
-  .navbar {
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-bottom: 0;
-  }
-  .soslogo {
-    height: 50px;
-  }
-  .navbar-brand {
-    padding-top: 0px;
-  }
   .banner {
     height: 300px;
   }
   .bannerbuttons {
-      position: relative;
-      top: 30%;
-      right: center;
+    position: relative;
+    top: 30%;
+    right: center;
   }
   .banner-img {
     width: 100%;
@@ -703,7 +718,6 @@
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0 auto;
-
   }
   .lead {
     display: flex;
@@ -754,17 +768,14 @@
     align-items: center;
     justify-content: center;
   }
-
   .sponsor-title {
     text-align: center;
     padding-bottom: 30px;
   }
-
   .princeton-image {
     width: 300px;
     padding-right: 75px;
   }
-
   .scotiabank-image {
     height: 75px;
   }
@@ -853,11 +864,22 @@
   .contact-info {
     font-size: 15px;
   }
-  .google-map {
-    width: 100%;
-  }
 }
 @media only screen and (min-device-width: 1025px) {
+  /* NAVBAR */
+  .navbar {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 0;
+  }
+  .soslogo {
+    height: 50px;
+  }
+  .navbar-brand {
+    padding-top: 0px;
+  }
+
+  /* ABOUT SECTION */
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
     width: 300px;
     font-size: 18px;
@@ -877,24 +899,13 @@
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
   }
-  .navbar {
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-bottom: 0;
-  }
-  .soslogo {
-    height: 50px;
-  }
-  .navbar-brand {
-    padding-top: 0px;
-  }
   .banner {
     height: 300px;
   }
   .bannerbuttons {
-      position: relative;
-      top: 35%;
-      right: center;
+    position: relative;
+    top: 35%;
+    right: center;
   }
   .banner-img {
     width: 100%;
@@ -933,7 +944,6 @@
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0 auto;
-
   }
   .lead {
     display: flex;
@@ -984,17 +994,14 @@
     align-items: center;
     justify-content: center;
   }
-
   .sponsor-title {
     text-align: center;
     padding-bottom: 30px;
   }
-
   .princeton-image {
     width: 300px;
     padding-right: 75px;
   }
-
   .scotiabank-image {
     height: 75px;
   }
@@ -1083,9 +1090,6 @@
   .contact-info {
     font-size: 18px;
   }
-  .google-map {
-    width: 100%;
-  }
 }
 
 /* OG DIMENSIONS */
@@ -1101,6 +1105,8 @@ h3 {
 p {
   font-family: 'Poppins', sans-serif;
 }
+
+/* NAVBAR */
 .navbar {
   padding-left: 60px;
   padding-right: 60px;
@@ -1210,17 +1216,14 @@ p {
   align-items: center;
   justify-content: center;
 }
-
 .sponsor-title {
   text-align: center;
   padding-bottom: 30px;
 }
-
 .princeton-image {
   width: 300px;
   padding-right: 75px;
 }
-
 .scotiabank-image {
   height: 75px;
 }
