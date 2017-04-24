@@ -1,68 +1,13 @@
 @media only screen and (max-width: 320px) {
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    background-color: #6FBFEC;
-    width: 150px;
-    font-size: 12px;
-  }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    background-color: #6FBFEC;
-    width: 150px;
-    font-size: 12px;
-  }
-  div.banner {
-		height: 100px;
-	}
-  div.bannerbuttons {
-    top: 25%;
-  }
-	h1.title {
-		font-size: 25px;
-		font-weight: bold;
-	}
 	p.general-padding {
 		font-size: 13px;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 0px;
 	}
-	h3.model {
-		font-size: 23px;
-	}
-	div.outreach-banner {
-		height: 100px;
-	}
-	div.student-banner {
-		height: 100px;
-	}
-  .monthly-left {
-    float: none;
-    text-align: center;
+  div.divideline {
+    width: 225px;
   }
-  .monthly-right {
-    float: none;
-    text-align: center;
-    margin-left: 0px;
-  }
-  .monthly-title {
-    padding-bottom: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-  }
-  .monthly-pic {
-    width: 200px;
-    padding-bottom: 10px;
-  }
-  .monthly-description {
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-  }
-	h1.sponsor-title {
-		font-size: 25px;
-		font-weight: bold;
-	}
 
   /* TABS */
   .tab-container{
@@ -185,7 +130,8 @@
   body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
     height: 25px;
   }
-  /* corporate PARTNERS PAGER */
+
+  /* CORPORATE PARTNERS PAGER */
   .corporate_partners-box {
     width: 100%;
     padding: 10px 0;
@@ -256,70 +202,14 @@
   .navbar-collapse.in {
     clear: right;
   }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    background-color: #6FBFEC;
-    width: 150px;
-    font-size: 12px;
-  }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    background-color: #6FBFEC;
-    width: 150px;
-    font-size: 12px;
-  }
-  div.banner {
-		height: 100px;
-	}
-  div.bannerbuttons {
-    top: 25%;
-  }
-	h1.title {
-		font-size: 30px;
-		font-weight: bold;
-	}
 	p.general-padding {
 		font-size: 15px;
-	}
-	h3.model {
-		font-size: 25px;
-	}
-	div.outreach-banner {
-		height: 100px;
-	}
-	div.student-banner {
-		height: 100px;
 	}
 	div.divideline {
 		width: 225px;
 	}
-  .monthly-left {
-    float: none;
-    text-align: center;
-  }
-  .monthly-right {
-    float: none;
-    text-align: center;
-    margin-left: 0px;
-  }
-  .monthly-title {
-    padding-bottom: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 25px;
-  }
-  .monthly-pic {
-    width: 200px;
-    padding-bottom: 10px;
-  }
-  .monthly-description {
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-  }
-	h1.sponsor-title {
-		font-size: 25px;
-		font-weight: bold;
-	}
+
+  /* FOOTER */
 	h4.footerheader {
 		font-size: 9px;
     padding-right: 10px;
@@ -340,6 +230,8 @@
   body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
     height: 25px;
   }
+
+  /* TABS */
   .tab-container{
     padding: 40px 30px;
     margin: 0 auto;
@@ -445,7 +337,7 @@
     font-size: 14px;
   }
 
-  /* corporate PARTNERS PAGER */
+  /* CORPORATE PARTNERS PAGER */
   .corporate_partners-box {
     width: 100%;
     padding: 10px 0;
@@ -510,71 +402,14 @@
   .navbar-collapse.in {
     clear: right;
   }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    background-color: #6FBFEC;
-  }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    background-color: #6FBFEC;
-  }
-	div.banner {
-		height: 100px;
-	}
-	h1.title {
-		font-size: 30px;
-		font-weight: bold;
-	}
 	p.general-padding {
 		font-size: 15px;
     margin-bottom: 0px;
 	}
-	h3.model {
-		font-size: 25px;
-	}
-	div.outreach-banner {
-		height: 100px;
-	}
-	div.student-banner {
-		height: 100px;
-	}
 	div.divideline {
 		width: 200px;
 	}
-  .monthly-left {
-    float: none;
-    text-align: center;
-  }
-  .monthly-right {
-    float: none;
-    text-align: center;
-    margin-left: 0px;
-  }
-  .monthly-title {
-    padding-bottom: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 25px;
-  }
-  .monthly-pic {
-    width: 200px;
-    padding-bottom: 10px;
-  }
-  .monthly-description {
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-  }
-	h1.sponsor-title {
-		font-size: 25px;
-		font-weight: bold;
-	}
 
-	h4.footerheader {
-		font-size: 17px;
-	}
-	p.footertext {
-		font-size: 12px;
-	}
   .tab-container{
     padding: 40px 30px;
     margin: 0 auto;
@@ -667,7 +502,13 @@
     font-size: 12px;
   }
 
-  /* CONTACT US */
+  /* FOOTER */
+  h4.footerheader {
+    font-size: 17px;
+  }
+  p.footertext {
+    font-size: 12px;
+  }
   .contact {
     margin-bottom: 20px;
   }
@@ -747,56 +588,11 @@
   .navbar-collapse.in {
     clear: right;
   }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    width: 150px;
-    font-size: 13px;
-    background-color: #6FBFEC;
-  }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    width: 150px;
-    font-size: 13px;
-    background-color: #6FBFEC;
-  }
-  div.banner {
-    height: 140px;
-  }
-  div.bannerbuttons {
-    top: 30%;
-  }
-  div.outreach-banner {
-  height: 230px;
-  }
-  div.student-banner {
-  height: 230px;
-  }
   div.divideline {
   width: 500px;
   }
-  .monthly-left {
-    float: none;
-    text-align: center;
-  }
-  .monthly-right {
-    float: none;
-    text-align: center;
-    margin-left: 0px;
-  }
-  .monthly-title {
-    padding-bottom: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 25px;
-  }
-  .monthly-pic {
-    width: 200px;
-    padding-bottom: 10px;
-  }
-  .monthly-description {
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-  }
+
+  /* TABS */
   .tab-container{
     padding: 40px 30px;
     margin: 0 auto;
@@ -897,7 +693,7 @@
     font-size: 14px;
   }
 
-  /* corporate PARTNERS PAGER */
+  /* CORPORATE PARTNERS PAGER */
   .corporate_partners-box {
     width: 100%;
     padding: 10px 0;
@@ -964,16 +760,6 @@
   .container {
     width: 600px;
   }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    width: 200px;
-    font-size: 15px;
-    background-color: #6FBFEC;
-  }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    width: 200px;
-    font-size: 15px;
-    background-color: #6FBFEC;
-  }
   h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
@@ -993,30 +779,6 @@
   .navbar-brand {
     padding-top: 0px;
   }
-  .banner {
-    height: 300px;
-  }
-  .bannerbuttons {
-    position: relative;
-    top: 30%;
-    right: center;
-  }
-  .banner-img {
-    width: 100%;
-  }
-  .outreach-banner {
-    height: 300px;
-  }
-  .outreachcontent {
-    padding-bottom: 30px;
-  }
-  .student-banner {
-    height: 300px;
-  }
-  .title {
-    padding-bottom: 20px;
-    text-align: center;
-  }
   .content-box {
     width: 100%;
     padding: 20px 75px 30px 75px;
@@ -1024,51 +786,6 @@
   }
   .general-padding {
     padding-bottom: 20px;
-  }
-  .model {
-    color: #6FBFEC;
-    text-align: center;
-    font-style: italic;
-  }
-  .highlight {
-    color: #0F425C;
-  }
-  .btn-primary {
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0 auto;
-  }
-  .lead {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .monthly-left {
-    float: none;
-    text-align: center;
-  }
-  .monthly-right {
-    float: none;
-    text-align: center;
-    margin-left: 0px;
-  }
-  .monthly-title {
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-  }
-  .monthly-pic {
-    width: 300px;
-    padding-bottom: 20px;
-  }
-  .monthly-description {
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
   }
 
   /* SPONSORS SECTION */
@@ -1089,10 +806,15 @@
     align-items: center;
     justify-content: center;
   }
-
   .sponsor-title {
     text-align: center;
     padding-bottom: 30px;
+  }
+  .divideline {
+    border-top: 1px solid #0F425C;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -1144,12 +866,7 @@
     margin-right: 5px;
     padding-bottom: 5px;
   }
-  .divideline {
-    border-top: 1px solid #0F425C;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
   .tab-container{
     padding: 40px 25px;
     margin: 0 auto;
@@ -1352,16 +1069,11 @@
   .container {
     width: 900px;
   }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
+  .divideline {
+    border-top: 1px solid #0F425C;
     width: 200px;
-    font-size: 15px;
-    margin-right: 100px;
-    background-color: #6FBFEC;
-  }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    width: 200px;
-    font-size: 15px;
-    background-color: #6FBFEC;
+    margin-left: auto;
+    margin-right: auto;
   }
   h1 {
     font-family: 'Raleway', sans-serif;
@@ -1382,82 +1094,8 @@
   .navbar-brand {
     padding-top: 0px;
   }
-  .banner {
-    height: 300px;
-  }
-  .bannerbuttons {
-      position: relative;
-      top: 30%;
-      right: center;
-  }
-  .banner-img {
-    width: 100%;
-  }
-  .outreach-banner {
-    height: 300px;
-  }
-  .outreachcontent {
-    padding-bottom: 30px;
-  }
-  .student-banner {
-    height: 300px;
-  }
-  .title {
-    padding-bottom: 20px;
-    text-align: center;
-  }
-  .content-box {
-    width: 100%;
-    padding: 20px 75px 30px 75px;
-    word-wrap: break-word;
-  }
   .general-padding {
     padding-bottom: 20px;
-  }
-  .model {
-    color: #6FBFEC;
-    text-align: center;
-    font-style: italic;
-  }
-  .highlight {
-    color: #0F425C;
-  }
-  .btn-primary {
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0 auto;
-
-  }
-  .lead {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .monthly-left {
-    float: left;
-    text-align: center;
-  }
-  .monthly-right {
-    float: right;
-    text-align: center;
-    margin-left: 10px;
-  }
-  .monthly-title {
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-  }
-  .monthly-pic {
-    width: 400px;
-    padding-bottom: 20px;
-  }
-  .monthly-description {
-    width: 400px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
   }
 
   /* SPONSORS SECTION */
@@ -1478,7 +1116,6 @@
     align-items: center;
     justify-content: center;
   }
-
   .sponsor-title {
     text-align: center;
     padding-bottom: 30px;
@@ -1531,12 +1168,6 @@
     height: 35px;
     margin-right: 5px;
     padding-bottom: 5px;
-  }
-  .divideline {
-    border-top: 1px solid #0F425C;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
   }
   .tab-container{
     padding: 40px 70px;
@@ -1694,7 +1325,7 @@
     font-size: 14px;
   }
 
-  /* corporate PARTNERS */
+  /* CORPORATE PARTNERS */
   .corporate_partners-box {
     width: 100%;
     padding: 10px 0;
@@ -1735,18 +1366,8 @@
     width: 250px;
   }
 }
+
 @media only screen and (min-device-width: 1025px) {
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    width: 300px;
-    font-size: 18px;
-    margin-right: 50px;
-    background-color: #6FBFEC;
-  }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    width: 300px;
-    font-size: 18px;
-    background-color: #6FBFEC;
-  }
   h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
@@ -1766,82 +1387,8 @@
   .navbar-brand {
     padding-top: 0px;
   }
-  .banner {
-    height: 300px;
-  }
-  .bannerbuttons {
-    position: relative;
-    top: 35%;
-    right: center;
-  }
-  .banner-img {
-    width: 100%;
-  }
-  .outreach-banner {
-    height: 300px;
-  }
-  .outreachcontent {
-    padding-bottom: 30px;
-  }
-  .student-banner {
-    height: 300px;
-  }
-  .title {
-    padding-bottom: 20px;
-    text-align: center;
-  }
-  .content-box {
-    width: 100%;
-    padding: 20px 75px 30px 75px;
-    word-wrap: break-word;
-  }
   .general-padding {
     padding-bottom: 20px;
-  }
-  .model {
-    color: #6FBFEC;
-    text-align: center;
-    font-style: italic;
-  }
-  .highlight {
-    color: #0F425C;
-  }
-  .btn-primary {
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0 auto;
-
-  }
-  .lead {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .monthly-left {
-    float: left;
-    text-align: center;
-  }
-  .monthly-right {
-    float: right;
-    text-align: center;
-    margin-left: 10px;
-  }
-  .monthly-title {
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-  }
-  .monthly-pic {
-    width: 300px;
-    padding-bottom: 20px;
-  }
-  .monthly-description {
-    width: 500px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
   }
 
   /* SPONSORS SECTION */
@@ -1862,7 +1409,6 @@
     align-items: center;
     justify-content: center;
   }
-
   .sponsor-title {
     text-align: center;
     padding-bottom: 30px;
@@ -2078,7 +1624,7 @@
     border: 0;
   }
 
-  /* corporate PARTNERS */
+  /* CORPORATE PARTNERS */
   .corporate_partners-box {
     width: 100%;
     padding: 10px 0;
