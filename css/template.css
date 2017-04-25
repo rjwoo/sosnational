@@ -1,11 +1,24 @@
+/* This css file is a template for the template.html file, original state contains styling for navbar, footer and some general attributes. Copy and rename this file to appropriately reflect HTML file. Delete all comments on this file. */
+
 @media only screen and (max-width: 320px) {
   /* GENERAL */
-  h1.title {
+  h1 {
     font-size: 25px;
     font-weight: bold;
   }
   p.general-padding {
     font-size: 13px;
+  }
+  .test-container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .container-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
   }
 
   /* FOOTER */
@@ -58,14 +71,24 @@
 }
 
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
-
   /* GENERAL */
-  h1.title {
+  h1 {
     font-size: 30px;
     font-weight: bold;
   }
   p.general-padding {
     font-size: 15px;
+  }
+  .test-container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .container-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
   }
 
   /* FOOTER */
@@ -126,6 +149,17 @@
   p.general-padding {
     font-size: 15px;
   }
+  .test-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .container-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+  }
 
   /* FOOTER */
 	img.princeton-image {
@@ -163,8 +197,17 @@
 }
 
 @media only screen and (min-device-width: 425px) and (max-width: 596px) {
-  div.divideline {
-    width: 500px;
+  /* GENERAL */
+  .test-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .container-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
   }
 
   /* FOOTER */
@@ -189,8 +232,31 @@
 }
 
 @media only screen and (min-device-width: 596px) and (max-width: 768px) {
+  /* GENERAL */
   .container {
     width: 600px;
+  }
+  .test-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .container-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+  }
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+  }
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+  }
+  .general-padding {
+    padding-bottom: 20px;
   }
 
   /* NAVBAR */
@@ -204,52 +270,6 @@
   }
   .navbar-brand {
     padding-top: 0px;
-  }
-  h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 50px;
-  }
-  h3 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-  }
-  .content-box {
-    width: 100%;
-    padding: 20px 75px 30px 75px;
-    word-wrap: break-word;
-  }
-  .general-padding {
-    padding-bottom: 20px;
-  }
-
-  /* SPONSORS SECTION */
-  .sponsor-box {
-    width: 100%;
-    padding: 50px 75px;
-    overflow: auto;
-    word-wrap: break-word;
-  }
-  .sponsor-logos {
-    width: 100%;
-    padding: 50px 75px;
-    overflow: auto;
-    word-wrap: break-word;
-  }
-  .sponsorimages {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .sponsor-title {
-    text-align: center;
-    padding-bottom: 30px;
-  }
-  .princeton-image {
-    width: 300px;
-    padding-right: 75px;
-  }
-  .scotiabank-image {
-    height: 75px;
   }
 
   /* FOOTER */
@@ -336,10 +356,6 @@
 }
 
 @media only screen and (min-device-width: 769px) and (max-width: 1024px) {
-  .container {
-    width: 900px;
-  }
-
   /* NAVBAR */
   .navbar {
     padding-left: 60px;
@@ -352,6 +368,8 @@
   .navbar-brand {
     padding-top: 0px;
   }
+
+  /* GENERAL */
   h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
@@ -362,6 +380,17 @@
   }
   .general-padding {
     padding-bottom: 20px;
+  }
+  .test-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .container-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
   }
 
   /* FOOTER */
@@ -451,6 +480,30 @@
 }
 
 @media only screen and (min-device-width: 1025px) {
+  /* GENERAL */
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+  }
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+  }
+  .general-padding {
+    padding-bottom: 20px;
+  }
+  .test-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .container-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+  }
+
   /* NAVBAR */
   .navbar {
     padding-left: 60px;
@@ -462,17 +515,6 @@
   }
   .navbar-brand {
     padding-top: 0px;
-  }
-  h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 50px;
-  }
-  h3 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-  }
-  .general-padding {
-    padding-bottom: 20px;
   }
 
   /* FOOTER */
@@ -562,7 +604,6 @@
 }
 
 /* OG DIMENSIONS */
-
 h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 50px;
