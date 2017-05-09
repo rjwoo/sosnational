@@ -1,0 +1,699 @@
+/* This css file is a template for the template.html file, original state contains styling for navbar, footer and some general attributes. Copy and rename this file to appropriately reflect HTML file. Delete all comments on this file. */
+
+@media only screen and (max-width: 320px) {
+  /* GENERAL */
+  h1 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  p.general-padding {
+    font-size: 13px;
+  }
+  .test-container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .container-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+  }
+
+  /* FOOTER */
+	img.princeton-image {
+		width: 150px;
+		height: 10%;
+	}
+  img.scotiabank-image {
+		width: 130px;
+		height: 10%;
+	}
+	h4.footerheader {
+		font-size: 9px;
+    padding-right: 20px;
+	}
+	p.footertext {
+		font-size: 8px;
+	}
+  td.socialmedia {
+    text-align: left;
+    padding-right: 20px;
+  }
+  body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(1) > img {
+    height: 25px;
+  }
+  body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(2) > img {
+    height: 25px;
+  }
+  body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
+    height: 25px;
+  }
+  .contact-container {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .contact {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .contact-us {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .contact-title {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-device-width: 321px) and (max-width: 375px) {
+  /* GENERAL */
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  p.general-padding {
+    font-size: 15px;
+  }
+  .test-container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .container-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+  }
+
+  /* FOOTER */
+	img.princeton-image {
+		width: 150px;
+		height: 15%;
+	}
+  img.scotiabank-image {
+		width: 150px;
+		height: 15%;
+	}
+	h4.footerheader {
+		font-size: 9px;
+    padding-right: 10px;
+	}
+	p.footertext {
+		font-size: 8px;
+	}
+  td.socialmedia {
+    text-align: left;
+    padding-right: 20px;
+  }
+  body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(1) > img {
+    height: 25px;
+  }
+  body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(2) > img {
+    height: 25px;
+  }
+  body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
+    height: 25px;
+  }
+  .contact-container {
+    width: 100%;
+    padding: 30px 30px 10px 30px;
+  }
+  .contact {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .contact-us {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .contact-title {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-device-width: 376px) and (max-width: 425px) {
+  /* GENERAL */
+  h1.title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  p.general-padding {
+    font-size: 15px;
+  }
+  .test-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .container-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+  }
+
+  /* FOOTER */
+	img.princeton-image {
+		width: 150px;
+		height: 15%;
+	}
+    img.scotiabank-image {
+		width: 150px;
+		height: 15%;
+	}
+	h4.footerheader {
+		font-size: 17px;
+	}
+	p.footertext {
+		font-size: 12px;
+	}
+  .contact-container {
+    width: 100%;
+    padding: 30px 30px;
+  }
+  .contact {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .contact-us {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .contact-title {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-device-width: 425px) and (max-width: 596px) {
+  /* GENERAL */
+  .test-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .container-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+  }
+
+  /* FOOTER */
+  .contact-container {
+    width: 100%;
+    padding: 30px 30px;
+  }
+  .contact {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .contact-us {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .contact-title {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-device-width: 596px) and (max-width: 768px) {
+  /* GENERAL */
+  .container {
+    width: 600px;
+  }
+  .test-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .container-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+  }
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+  }
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+  }
+  .general-padding {
+    padding-bottom: 20px;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 0;
+  }
+  .soslogo {
+    height: 50px;
+  }
+  .navbar-brand {
+    padding-top: 0px;
+  }
+
+  /* FOOTER */
+  .footer {
+    width: 100%;
+    height: 100%;
+    background-color: #0f425c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  table {
+    margin: 0 auto;
+  }
+  th {
+    margin-top: 0px;
+  }
+  td {
+    padding-right: 50px;
+  }
+  h4.footerheader {
+    color: white;
+    margin-top: 0px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .contactheader {
+    color: white;
+  }
+  .footertext {
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .socialmedia {
+    text-align: center;
+  }
+  .facebook {
+    height: 35px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+  }
+  .instagram {
+    height: 35px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+  }
+  .twitter {
+    height: 35px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+  }
+  .scotiabank {
+    height: 35px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
+  .princeton {
+    height: 70px;
+    padding-bottom: 5px;
+  }
+  .divideline {
+    border-top: 1px solid #0F425C;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-container {
+    width: 100%;
+    padding: 30px 175px;
+  }
+  .contact {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .contact-us {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .contact-title {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-device-width: 769px) and (max-width: 1024px) {
+  /* NAVBAR */
+  .navbar {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 0;
+  }
+  .soslogo {
+    height: 50px;
+  }
+  .navbar-brand {
+    padding-top: 0px;
+  }
+
+  /* GENERAL */
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+  }
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+  }
+  .general-padding {
+    padding-bottom: 20px;
+  }
+  .test-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .container-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+  }
+
+  /* FOOTER */
+  .footer {
+    width: 100%;
+    height: 100%;
+    background-color: #0f425c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  table {
+    margin: 0 auto;
+  }
+  th {
+    margin-top: 0px;
+  }
+  td {
+    padding-right: 50px;
+  }
+  h4.footerheader {
+    color: white;
+    margin-top: 0px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .contactheader {
+    color: white;
+  }
+  .footertext {
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .socialmedia {
+    text-align: center;
+  }
+  .facebook {
+    height: 35px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+  }
+  .instagram {
+    height: 35px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+  }
+  .twitter {
+    height: 35px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+  }
+  .scotiabank {
+    height: 35px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
+  .princeton {
+    height: 70px;
+    padding-bottom: 5px;
+  }
+  .divideline {
+    border-top: 1px solid #0F425C;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-container {
+    width: 100%;
+    padding: 30px 300px;
+  }
+  .contact {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .contact-us {
+    font-size: 42px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .contact-title {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+  .contact-info {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-device-width: 1025px) {
+  /* GENERAL */
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+  }
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+  }
+  .general-padding {
+    padding-bottom: 20px;
+  }
+  .test-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .container-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 0;
+  }
+  .soslogo {
+    height: 50px;
+  }
+  .navbar-brand {
+    padding-top: 0px;
+  }
+
+  /* FOOTER */
+  .footer {
+    width: 100%;
+    height: 100%;
+    background-color: #0f425c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  table {
+    margin: 0 auto;
+  }
+  th {
+    margin-top: 0px;
+  }
+  td {
+    padding-right: 50px;
+  }
+  h4.footerheader {
+    color: white;
+    margin-top: 0px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .contactheader {
+    color: white;
+  }
+  .footertext {
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .socialmedia {
+    text-align: center;
+  }
+  .facebook {
+    height: 35px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+  }
+  .instagram {
+    height: 35px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+  }
+  .twitter {
+    height: 35px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+  }
+  .scotiabank {
+    height: 35px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
+  .princeton {
+    height: 70px;
+    padding-bottom: 5px;
+  }
+  .divideline {
+    border-top: 1px solid #0F425C;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-container {
+    width: 100%;
+    padding: 30px 450px;
+  }
+  .contact {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .contact-us {
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .contact-title {
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+  }
+  .contact-info {
+    font-size: 18px;
+  }
+}
+
+/* OG DIMENSIONS */
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+}
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.soslogo {
+  height: 50px;
+}
+.navbar-brand {
+  padding-top: 0px;
+}
+.general-padding {
+  padding-bottom: 20px;
+}
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  height: 100%;
+  background-color: #0f425c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+table {
+  margin: 0 auto;
+}
+th {
+  /*padding-right: 50px;*/
+  margin-top: 0px;
+}
+td {
+  padding-right: 50px;
+}
+h4.footerheader {
+  color: white;
+  margin-top: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+.contactheader {
+  color: white;
+}
+.footertext {
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.socialmedia {
+  text-align: center;
+}
+.facebook {
+  height: 35px;
+  margin-right: 5px;
+  padding-bottom: 5px;
+}
+.instagram {
+  height: 35px;
+  margin-right: 5px;
+  padding-bottom: 5px;
+}
+.twitter {
+  height: 35px;
+  margin-right: 5px;
+  padding-bottom: 5px;
+}
+.scotiabank {
+  height: 35px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+.princeton {
+  height: 70px;
+  padding-bottom: 5px;
+}
+.divideline {
+  border-top: 1px solid #0F425C;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
