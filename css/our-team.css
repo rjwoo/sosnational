@@ -1,20 +1,4 @@
 @media only screen and (max-width: 320px) {
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    background-color: #6FBFEC;
-    width: 150px;
-    font-size: 12px;
-  }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    background-color: #6FBFEC;
-    width: 150px;
-    font-size: 12px;
-  }
-  div.banner {
-		height: 100px;
-	}
-  div.bannerbuttons {
-    top: 25%;
-  }
 	h1.title {
 		font-size: 25px;
 		font-weight: bold;
@@ -22,52 +6,8 @@
 	p.general-padding {
 		font-size: 13px;
 	}
-	h3.model {
-		font-size: 23px;
-	}
-	div.outreach-banner {
-		height: 100px;
-	}
-	div.student-banner {
-		height: 100px;
-	}
-  .monthly-left {
-    float: none;
-    text-align: center;
-  }
-  .monthly-right {
-    float: none;
-    text-align: center;
-    margin-left: 0px;
-  }
-  .monthly-title {
-    padding-bottom: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-  }
-  .monthly-pic {
-    width: 200px;
-    padding-bottom: 10px;
-  }
-  .monthly-description {
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-  }
-	h1.sponsor-title {
-		font-size: 25px;
-		font-weight: bold;
-	}
-	img.princeton-image {
-		width: 150px;
-		height: 10%;
-	}
-    img.scotiabank-image {
-		width: 130px;
-		height: 10%;
-	}
+
+  /* FOOTER */
 	h4.footerheader {
 		font-size: 9px;
     padding-right: 20px;
@@ -88,8 +28,8 @@
   body > footer > div > table > tbody > tr:nth-child(2) > td.socialmedia > a:nth-child(3) > img {
     height: 25px;
   }
-  /* teamS PAGER */
 
+  /* TEAM */
   .team-banner {
     padding: 10px 20px;
   }
@@ -143,23 +83,8 @@
     margin-top: 150px;
   }
 }
+
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    background-color: #6FBFEC;
-    width: 150px;
-    font-size: 12px;
-  }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    background-color: #6FBFEC;
-    width: 150px;
-    font-size: 12px;
-  }
-  div.banner {
-		height: 100px;
-	}
-  div.bannerbuttons {
-    top: 25%;
-  }
 	h1.title {
 		font-size: 30px;
 		font-weight: bold;
@@ -167,55 +92,8 @@
 	p.general-padding {
 		font-size: 15px;
 	}
-	h3.model {
-		font-size: 25px;
-	}
-	div.outreach-banner {
-		height: 100px;
-	}
-	div.student-banner {
-		height: 100px;
-	}
-	div.divideline {
-		width: 225px;
-	}
-  .monthly-left {
-    float: none;
-    text-align: center;
-  }
-  .monthly-right {
-    float: none;
-    text-align: center;
-    margin-left: 0px;
-  }
-  .monthly-title {
-    padding-bottom: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 25px;
-  }
-  .monthly-pic {
-    width: 200px;
-    padding-bottom: 10px;
-  }
-  .monthly-description {
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-  }
-	h1.sponsor-title {
-		font-size: 25px;
-		font-weight: bold;
-	}
-	img.princeton-image {
-		width: 150px;
-		height: 15%;
-	}
-    img.scotiabank-image {
-		width: 150px;
-		height: 15%;
-	}
+
+  /* FOOTER */
 	h4.footerheader {
 		font-size: 9px;
     padding-right: 10px;
@@ -237,7 +115,7 @@
     height: 25px;
   }
 
-  /* teamS PAGER */
+  /* TEAM */
   .team-banner {
     padding: 10px 20px;
   }
@@ -291,16 +169,8 @@
     margin-top: 150px;
   }
 }
+
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    background-color: #6FBFEC;
-  }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    background-color: #6FBFEC;
-  }
-	div.banner {
-		height: 100px;
-	}
 	h1.title {
 		font-size: 30px;
 		font-weight: bold;
@@ -308,55 +178,8 @@
 	p.general-padding {
 		font-size: 15px;
 	}
-	h3.model {
-		font-size: 25px;
-	}
-	div.outreach-banner {
-		height: 100px;
-	}
-	div.student-banner {
-		height: 100px;
-	}
-	div.divideline {
-		width: 200px;
-	}
-  .monthly-left {
-    float: none;
-    text-align: center;
-  }
-  .monthly-right {
-    float: none;
-    text-align: center;
-    margin-left: 0px;
-  }
-  .monthly-title {
-    padding-bottom: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 25px;
-  }
-  .monthly-pic {
-    width: 200px;
-    padding-bottom: 10px;
-  }
-  .monthly-description {
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-  }
-	h1.sponsor-title {
-		font-size: 25px;
-		font-weight: bold;
-	}
-	img.princeton-image {
-		width: 150px;
-		height: 15%;
-	}
-  img.scotiabank-image {
-		width: 150px;
-		height: 15%;
-	}
+
+  /* FOOTER */
 	h4.footerheader {
 		font-size: 17px;
 	}
@@ -364,7 +187,7 @@
 		font-size: 12px;
 	}
 
-  /* teamS PAGER */
+  /* TEAM */
   .team-banner {
     padding: 10px 20px;
   }
@@ -420,58 +243,8 @@
 }
 
 @media only screen and (min-device-width: 425px) and (max-width: 600px) {
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    width: 150px;
-    font-size: 13px;
-    background-color: #6FBFEC;
-  }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    width: 150px;
-    font-size: 13px;
-    background-color: #6FBFEC;
-  }
-  div.banner {
-    height: 140px;
-  }
-  div.bannerbuttons {
-    top: 30%;
-  }
-  div.outreach-banner {
-    height: 230px;
-  }
-  div.student-banner {
-    height: 230px;
-  }
-  div.divideline {
-    width: 300px;
-  }
-  .monthly-left {
-    float: none;
-    text-align: center;
-  }
-  .monthly-right {
-    float: none;
-    text-align: center;
-    margin-left: 0px;
-  }
-  .monthly-title {
-    padding-bottom: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 25px;
-  }
-  .monthly-pic {
-    width: 200px;
-    padding-bottom: 10px;
-  }
-  .monthly-description {
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-  }
 
-  /* teamS PAGER */
+  /* TEAM */
   .team-banner {
     padding: 10px 20px;
   }
@@ -524,17 +297,8 @@
     margin-top: 150px;
   }
 }
+
 @media only screen and (min-device-width: 600px) and (max-width: 768px) {
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    width: 200px;
-    font-size: 15px;
-    background-color: #6FBFEC;
-  }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    width: 200px;
-    font-size: 15px;
-    background-color: #6FBFEC;
-  }
   h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
@@ -543,127 +307,12 @@
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
   }
-  .navbar {
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-bottom: 0;
-  }
-  .soslogo {
-    height: 50px;
-  }
-  .navbar-brand {
-    padding-top: 0px;
-  }
-  .banner {
-    height: 300px;
-  }
-  .bannerbuttons {
-    position: relative;
-    top: 30%;
-    right: center;
-  }
-  .banner-img {
-    width: 100%;
-  }
-  .outreach-banner {
-    height: 300px;
-  }
-  .outreachcontent {
-    padding-bottom: 30px;
-  }
-  .student-banner {
-    height: 300px;
-  }
   .title {
     padding-bottom: 20px;
     text-align: center;
   }
-  .content-box {
-    width: 100%;
-    padding: 20px 75px 30px 75px;
-    word-wrap: break-word;
-  }
   .general-padding {
     padding-bottom: 20px;
-  }
-  .model {
-    color: #6FBFEC;
-    text-align: center;
-    font-style: italic;
-  }
-  .highlight {
-    color: #0F425C;
-  }
-  .btn-primary {
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0 auto;
-
-  }
-  .lead {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .monthly-left {
-    float: none;
-    text-align: center;
-  }
-  .monthly-right {
-    float: none;
-    text-align: center;
-    margin-left: 0px;
-  }
-  .monthly-title {
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-  }
-  .monthly-pic {
-    width: 300px;
-    padding-bottom: 20px;
-  }
-  .monthly-description {
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-  }
-
-  /* SPONSORS SECTION */
-  .sponsor-box {
-    width: 100%;
-    padding: 50px 75px;
-    overflow: auto;
-    word-wrap: break-word;
-  }
-  .sponsor-logos {
-    width: 100%;
-    padding: 50px 75px;
-    overflow: auto;
-    word-wrap: break-word;
-  }
-  .sponsorimages {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .sponsor-title {
-    text-align: center;
-    padding-bottom: 30px;
-  }
-
-  .princeton-image {
-    width: 300px;
-    padding-right: 75px;
-  }
-
-  .scotiabank-image {
-    height: 75px;
   }
 
   /* FOOTER */
@@ -730,7 +379,7 @@
     margin-right: auto;
   }
 
-  /* teamS PAGER */
+  /* TEAM */
   .team-banner {
     padding: 10px 50px;
   }
@@ -787,17 +436,6 @@
 }
 
 @media only screen and (min-device-width: 769px) and (max-width: 1024px) {
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    width: 200px;
-    font-size: 15px;
-    margin-right: 100px;
-    background-color: #6FBFEC;
-  }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    width: 200px;
-    font-size: 15px;
-    background-color: #6FBFEC;
-  }
   h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
@@ -806,126 +444,12 @@
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
   }
-  .navbar {
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-bottom: 0;
-  }
-  .soslogo {
-    height: 50px;
-  }
-  .navbar-brand {
-    padding-top: 0px;
-  }
-  .banner {
-    height: 300px;
-  }
-  .bannerbuttons {
-      position: relative;
-      top: 30%;
-      right: center;
-  }
-  .banner-img {
-    width: 100%;
-  }
-  .outreach-banner {
-    height: 300px;
-  }
-  .outreachcontent {
-    padding-bottom: 30px;
-  }
-  .student-banner {
-    height: 300px;
-  }
   .title {
     padding-bottom: 20px;
     text-align: center;
   }
-  .content-box {
-    width: 100%;
-    padding: 20px 75px 30px 75px;
-    word-wrap: break-word;
-  }
   .general-padding {
     padding-bottom: 20px;
-  }
-  .model {
-    color: #6FBFEC;
-    text-align: center;
-    font-style: italic;
-  }
-  .highlight {
-    color: #0F425C;
-  }
-  .btn-primary {
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0 auto;
-
-  }
-  .lead {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .monthly-left {
-    float: left;
-    text-align: center;
-  }
-  .monthly-right {
-    float: right;
-    text-align: center;
-    margin-left: 10px;
-  }
-  .monthly-title {
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-  }
-  .monthly-pic {
-    width: 400px;
-    padding-bottom: 20px;
-  }
-  .monthly-description {
-    width: 400px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-  }
-
-  /* SPONSORS SECTION */
-  .sponsor-box {
-    width: 100%;
-    padding: 50px 75px;
-    overflow: auto;
-    word-wrap: break-word;
-  }
-  .sponsor-logos {
-    width: 100%;
-    padding: 50px 75px;
-    overflow: auto;
-    word-wrap: break-word;
-  }
-  .sponsorimages {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .sponsor-title {
-    text-align: center;
-    padding-bottom: 30px;
-  }
-
-  .princeton-image {
-    width: 300px;
-    padding-right: 75px;
-  }
-
-  .scotiabank-image {
-    height: 75px;
   }
 
   /* FOOTER */
@@ -992,7 +516,7 @@
     margin-right: auto;
   }
 
-  /* teamS PAGER */
+  /* TEAM */
   .team-container {
     text-align: center;
     margin: 50px 0;
@@ -1051,18 +575,8 @@
     margin-top: 300px;
   }
 }
+
 @media only screen and (min-device-width: 1025px) {
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
-    width: 300px;
-    font-size: 18px;
-    margin-right: 50px;
-    background-color: #6FBFEC;
-  }
-  #aboutSection > div:nth-child(1) > div > div > a:nth-child(2) > button {
-    width: 300px;
-    font-size: 18px;
-    background-color: #6FBFEC;
-  }
   h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
@@ -1071,125 +585,12 @@
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
   }
-  .navbar {
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-bottom: 0;
-  }
-  .soslogo {
-    height: 50px;
-  }
-  .navbar-brand {
-    padding-top: 0px;
-  }
-  .banner {
-    height: 300px;
-  }
-  .bannerbuttons {
-      position: relative;
-      top: 35%;
-      right: center;
-  }
-  .banner-img {
-    width: 100%;
-  }
-  .outreach-banner {
-    height: 300px;
-  }
-  .outreachcontent {
-    padding-bottom: 30px;
-  }
-  .student-banner {
-    height: 300px;
-  }
   .title {
     padding-bottom: 20px;
     text-align: center;
   }
-  .content-box {
-    width: 100%;
-    padding: 20px 75px 30px 75px;
-    word-wrap: break-word;
-  }
   .general-padding {
     padding-bottom: 20px;
-  }
-  .model {
-    color: #6FBFEC;
-    text-align: center;
-    font-style: italic;
-  }
-  .highlight {
-    color: #0F425C;
-  }
-  .btn-primary {
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0 auto;
-  }
-  .lead {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .monthly-left {
-    float: left;
-    text-align: center;
-  }
-  .monthly-right {
-    float: right;
-    text-align: center;
-    margin-left: 10px;
-  }
-  .monthly-title {
-    padding-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-  }
-  .monthly-pic {
-    width: 300px;
-    padding-bottom: 20px;
-  }
-  .monthly-description {
-    width: 500px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-  }
-
-  /* SPONSORS SECTION */
-  .sponsor-box {
-    width: 100%;
-    padding: 50px 75px;
-    overflow: auto;
-    word-wrap: break-word;
-  }
-  .sponsor-logos {
-    width: 100%;
-    padding: 50px 75px;
-    overflow: auto;
-    word-wrap: break-word;
-  }
-  .sponsorimages {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .sponsor-title {
-    text-align: center;
-    padding-bottom: 30px;
-  }
-
-  .princeton-image {
-    width: 300px;
-    padding-right: 75px;
-  }
-
-  .scotiabank-image {
-    height: 75px;
   }
 
   /* FOOTER */
@@ -1256,7 +657,7 @@
     margin-right: auto;
   }
 
-  /* teamS PAGER */
+  /* TEAM */
   .team-container {
     text-align: center;
     margin: 50px 0;
@@ -1329,128 +730,12 @@ h3 {
 p {
   font-family: 'Poppins', sans-serif;
 }
-.navbar {
-  padding-left: 60px;
-  padding-right: 60px;
-  margin-bottom: 0;
-  font-family: 'Poppins', sans-serif;
-}
-.soslogo {
-  height: 50px;
-}
-.navbar-brand {
-  padding-top: 0px;
-}
-.banner {
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url('../img/aboutbanner.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 300px;
-  display: block;
-}
-.bannerbuttons {
-  position: relative;
-  top: 30%;
-  right: center;
-}
-.banner-img {
-  width: 100%;
-}
-.outreach-banner {
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url('../img/outreachbanner.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 300px;
-}
-.outreachcontent {
-  padding-bottom: 30px;
-}
-.student-banner {
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url('../img/studentsbanner.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  height: 300px;
-}
 .title {
   padding-bottom: 20px;
   text-align: center;
 }
-.content-box {
-  width: 100%;
-  padding: 20px 75px 30px 75px;
-  word-wrap: break-word;
-}
 .general-padding {
   padding-bottom: 20px;
-}
-.model {
-  color: #6FBFEC;
-  text-align: center;
-  font-style: italic;
-}
-.highlight {
-  color: #0F425C;
-}
-.btn-primary {
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 0 auto;
-  background-color: #6FBFEC;
-  width: 200px;
-  font-size: 16px;
-  font-family: 'Raleway', sans-serif;
-}
-.lead {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-/* SPONSORS SECTION */
-.sponsor-box {
-  width: 100%;
-  padding: 50px 75px;
-  overflow: auto;
-  word-wrap: break-word;
-}
-.sponsor-logos {
-  width: 100%;
-  padding: 50px 75px;
-  overflow: auto;
-  word-wrap: break-word;
-}
-.sponsorimages {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.sponsor-title {
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-.princeton-image {
-  width: 300px;
-  padding-right: 75px;
-}
-
-.scotiabank-image {
-  height: 75px;
 }
 
 /* FOOTER */

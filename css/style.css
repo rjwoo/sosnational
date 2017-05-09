@@ -45,6 +45,19 @@
     font-size: 25px;
     font-weight: bold;
   }
+  .btn-primary {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .lead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
   /* ABOUT SECTION */
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
@@ -111,6 +124,14 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
   }
+
+  /* LIVE FEED */
+  .livefeed {
+    margin: 20px 10px;
+  }
+  .livefeed_frame {
+    padding: 0 20px;
+  }
 }
 
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
@@ -163,6 +184,19 @@
   h1.sponsor-title {
     font-size: 25px;
     font-weight: bold;
+  }
+  .btn-primary {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .lead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   /* ABOUT SECTION */
@@ -230,6 +264,14 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
   }
+
+  /* LIVE FEED */
+  .livefeed {
+    margin: 20px auto;
+  }
+  .livefeed_frame {
+    padding: 0 35px;
+  }
 }
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
 
@@ -282,6 +324,19 @@
     font-size: 25px;
     font-weight: bold;
   }
+  .btn-primary {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .lead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
   /* ABOUT SECTION */
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
@@ -327,6 +382,14 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
   }
+
+  /* LIVE FEED */
+  .livefeed {
+    margin: 20px auto;
+  }
+  .livefeed_frame {
+    padding: 0 60px;
+  }
 }
 
 @media only screen and (min-device-width: 425px) and (max-width: 596px) {
@@ -366,6 +429,19 @@
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
   }
+  .btn-primary {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .lead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
   /* ABOUT SECTION */
   #aboutSection > div:nth-child(1) > div > div > a:nth-child(1) > button {
@@ -403,6 +479,14 @@
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
+  }
+
+  /* LIVE FEED */
+  .livefeed {
+    margin: 20px auto;
+  }
+  .livefeed_frame {
+    padding: 0 60px;
   }
 }
 
@@ -489,7 +573,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0 auto;
-
+    text-align: center;
   }
   .lead {
     display: flex;
@@ -633,6 +717,15 @@
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
+  }
+
+  /* LIVE FEED */
+  .livefeed {
+    display: flex;
+    justify-content: center;
+  }
+  .livefeed_frame {
+    padding: 0 20px;
   }
 }
 
@@ -864,6 +957,15 @@
   }
   .contact-info {
     font-size: 15px;
+  }
+
+  /* LIVE FEED */
+  .livefeed {
+    display: flex;
+    justify-content: center;
+  }
+  .livefeed_frame {
+    padding: 0 20px;
   }
 }
 @media only screen and (min-device-width: 1025px) {
@@ -1293,3 +1395,12 @@ h4.footerheader {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* LIVE FEED */
+/*.livefeed {
+  display: flex;
+  justify-content: center;
+}
+.livefeed_frame {
+  padding: 0 20px;
+}*/
