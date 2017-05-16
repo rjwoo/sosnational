@@ -460,10 +460,138 @@
   }
 }
 
-@media only screen and (min-device-width: 948px) and (max-device-width: 1378px){
+@media only screen and (min-device-width: 948px) and (max-device-width: 1083px) {
+  .gala-container {
+    /*width: 100%;*/
+    height: 1700px;
+  }
+  .gala-header {
+    padding: 20px 100px;
+  }
+  .gala-description {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .gala-h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+  }
+  .gala-box {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .gala-info {
+    padding: 0px 40px;
+    text-align: center;
+  }
+  .gala-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .gala-text {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .gala-details {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .juntos-img {
+    height: 400px;
+  }
+  .conference-img {
+    width: 500px;
+  }
+  .gala-awards {
+    padding: 0 100px;
+  }
+  .awards {
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .award-img {
+    height: 250px;
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (min-device-width: 1084px) and (max-device-width: 1235px){
   .gala-container {
     /*width: 100%;*/
     height: 1400px;
+  }
+  .gala-header {
+    padding: 20px 100px;
+  }
+  .gala-description {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .gala-h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+  }
+  .gala-box {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .gala-info {
+    padding: 0px 40px;
+    text-align: center;
+  }
+  .gala-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .gala-text {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .gala-details {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .juntos-img {
+    height: 400px;
+  }
+  .conference-img {
+    width: 500px;
+  }
+  .gala-awards {
+    padding: 0 100px;
+  }
+  .awards {
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .award-img {
+    height: 200px;
+    padding: 10px 10px;
+  }
+}
+
+@media only screen and (min-device-width: 1236px) and (max-device-width: 1377px){
+  .gala-container {
+    /*width: 100%;*/
+    height: 1100px;
   }
   .gala-header {
     padding: 20px 100px;
@@ -512,18 +640,18 @@
     padding: 0 100px;
   }
   .awards {
-    padding: 10px 100px;
+    padding: 10px 50px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
   .award-img {
-    height: 225px;
+    width: 250px;
     padding: 10px 10px;
   }
 }
 
-@media only screen and (min-device-width: 1379px)
+@media only screen and (min-device-width: 1378px){
   .gala-container {
     /*width: 100%;*/
     height: 1100px;
