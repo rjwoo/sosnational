@@ -1193,6 +1193,14 @@
   .contact-info {
     font-size: 18px;
   }
+  /* LIVE FEED */
+  .livefeed {
+    display: flex;
+    justify-content: center;
+  }
+  .livefeed_frame {
+    padding: 0 20px;
+  }
 }
 
 /* OG DIMENSIONS */

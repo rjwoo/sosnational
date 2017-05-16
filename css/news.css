@@ -3,7 +3,7 @@
 @media only screen and (max-width: 320px) {
   /* GENERAL */
   h1 {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
   }
   p.general-padding {
@@ -67,6 +67,37 @@
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
+  }
+
+  /* NEWS */
+  .media-title, .awards-title {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .media-recog {
+    text-align: center;
+  }
+  .media-container {
+    padding: 10px 0;
+  }
+  .vertical-logos{
+    height: 70px;
+  }
+  .horizontal-logos {
+    width: 150px;
+  }
+
+  /* AWARDS */
+  .awards-container {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .awards-logos {
+    width: 175px;
+  }
+  .award-description {
+    padding: 10px 20px;
   }
 }
 
