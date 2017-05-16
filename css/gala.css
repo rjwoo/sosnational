@@ -262,7 +262,7 @@
 @media only screen and (min-device-width: 769px) and (max-width: 1024px) {
   .gala-container {
     /*width: 100%;*/
-    height: 770px;
+    height: 1100px;
   }
   .gala-header {
     padding: 20px 100px;
@@ -279,7 +279,7 @@
     width: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: left;
-    padding: 0 50px 50px 50px;
+    padding: 0 50px;
     display: flex;
     justify-content: center;
   }
@@ -306,6 +306,9 @@
   }
   .conference-img {
     width: 500px;
+  }
+  .gala-awards {
+    padding: 0 100px;
   }
 }
 
@@ -356,5 +359,8 @@
   }
   .conference-img {
     width: 500px;
+  }
+  .gala-awards {
+
   }
 }
