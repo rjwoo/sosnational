@@ -132,6 +132,10 @@
   .livefeed_frame {
     padding: 0 20px;
   }
+
+  .google-map {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
@@ -272,7 +276,12 @@
   .livefeed_frame {
     padding: 0 35px;
   }
+
+  .google-map {
+    width: 100%;
+  }
 }
+
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
 
   /* GENERAL */
@@ -390,6 +399,10 @@
   .livefeed_frame {
     padding: 0 60px;
   }
+
+  .google-map {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-device-width: 425px) and (max-width: 596px) {
@@ -487,6 +500,10 @@
   }
   .livefeed_frame {
     padding: 0 60px;
+  }
+
+  .google-map {
+    width: 100%;
   }
 }
 
@@ -726,6 +743,10 @@
   }
   .livefeed_frame {
     padding: 0 20px;
+  }
+
+  .google-map {
+    width: 100%;
   }
 }
 
@@ -967,6 +988,10 @@
   .livefeed_frame {
     padding: 0 20px;
   }
+
+  .google-map {
+    width: 100%;
+  }
 }
 @media only screen and (min-device-width: 1025px) {
   /* NAVBAR */
@@ -1200,6 +1225,10 @@
   }
   .livefeed_frame {
     padding: 0 20px;
+  }
+
+  .google-map {
+    width: 100%;
   }
 }
 
