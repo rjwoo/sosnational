@@ -258,7 +258,7 @@
     width: 600px;
   }
   .form-container {
-    height: 400px;
+    height: 500px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -408,7 +408,7 @@
     padding-bottom: 20px;
   }
   .form-container {
-    height: 400px;
+    height: 600px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -524,7 +524,7 @@
     padding-bottom: 20px;
   }
   .form-container {
-    height: 400px;
+    height: 600px;
     display: flex;
     align-items: center;
     text-align: center;
