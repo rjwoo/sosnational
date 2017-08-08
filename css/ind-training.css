@@ -11,23 +11,16 @@
   p.general-padding {
     font-size: 13px;
   }
-  .test-container {
-    height: 300px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0 10px;
-  }
-  .container-title {
-    font-family: 'Raleway', sans-serif;
-    margin: 0 auto;
-  }
 
   .vid-contain {
     padding: 5px auto;
     margin: 20px 5px;
   }
-
+  .links {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0;
+  }
 
   /* FOOTER */
 	img.princeton-image {
@@ -81,22 +74,26 @@
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
   /* GENERAL */
   h1 {
-    font-size: 30px;
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    text-align: center;
   }
   p.general-padding {
     font-size: 15px;
   }
-  .test-container {
-    height: 300px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0 10px;
+
+  .vid-contain {
+    padding: 5px auto;
+    margin: 20px 5px;
   }
-  .container-title {
-    font-family: 'Raleway', sans-serif;
-    margin: 0 auto;
+  iframe {
+    height: 200px;
+  }
+  .links {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0;
   }
 
   /* FOOTER */
@@ -151,22 +148,26 @@
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
   /* GENERAL */
   h1.title {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
   }
   p.general-padding {
     font-size: 15px;
   }
-  .test-container {
-    height: 400px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0 50px;
+
+  .vid-contain {
+    padding: 5px auto;
+    margin: 20px 5px;
   }
-  .container-title {
-    font-family: 'Raleway', sans-serif;
-    margin: 0 auto;
+  iframe {
+    height: 300px;
+  }
+  .links {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0;
   }
 
   /* FOOTER */
@@ -174,7 +175,7 @@
 		width: 150px;
 		height: 15%;
 	}
-    img.scotiabank-image {
+  img.scotiabank-image {
 		width: 150px;
 		height: 15%;
 	}
@@ -206,16 +207,26 @@
 
 @media only screen and (min-device-width: 425px) and (max-width: 596px) {
   /* GENERAL */
-  .test-container {
-    height: 400px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0 50px;
-  }
-  .container-title {
+  h1 {
     font-family: 'Raleway', sans-serif;
-    margin: 0 auto;
+    font-size: 28px;
+    text-align: center;
+  }
+  .collapse navbar-collapse {
+    clear: left;
+  }
+
+  .vid-contain {
+    padding: 10px 30px;
+    margin: 20px 5px;
+  }
+  iframe {
+    height: 400px;
+  }
+  .links {
+    font-size: 16px;
+    text-align: center;
+    margin: 30px 0;
   }
 
   /* FOOTER */
@@ -244,20 +255,10 @@
   .container {
     width: 600px;
   }
-  .test-container {
-    height: 400px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0 50px;
-  }
-  .container-title {
-    font-family: 'Raleway', sans-serif;
-    margin: 0 auto;
-  }
   h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
+    text-align: center;
   }
   h3 {
     font-family: 'Raleway', sans-serif;
@@ -265,6 +266,9 @@
   }
   .general-padding {
     padding-bottom: 20px;
+  }
+  .body-container {
+    padding: 20px 0;
   }
 
   /* NAVBAR */
@@ -279,6 +283,20 @@
   .navbar-brand {
     padding-top: 0px;
   }
+
+  .vid-contain {
+    padding: 10px 30px;
+    margin: 20px 5px;
+  }
+  iframe {
+    height: 500px;
+  }
+  .links {
+    font-size: 16px;
+    text-align: center;
+    margin: 30px 0;
+  }
+
 
   /* FOOTER */
   .footer {
@@ -380,7 +398,8 @@
   /* GENERAL */
   h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 50px;
+    font-size: 35px;
+    text-align: center;
   }
   h3 {
     font-family: 'Raleway', sans-serif;
@@ -389,16 +408,21 @@
   .general-padding {
     padding-bottom: 20px;
   }
-  .test-container {
-    height: 400px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0 50px;
+  .body-container {
+    padding: 30px 0;
   }
-  .container-title {
-    font-family: 'Raleway', sans-serif;
-    margin: 0 auto;
+
+  .vid-contain {
+    padding: 10px 30px;
+    margin: 20px 5px;
+  }
+  iframe {
+    height: 575px;
+  }
+  .links {
+    font-size: 16px;
+    text-align: center;
+    margin: 30px 0;
   }
 
   /* FOOTER */
@@ -492,6 +516,7 @@
   h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
+    text-align: center;
   }
   h3 {
     font-family: 'Raleway', sans-serif;
@@ -500,16 +525,21 @@
   .general-padding {
     padding-bottom: 20px;
   }
-  .test-container {
-    height: 400px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0 50px;
+
+  .vid-contain {
+    padding: 10px 30px;
+    margin: 20px 5px;
   }
-  .container-title {
-    font-family: 'Raleway', sans-serif;
-    margin: 0 auto;
+  iframe {
+    height: 575px;
+  }
+  .links {
+    font-size: 25px;
+    text-align: center;
+    margin: 50px 0;
+  }
+  .body-container {
+    padding: 50px 0;
   }
 
   /* NAVBAR */
