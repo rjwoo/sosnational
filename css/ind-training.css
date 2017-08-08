@@ -3,28 +3,31 @@
 @media only screen and (max-width: 320px) {
   /* GENERAL */
   h1 {
-    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
     font-weight: bold;
+    text-align: center;
   }
   p.general-padding {
     font-size: 13px;
-    margin: 0 auto;
   }
-  .header-container {
-    height: 200px;
-    text-align: left;
+  .test-container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
     padding: 0 10px;
   }
   .container-title {
     font-family: 'Raleway', sans-serif;
     margin: 0 auto;
   }
+
   .vid-contain {
-    padding: 20px 5px;
+    padding: 5px auto;
+    margin: 20px 5px;
   }
-  .content {
-    padding: 0 5px;
-  }
+
 
   /* FOOTER */
 	img.princeton-image {
@@ -73,31 +76,6 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
   }
-  .flex-container {
-    height: 100%;
-    padding: 0 5px;
-    margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .row {
-    width: 100%;
-    padding: 0 10px;
-  }
-  .training-links {
-    padding-bottom: 50px;
-  }
-  .train-title {
-    font-size: 12px;
-  }
-  .train-link {
-    font-size: 12px;
-  }
 }
 
 @media only screen and (min-device-width: 321px) and (max-width: 375px) {
@@ -108,26 +86,18 @@
   }
   p.general-padding {
     font-size: 15px;
-    margin: 0 auto;
   }
-  .header-container {
-    height: 200px;
-    text-align: left;
-    padding: 20px 10px;
+  .test-container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
   }
   .container-title {
     font-family: 'Raleway', sans-serif;
     margin: 0 auto;
   }
-  .content {
-    padding: 0 10px;
-  }
-  .vid-contain {
-    padding: 20px auto;
-    margin-bottom: 40px;
-  }
-
-
 
   /* FOOTER */
 	img.princeton-image {
@@ -176,32 +146,6 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
   }
-
-  .flex-container {
-    height: 100%;
-    padding: 0 5px;
-    margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .row {
-    width: 100%;
-    padding: 0 10px;
-  }
-  .training-links {
-    padding-bottom: 50px;
-  }
-  .train-title {
-    font-size: 13px;
-  }
-  .train-link {
-    font-size: 12px;
-  }
 }
 
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
@@ -213,8 +157,8 @@
   p.general-padding {
     font-size: 15px;
   }
-  .header-container {
-    height: 200px;
+  .test-container {
+    height: 400px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -258,40 +202,11 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
   }
-
-  .flex-container {
-    height: 100%;
-    padding: 0 50px;
-    margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .row {
-    width: 100%;
-  }
-  .flex-item {
-    padding-left: 15px;
-    width: 175px;
-  }
-  .training-links {
-    padding-bottom: 50px;
-  }
-  .train-title {
-    font-size: 12px;
-  }
-  .train-link {
-    font-size: 12px;
-  }
 }
 
-@media only screen and (min-device-width: 425px) and (max-width: 491px) {
+@media only screen and (min-device-width: 425px) and (max-width: 596px) {
   /* GENERAL */
-  .header-container {
+  .test-container {
     height: 400px;
     display: flex;
     align-items: center;
@@ -301,20 +216,6 @@
   .container-title {
     font-family: 'Raleway', sans-serif;
     margin: 0 auto;
-  }
-  p.general-padding {
-    font-size: 15px;
-    margin: 0 auto;
-  }
-  .content {
-    padding: 0 20px;
-  }
-  .vid-contain {
-    padding: 20px auto;
-    margin-bottom: 50px;
-  }
-  iframe {
-    height: 200px;
   }
 
   /* FOOTER */
@@ -335,113 +236,6 @@
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
-  }
-
-  .flex-container {
-    height: 100%;
-    padding: 10px 50px;
-    margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .row {
-    width: 100%;
-  }
-  .flex-item {
-    padding-left: 15px;
-    width: 175px;
-  }
-  .training-links {
-    padding-bottom: 50px;
-  }
-  .train-title {
-    font-size: 13px;
-  }
-  .train-link {
-    font-size: 12px;
-  }
-}
-
-@media only screen and (min-device-width: 492px) and (max-width: 596px) {
-  /* GENERAL */
-  .header-container {
-    height: 400px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0 50px;
-  }
-  .container-title {
-    font-family: 'Raleway', sans-serif;
-    margin: 0 auto;
-  }
-  p.general-padding {
-    font-size: 15px;
-    margin: 0 auto;
-  }
-  .content {
-    padding: 0 20px;
-  }
-  .vid-contain {
-    padding: 20px auto;
-    margin-bottom: 50px;
-  }
-  iframe {
-    height: 300px;
-  }
-
-  /* FOOTER */
-  .contact-container {
-    width: 100%;
-    padding: 30px 30px;
-  }
-  .contact {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  .contact-us {
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 10px;
-  }
-  .contact-title {
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 0;
-  }
-
-  .flex-container {
-    height: 100%;
-    padding: 5px 50px;
-    margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .row {
-    width: 100%;
-  }
-  .flex-item {
-    padding-left: 15px;
-    width: 235px;
-  }
-  .training-links {
-    padding-bottom: 50px;
-  }
-  .train-title {
-    font-size: 14px;
-  }
-  .train-link {
-    font-size: 14px;
   }
 }
 
@@ -450,8 +244,8 @@
   .container {
     width: 600px;
   }
-  .header-container {
-    height: 300px;
+  .test-container {
+    height: 400px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -471,16 +265,6 @@
   }
   .general-padding {
     padding-bottom: 20px;
-  }
-  .content {
-    padding: 0 20px;
-  }
-  .vid-contain {
-    padding: 20px auto;
-    margin-bottom: 50px;
-  }
-  iframe {
-    height: 355px;
   }
 
   /* NAVBAR */
@@ -577,35 +361,6 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
   }
-
-  .flex-container {
-    height: 100%;
-    padding: 10px 50px;
-    margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .row {
-    width: 100%;
-  }
-  .flex-item {
-    padding-left: 15px;
-    width: 250px;
-  }
-  .training-links {
-    padding-bottom: 50px;
-  }
-  .train-title {
-    font-size: 16px;
-  }
-  .train-link {
-    font-size: 14px;
-  }
 }
 
 @media only screen and (min-device-width: 769px) and (max-width: 1024px) {
@@ -626,8 +381,6 @@
   h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
-    text-align: center;
-    margin: 0 auto;
   }
   h3 {
     font-family: 'Raleway', sans-serif;
@@ -636,25 +389,16 @@
   .general-padding {
     padding-bottom: 20px;
   }
-  .header-container {
-    height: 250px;
+  .test-container {
+    height: 400px;
     display: flex;
     align-items: center;
+    text-align: center;
     padding: 0 50px;
   }
   .container-title {
     font-family: 'Raleway', sans-serif;
     margin: 0 auto;
-  }
-  .content {
-    padding: 0 50px;
-  }
-  .vid-contain {
-    padding: 20px auto;
-    margin: 50px 0 30px 0;
-  }
-  iframe {
-    height: 400px;
   }
 
   /* FOOTER */
@@ -741,43 +485,13 @@
   .contact-info {
     font-size: 15px;
   }
-
-  .flex-container {
-    height: 100%;
-    padding: 10px 200px;
-    margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .row {
-    width: 100%;
-  }
-  .flex-item {
-    padding-left: 25px;
-    width: 250px;
-  }
-  .training-links {
-    padding-bottom: 50px;
-  }
-  .train-title {
-    font-size: 18px;
-  }
-  .train-link {
-    font-size: 16px;
-  }
 }
 
 @media only screen and (min-device-width: 1025px) {
   /* GENERAL */
   h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 65px;
-    margin: 0 auto;
+    font-size: 50px;
   }
   h3 {
     font-family: 'Raleway', sans-serif;
@@ -786,25 +500,16 @@
   .general-padding {
     padding-bottom: 20px;
   }
-  .header-container {
-    height: 250px;
+  .test-container {
+    height: 400px;
     display: flex;
     align-items: center;
+    text-align: center;
     padding: 0 50px;
   }
   .container-title {
     font-family: 'Raleway', sans-serif;
     margin: 0 auto;
-  }
-  .content {
-    padding: 0 50px;
-  }
-  .vid-contain {
-    padding: 50px auto;
-    margin: 50px 0 30px 0;
-  }
-  iframe {
-    height: 550px;
   }
 
   /* NAVBAR */
@@ -904,51 +609,19 @@
   .contact-info {
     font-size: 18px;
   }
-
-  .flex-container {
-    height: 100%;
-    padding: 15px 200px;
-    margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .row {
-    width: 100%;
-  }
-  .flex-item {
-    padding-left: 25px;
-    width: 400px;
-  }
-  .training-links {
-    padding-bottom: 50px;
-  }
-  .train-title {
-    font-size: 22px;
-  }
-  .train-link {
-    font-size: 16px;
-  }
 }
 
 /* OG DIMENSIONS */
-h1 {
+/*h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 50px;
-}
+  font-size: 30px;
+}*/
 h3 {
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
 }
 p {
   font-family: 'Poppins', sans-serif;
-}
-h4 {
-  font-family: 'Raleway', sans-serif;
 }
 
 /* NAVBAR */
@@ -967,7 +640,6 @@ h4 {
 .general-padding {
   padding-bottom: 20px;
 }
-
 
 /* FOOTER */
 .footer {
@@ -1033,3 +705,14 @@ h4.footerheader {
   margin-left: auto;
   margin-right: auto;
 }
+
+/*.body-container {
+  height: 500px;
+}*/
+/*.vid-contain {
+  padding: 50px auto;
+  margin: 50px 0 30px 0;
+}
+iframe {
+  height: 550px;
+}*/
