@@ -4,22 +4,24 @@
   /* GENERAL */
   h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 21px;
+    font-size: 23px;
     font-weight: bold;
     text-align: center;
+    padding: 20px; 0;
   }
   p.general-padding {
     font-size: 13px;
+    padding: 0 40px;
   }
-
+  .links {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+    padding: 0 20px;
+  }
   .vid-contain {
     padding: 5px auto;
     margin: 20px 5px;
-  }
-  .links {
-    font-size: 14px;
-    text-align: center;
-    margin: 20px 0;
   }
 
   /* FOOTER */
@@ -76,18 +78,26 @@
   h1 {
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
-    font-size: 21px;
+    font-size: 25px;
     text-align: center;
+    padding: 20px 0;
   }
   p.general-padding {
-    font-size: 15px;
+    font-size: 13px;
+    padding: 0 40px;
+  }
+  h3.links {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+    padding: 0 20px;
   }
 
   .vid-contain {
     padding: 5px auto;
     margin: 20px 5px;
   }
-  iframe {
+  iframe, video {
     height: 200px;
   }
   .links {
@@ -147,14 +157,16 @@
 
 @media only screen and (min-device-width: 376px) and (max-width: 425px) {
   /* GENERAL */
-  h1.title {
+  h1 {
     font-size: 24px;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    padding: 20px 0;
   }
   p.general-padding {
     font-size: 15px;
+    padding: 0 40px;
   }
 
   .vid-contain {
@@ -164,10 +176,11 @@
   iframe {
     height: 300px;
   }
-  .links {
+  h3.links {
     font-size: 14px;
     text-align: center;
     margin: 20px 0;
+    padding: 0 30px;
   }
 
   /* FOOTER */
@@ -208,25 +221,31 @@
 @media only screen and (min-device-width: 425px) and (max-width: 596px) {
   /* GENERAL */
   h1 {
-    font-family: 'Raleway', sans-serif;
     font-size: 28px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
+    padding: 20px 0;
   }
-  .collapse navbar-collapse {
-    clear: left;
-  }
-
-  .vid-contain {
-    padding: 10px 30px;
-    margin: 20px 5px;
+  p.general-padding {
+    font-size: 15px;
+    padding: 0 40px;
   }
   iframe {
     height: 400px;
   }
-  .links {
-    font-size: 16px;
+  .collapse navbar-collapse {
+    clear: left;
+  }
+  .vid-contain {
+    padding: 10px 30px;
+    margin: 20px 5px;
+  }
+  h3.links {
+    font-size: 22px;
     text-align: center;
     margin: 30px 0;
+    padding: 0 30px;
   }
 
   /* FOOTER */
@@ -257,15 +276,20 @@
   }
   h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
+    font-size: 34px;
     text-align: center;
+    padding: 20px 0;
   }
-  h3 {
+  h3.links {
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
+    font-size: 26px;
+    padding: 0 50px;
+    text-align: center;
+    margin: 30px 0;
   }
-  .general-padding {
-    padding-bottom: 20px;
+  p.general-padding {
+    font-size: 16px;
+    padding: 0 60px 20px 60px;
   }
   .body-container {
     padding: 20px 0;
@@ -291,12 +315,6 @@
   iframe {
     height: 500px;
   }
-  .links {
-    font-size: 16px;
-    text-align: center;
-    margin: 30px 0;
-  }
-
 
   /* FOOTER */
   .footer {
@@ -400,13 +418,16 @@
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
     text-align: center;
+    padding: 20px 0;
   }
-  h3 {
+  h3.links {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
+    padding: 0 100px;
   }
-  .general-padding {
-    padding-bottom: 20px;
+  p.general-padding {
+    padding: 0 100px;
+    font-size: 18px;
   }
   .body-container {
     padding: 30px 0;
@@ -515,19 +536,24 @@
   /* GENERAL */
   h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
+    padding: 20px 0;
   }
-  h3 {
+  h3.links {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
+    padding: 0 100px;
   }
-  .general-padding {
-    padding-bottom: 20px;
+  p.general-padding {
+    padding: 0 200px 40px 200px;
+    font-size: 18px;
   }
-
+  video {
+    padding: 0 100px;
+  }
   .vid-contain {
-    padding: 10px 30px;
+    padding: 10px 100px;
     margin: 20px 5px;
   }
   iframe {
