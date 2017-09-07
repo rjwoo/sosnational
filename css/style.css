@@ -77,15 +77,26 @@
     top: 25%;
   }
 
-  /* FOOTER */
+  /* SPONSOR SECTION */
+  #sponsorsSection {
+    padding: 0 10px 50px 10px;
+  }
+  div.sponsor-container {
+    display: inline-block;
+  }
 	img.princeton-image {
-		width: 150px;
-		height: 10%;
+		width: 80px;
+		/*height: 10%;*/
 	}
   img.scotiabank-image {
-		width: 130px;
-		height: 10%;
+    width: 100px;
+    padding: 0 10px;
 	}
+  img.minute-image {
+    width: 100px;
+	}
+
+  /* FOOTER */
 	h4.footerheader {
 		font-size: 9px;
     padding-right: 20px;
@@ -132,7 +143,6 @@
   .livefeed_frame {
     padding: 0 20px;
   }
-
   .google-map {
     width: 100%;
   }
@@ -221,15 +231,27 @@
     top: 25%;
   }
 
-  /* FOOTER */
+  /* SPONSOR SECTION */
+  #sponsorsSection {
+    padding: 0 10px 50px 10px;
+    text-align: center;
+  }
+  div.sponsor-container {
+    display: inline-block;
+  }
 	img.princeton-image {
-		width: 150px;
-		height: 15%;
+		width: 100px;
+		/*height: 10%;*/
 	}
   img.scotiabank-image {
-		width: 150px;
-		height: 15%;
+    width: 120px;
+    padding: 0 10px;
 	}
+  img.minute-image {
+    width: 120px;
+	}
+
+  /* FOOTER */
 	h4.footerheader {
 		font-size: 9px;
     padding-right: 10px;
@@ -358,15 +380,27 @@
 		height: 100px;
 	}
 
-  /* FOOTER */
+  /* SPONSOR SECTION */
+  #sponsorsSection {
+    padding: 0 10px 50px 10px;
+    text-align: center;
+  }
+  div.sponsor-container {
+    display: inline-block;
+  }
 	img.princeton-image {
-		width: 150px;
-		height: 15%;
+		width: 100px;
+		/*height: 10%;*/
 	}
-    img.scotiabank-image {
-		width: 150px;
-		height: 15%;
+  img.scotiabank-image {
+    width: 130px;
+    padding: 0 10px;
 	}
+  img.minute-image {
+    width: 130px;
+	}
+
+  /* FOOTER */
 	h4.footerheader {
 		font-size: 17px;
 	}
@@ -472,6 +506,26 @@
   }
   div.bannerbuttons {
     top: 30%;
+  }
+
+  /* SPONSOR SECTION */
+  #sponsorsSection {
+    padding: 0 10px 50px 10px;
+    text-align: center;
+  }
+  div.sponsor-container {
+    display: inline-block;
+  }
+  img.princeton-image {
+    width: 100px;
+    /*height: 10%;*/
+  }
+  img.scotiabank-image {
+    width: 130px;
+    padding: 0 10px;
+  }
+  img.minute-image {
+    width: 130px;
   }
 
   /* FOOTER */
@@ -624,34 +678,24 @@
     font-size: 22px;
   }
 
-  /* SPONSORS SECTION */
-  .sponsor-box {
-    width: 100%;
-    padding: 50px 75px;
-    overflow: auto;
-    word-wrap: break-word;
-  }
-  .sponsor-logos {
-    width: 100%;
-    padding: 50px 75px;
-    overflow: auto;
-    word-wrap: break-word;
-  }
-  .sponsorimages {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .sponsor-title {
+  /* SPONSOR SECTION */
+  #sponsorsSection {
+    padding: 0 10px 50px 10px;
     text-align: center;
-    padding-bottom: 30px;
   }
-  .princeton-image {
-    width: 300px;
-    padding-right: 75px;
+  div.sponsor-container {
+    display: inline-block;
   }
-  .scotiabank-image {
-    height: 75px;
+  img.princeton-image {
+    width: 125px;
+    /*height: 10%;*/
+  }
+  img.scotiabank-image {
+    width: 175px;
+    padding: 0 20px;
+  }
+  img.minute-image {
+    width: 175px;
   }
 
   /* FOOTER */
@@ -865,34 +909,24 @@
     font-size: 20px;
   }
 
-  /* SPONSORS SECTION */
-  .sponsor-box {
-    width: 100%;
-    padding: 50px 75px;
-    overflow: auto;
-    word-wrap: break-word;
-  }
-  .sponsor-logos {
-    width: 100%;
-    padding: 50px 75px;
-    overflow: auto;
-    word-wrap: break-word;
-  }
-  .sponsorimages {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .sponsor-title {
+  /* SPONSOR SECTION */
+  #sponsorsSection {
+    padding: 0 10px 50px 10px;
     text-align: center;
-    padding-bottom: 30px;
   }
-  .princeton-image {
-    width: 300px;
-    padding-right: 75px;
+  div.sponsor-container {
+    display: inline-block;
   }
-  .scotiabank-image {
-    height: 75px;
+  img.princeton-image {
+    width: 150px;
+    /*height: 10%;*/
+  }
+  img.scotiabank-image {
+    width: 250px;
+    padding: 0 25px;
+  }
+  img.minute-image {
+    width: 200px;
   }
 
   /* FOOTER */
@@ -1104,34 +1138,24 @@
     font-size: 20px;
   }
 
-  /* SPONSORS SECTION */
-  .sponsor-box {
-    width: 100%;
-    padding: 50px 75px;
-    overflow: auto;
-    word-wrap: break-word;
-  }
-  .sponsor-logos {
-    width: 100%;
-    padding: 50px 75px;
-    overflow: auto;
-    word-wrap: break-word;
-  }
-  .sponsorimages {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .sponsor-title {
+  /* SPONSOR SECTION */
+  #sponsorsSection {
+    padding: 0 10px 50px 10px;
     text-align: center;
-    padding-bottom: 30px;
   }
-  .princeton-image {
-    width: 300px;
-    padding-right: 75px;
+  div.sponsor-container {
+    display: inline-block;
   }
-  .scotiabank-image {
-    height: 75px;
+  img.princeton-image {
+    width: 150px;
+    /*height: 10%;*/
+  }
+  img.scotiabank-image {
+    width: 250px;
+    padding: 0 25px;
+  }
+  img.minute-image {
+    width: 200px;
   }
 
   /* FOOTER */
@@ -1336,36 +1360,6 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-
-/* SPONSORS SECTION */
-.sponsor-box {
-  width: 100%;
-  padding: 50px 75px;
-  overflow: auto;
-  word-wrap: break-word;
-}
-.sponsor-logos {
-  width: 100%;
-  padding: 50px 75px;
-  overflow: auto;
-  word-wrap: break-word;
-}
-.sponsorimages {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sponsor-title {
-  text-align: center;
-  padding-bottom: 30px;
-}
-.princeton-image {
-  width: 300px;
-  padding-right: 75px;
-}
-.scotiabank-image {
-  height: 75px;
 }
 
 /* FOOTER */
