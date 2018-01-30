@@ -2,6 +2,8 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} !^www\.
 RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L] 
 
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^portal\/login\.php$ "http\:\/\/www\.soscampus\.com\/" [R=301,L]
 
 AddType application/x-httpd-php5 .php .htm .html .phtml
 Options -Indexes
